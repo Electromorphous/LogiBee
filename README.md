@@ -1,2 +1,2 @@
 # Logibee
-A landing page made with Sass
+A [landing page](https://electromorphous.github.io/Logibee/) made with Sass
