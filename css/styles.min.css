@@ -1,0 +1,8 @@
+body #header-sticky {
+  background-color: #481de2;
+}
+
+body #header-sticky .logo a img {
+  width: 200px;
+  margin: 15px auto;
+}
