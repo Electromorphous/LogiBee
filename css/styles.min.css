@@ -1,5 +1,23 @@
+body .background-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 300px;
+  background-image: url("../img/wave.svg");
+  background-color: #00000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: translate(-33%, -30%);
+          transform: translate(-33%, -30%);
+  -webkit-filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
+}
+
 body #header-sticky {
-  background-color: #481de2;
+  background-color: #00000000;
+  color: #6ea0d6;
 }
 
 body #header-sticky .logo a img {
