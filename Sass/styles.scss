@@ -1,3 +1,7 @@
+$primary-blue: #407ebf;
+$secondary-blue: #1f60a5;
+$primary-orange: #e27c3d;
+
 body {
   .background-wave {
     position: absolute;
@@ -10,15 +14,57 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    transform: translate(-33%, -30%);
+    transform: translate(-34%, -30%);
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
+    z-index: -1;
+
+    @media screen and (max-width: 1000px) {
+      background-image: none;
+      background-color: #407ebfbb;
+      height: 120px;
+      filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
+    }
   }
   #header-sticky {
     background-color: #00000000;
     color: #6ea0d6;
+    .slicknav_menu .slicknav_nav {
+      background-color: $primary-orange;
+      opacity: 0.9;
+    }
     .logo a img {
       width: 200px;
       margin: 15px auto;
+    }
+  }
+
+  #home {
+    .slider-wrapper-saas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      z-index: -2;
+
+      .container .row {
+        .slider-text-new {
+          h1 {
+            color: $primary-blue;
+            margin-top: 50px;
+          }
+          p {
+            color: $secondary-blue;
+            font-weight: 600;
+          }
+        }
+
+        .hero-img img {
+          @media screen and (max-width: 1000px) {
+            margin-top: 150px;
+          }
+        }
+      }
     }
   }
 }
