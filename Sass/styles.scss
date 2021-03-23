@@ -2,46 +2,57 @@ $primary-blue: #407ebf;
 $secondary-blue: #1f60a5;
 $primary-orange: #e27c3d;
 
-body {
-  .background-wave {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1920px;
-    height: 300px;
-    background-image: url("../img/wave.svg");
-    background-color: #00000000;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left top;
-    transform: translate(-50px, -40px);
-    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
-    z-index: -1;
-
-    @media screen and (max-width: 1050px) {
-      transform: translate(-50px, -20px);
-    }
-
-    @media screen and (max-width: 1000px) {
-      background-image: none;
-      background-color: #357ad4bb;
-      height: 120px;
-      filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
-    }
+* {
+  ::selection {
+    background-color: rgba(238, 135, 51, 0.7);
   }
+}
+
+body {
+  // .background-wave {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 1920px;
+  //   height: 300px;
+  //   background-image: url("../img/wave.svg");
+  //   background-color: #00000000;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: left top;
+  //   transform: translate(-50px, -40px);
+  //   filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
+  //   z-index: -1;
+
+  //   @media (max-width: 1050px) {
+  //     transform: translate(-50px, -20px);
+  //   }
+
+  //   @media (max-width: 1000px) {
+  //     display: none;
+  //   }
+  // }
   #header-sticky {
-    background-color: #00000000;
-    color: #6ea0d6;
-    .slicknav_menu .slicknav_nav {
-      background-color: $primary-orange;
-      opacity: 0.9;
+    background-color: #357ad4bb;
+    .slicknav_menu {
+      a.slicknav_btn {
+        background-color: $primary-orange;
+        span.slicknav_menutxt {
+          text-shadow: none;
+        }
+      }
+      .slicknav_nav {
+        background-color: $primary-orange;
+        opacity: 0.9;
+      }
     }
+
     .logo a img {
       width: 200px;
       margin: 15px auto;
       max-width: 1000px;
 
-      @media screen and (max-width: 1000px) {
+      @media (max-width: 1000px) {
         width: 175px;
         margin-top: 25px;
       }
@@ -62,20 +73,33 @@ body {
           h1 {
             color: $primary-blue;
             margin-top: 100px;
+
+            span {
+              color: $primary-orange;
+            }
           }
           p {
             color: $secondary-blue;
             font-weight: 600;
           }
+          .saas-button a {
+            background-color: $primary-orange;
+            color: white;
+
+            &:hover {
+              background-color: white;
+              color: $primary-orange;
+            }
+          }
         }
 
-        .hero-img img {
-          margin-top: 75px;
+        .animated.fadeInUp img {
+          margin-top: 100px;
           max-width: 1000px;
           width: 100%;
-          @media screen and (max-width: 1000px) {
-            margin-top: 150px;
-            width: 375px;
+          @media (max-width: 1000px) {
+            margin-top: 200px;
+            width: 350px;
           }
         }
       }
