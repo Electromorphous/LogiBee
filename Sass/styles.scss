@@ -13,14 +13,18 @@ body {
     background-color: #00000000;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    transform: translate(-34%, -30%);
+    background-position: left top;
+    transform: translate(-50px, -40px);
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
     z-index: -1;
 
+    @media screen and (max-width: 1050px) {
+      transform: translate(-50px, -20px);
+    }
+
     @media screen and (max-width: 1000px) {
       background-image: none;
-      background-color: #407ebfbb;
+      background-color: #357ad4bb;
       height: 120px;
       filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
     }
@@ -35,6 +39,12 @@ body {
     .logo a img {
       width: 200px;
       margin: 15px auto;
+      max-width: 1000px;
+
+      @media screen and (max-width: 1000px) {
+        width: 175px;
+        margin-top: 25px;
+      }
     }
   }
 
@@ -51,7 +61,7 @@ body {
         .slider-text-new {
           h1 {
             color: $primary-blue;
-            margin-top: 50px;
+            margin-top: 100px;
           }
           p {
             color: $secondary-blue;
@@ -60,8 +70,12 @@ body {
         }
 
         .hero-img img {
+          margin-top: 75px;
+          max-width: 1000px;
+          width: 100%;
           @media screen and (max-width: 1000px) {
             margin-top: 150px;
+            width: 375px;
           }
         }
       }
