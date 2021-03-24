@@ -1,6 +1,8 @@
 $primary-blue: #407ebf;
 $secondary-blue: #1f60a5;
+$header-blue: #357ad4;
 $primary-orange: #e27c3d;
+$secondary-orange: #e75e08;
 
 * {
   ::selection {
@@ -141,10 +143,6 @@ body {
     margin: 10vh auto;
     text-align: center;
 
-    // @media screen and (max-width: 1200px) {
-    //   margin-top: 110vh;
-    // }
-
     .row {
       margin: auto;
       justify-content: space-evenly;
@@ -176,6 +174,45 @@ body {
 
       .rtin-item {
         height: 90%;
+      }
+    }
+  }
+
+  footer.footer-top-area-7 {
+    img {
+      max-width: 150px;
+      margin: 20px;
+    }
+    .site-footer {
+      .upper-footer {
+        background-color: #f9f9f9;
+        border-top: 1px solid #ccc;
+        padding: 50px;
+
+        a {
+          transition: all 0.1s;
+          &:hover {
+            color: $header-blue;
+          }
+        }
+      }
+      .about-widget ul li i {
+        background-color: $header-blue;
+        border-radius: 5px;
+      }
+      .newsletter-widget form div button {
+        background-color: $header-blue;
+
+        &:hover {
+          background-color: $primary-orange;
+        }
+      }
+    }
+    .copyright-info-7 p a {
+      color: $primary-orange;
+
+      &:hover {
+        color: $secondary-orange;
       }
     }
   }

@@ -164,3 +164,44 @@ body #service .container .row {
 body #service .container .row .rtin-item {
   height: 90%;
 }
+
+body footer.footer-top-area-7 img {
+  max-width: 150px;
+  margin: 20px;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer {
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+  padding: 50px;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer a {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer a:hover {
+  color: #357ad4;
+}
+
+body footer.footer-top-area-7 .site-footer .about-widget ul li i {
+  background-color: #357ad4;
+  border-radius: 5px;
+}
+
+body footer.footer-top-area-7 .site-footer .newsletter-widget form div button {
+  background-color: #357ad4;
+}
+
+body footer.footer-top-area-7 .site-footer .newsletter-widget form div button:hover {
+  background-color: #e27c3d;
+}
+
+body footer.footer-top-area-7 .copyright-info-7 p a {
+  color: #e27c3d;
+}
+
+body footer.footer-top-area-7 .copyright-info-7 p a:hover {
+  color: #e75e08;
+}
