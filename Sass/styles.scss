@@ -9,13 +9,21 @@ $primary-orange: #e27c3d;
 }
 
 body {
+  a#scrollUp {
+    background-color: $primary-blue;
+    border-radius: 500px;
+
+    &:hover {
+      background-color: $primary-orange;
+    }
+  }
   // .background-wave {
   //   position: absolute;
   //   top: 0;
   //   left: 0;
   //   width: 1920px;
   //   height: 300px;
-  //   background-image: url("../img/wave.svg");
+  //   background-image: url("../img/wave-header.svg");
   //   background-color: #00000000;
   //   background-repeat: no-repeat;
   //   background-size: cover;
@@ -24,16 +32,16 @@ body {
   //   filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
   //   z-index: -1;
 
-  //   @media (max-width: 1050px) {
+  //   @media screen and (max-width: 1050px) {
   //     transform: translate(-50px, -20px);
   //   }
 
-  //   @media (max-width: 1000px) {
+  //   @media screen and (max-width: 1000px) {
   //     display: none;
   //   }
   // }
   #header-sticky {
-    background-color: #357ad4bb;
+    background-color: #357ad4ee;
     .slicknav_menu {
       a.slicknav_btn {
         background-color: $primary-orange;
@@ -52,7 +60,7 @@ body {
       margin: 15px auto;
       max-width: 1000px;
 
-      @media (max-width: 1000px) {
+      @media screen and (max-width: 1000px) {
         width: 175px;
         margin-top: 25px;
       }
@@ -65,42 +73,94 @@ body {
       top: 0;
       left: 0;
       width: 100%;
-      height: 100vh;
+      height: 120vh;
       z-index: -2;
 
-      .container .row {
-        .slider-text-new {
-          h1 {
-            color: $primary-blue;
-            margin-top: 100px;
+      @media screen and (max-width: 1200px) {
+        height: 100vh;
+      }
 
-            span {
-              color: $primary-orange;
+      .container {
+        margin-top: -30vh;
+
+        @media screen and (max-width: 1200px) {
+          margin-top: -5vh;
+        }
+
+        .row {
+          .slider-text-new {
+            h1 {
+              color: $primary-blue;
+              margin-top: 100px;
+
+              span {
+                color: $primary-orange;
+              }
+            }
+            p {
+              color: $secondary-blue;
+              font-weight: 600;
+            }
+            .saas-button a {
+              background-color: $primary-orange;
+              color: white;
+
+              &:hover {
+                background-color: white;
+                color: $primary-orange;
+              }
             }
           }
-          p {
-            color: $secondary-blue;
-            font-weight: 600;
-          }
-          .saas-button a {
-            background-color: $primary-orange;
-            color: white;
 
-            &:hover {
-              background-color: white;
-              color: $primary-orange;
+          .animated.fadeInUp img {
+            margin-top: 100px;
+            max-width: 1000px;
+            width: 100%;
+            @media screen and (max-width: 1000px) {
+              margin-top: 200px;
+              width: 350px;
             }
           }
         }
+      }
+    }
+  }
 
-        .animated.fadeInUp img {
-          margin-top: 100px;
-          max-width: 1000px;
-          width: 100%;
-          @media (max-width: 1000px) {
-            margin-top: 200px;
-            width: 350px;
+  .wave {
+    position: absolute;
+    top: 85vh;
+    border-bottom: 100px solid white;
+
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  #features {
+    margin-top: 130vh;
+    text-align: center;
+
+    @media screen and (max-width: 1200px) {
+      margin-top: 110vh;
+    }
+
+    .container.row {
+      margin: auto;
+      padding: auto;
+
+      .feature {
+        img {
+          max-width: 200px;
+          transition: all 0.2s;
+
+          &:hover {
+            filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.2));
+            transform: scale(1.05);
           }
+        }
+        p {
+          font-family: nunito, sans-serif;
+          font-weight: 600;
         }
       }
     }
