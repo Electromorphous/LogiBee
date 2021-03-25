@@ -20,7 +20,31 @@ body a#scrollUp:hover {
 }
 
 body #header-sticky {
+  background-color: #f9f9f9;
+  border-bottom: 2px solid #e75e08;
+}
+
+body #header-sticky a {
+  color: black;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+body #header-sticky a:hover {
+  color: #1f60a5;
+}
+
+body #header-sticky.scroll-header {
   background-color: #357ad4ee;
+  border: none;
+}
+
+body #header-sticky.scroll-header a {
+  color: white;
+}
+
+body #header-sticky.scroll-header a:hover {
+  color: #e27c3d;
 }
 
 body #header-sticky .slicknav_menu a.slicknav_btn {
@@ -85,13 +109,18 @@ body #home .slider-wrapper-saas .container .row .slider-text-new p {
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a {
-  background-color: #e27c3d;
-  color: white;
+  color: #e27c3d;
+  background-color: #f9f9f9;
+  border: 2px solid #e27c3d;
+  font-size: 1.05rem;
+  padding: 0.7rem 1.5rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a:hover {
-  background-color: white;
-  color: #e27c3d;
+  background-color: #e27c3d;
+  color: white;
 }
 
 body #home .slider-wrapper-saas .container .row .animated.fadeInUp img {
@@ -187,7 +216,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer a:hover {
 
 body footer.footer-top-area-7 .site-footer .about-widget ul li i {
   background-color: #357ad4;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 body footer.footer-top-area-7 .site-footer .newsletter-widget form div button {
@@ -199,7 +228,9 @@ body footer.footer-top-area-7 .site-footer .newsletter-widget form div button:ho
 }
 
 body footer.footer-top-area-7 .copyright-info-7 p a {
-  color: #e27c3d;
+  color: #407ebf;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 body footer.footer-top-area-7 .copyright-info-7 p a:hover {
