@@ -68,11 +68,20 @@ body {
       background-color: #357ad4ee;
       border: none;
 
-      .logo a p {
-        color: $white;
-
-        &:hover {
+      .logo a {
+        span {
           color: $white;
+
+          &:hover {
+            color: $white;
+          }
+        }
+        p {
+          color: $white;
+
+          &:hover {
+            color: $white;
+          }
         }
       }
 
@@ -351,20 +360,22 @@ body {
   }
 
   footer.footer-top-area-7 {
+    // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
     img {
       max-width: 150px;
       margin: 20px;
     }
     .site-footer {
       .upper-footer {
-        background-color: $white;
-        border-top: 1px solid #ccc;
+        // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+        color: white;
+        // border-top: 1px solid #ccc;
         padding: 50px;
 
         a {
           transition: all 0.1s;
           &:hover {
-            color: $header-blue;
+            color: $white;
           }
         }
       }
@@ -376,15 +387,21 @@ body {
         background-color: $header-blue;
 
         &:hover {
-          background-color: $primary-orange;
+          // background-color: $primary-orange;
         }
       }
     }
-    .copyright-info-7 p a {
-      color: $primary-blue;
-      transition: all 0.2s;
-      &:hover {
-        color: $secondary-orange;
+    .copyright-info-7 {
+      background-color: $white;
+      p {
+        padding: 5px;
+        a {
+          color: $secondary-blue;
+          transition: all 0.2s;
+          &:hover {
+            color: $secondary-orange;
+          }
+        }
       }
     }
   }
