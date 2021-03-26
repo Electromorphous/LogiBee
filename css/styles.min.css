@@ -118,6 +118,7 @@ body #home .slider-wrapper-saas {
   background-color: #254292;
   background: -webkit-gradient(linear, left top, right bottom, from(#3c91e6), to(#1271cf));
   background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+  background-position: center;
 }
 
 body #home .slider-wrapper-saas .container {
