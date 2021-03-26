@@ -55,11 +55,13 @@ body {
       }
     }
 
-    a {
-      color: black;
+    a.scroll-click {
+      color: $secondary-blue;
+      font-size: 1.1rem;
+      padding: 0 10px;
       transition: all 0.1s;
       &:hover {
-        color: $secondary-blue;
+        color: $secondary-orange;
       }
     }
     &.scroll-header {
@@ -98,23 +100,27 @@ body {
     .logo a {
       img {
         width: 200px;
-        margin: 5px auto;
+        margin: 10px auto;
         max-width: 1000px;
 
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1200px) {
           width: 175px;
-          margin-top: 25px;
+          margin-top: 10px;
         }
       }
-      p {
+      span {
         color: $primary-blue;
-        margin: -10px 0 0 5px;
+        margin: -10px 0 0 0;
         padding: 0;
         font-family: nunito, sans-serif;
         font-weight: 700;
 
         &:hover {
           color: $primary-blue;
+        }
+
+        @media screen and (max-width: 1200px) {
+          display: block;
         }
       }
     }
@@ -131,7 +137,7 @@ body {
       }
 
       .container {
-        margin-top: -45vh;
+        margin-top: -50vh;
 
         @media screen and (max-width: 1200px) {
           margin-top: -30vh;

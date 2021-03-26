@@ -28,14 +28,16 @@ body #header-sticky ul#nav-demo li.scroll-to {
   margin: 10px 0;
 }
 
-body #header-sticky a {
-  color: black;
+body #header-sticky a.scroll-click {
+  color: #1f60a5;
+  font-size: 1.1rem;
+  padding: 0 10px;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
 
-body #header-sticky a:hover {
-  color: #1f60a5;
+body #header-sticky a.scroll-click:hover {
+  color: #e75e08;
 }
 
 body #header-sticky.scroll-header {
@@ -74,27 +76,33 @@ body #header-sticky .slicknav_menu .slicknav_nav {
 
 body #header-sticky .logo a img {
   width: 200px;
-  margin: 5px auto;
+  margin: 10px auto;
   max-width: 1000px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   body #header-sticky .logo a img {
     width: 175px;
-    margin-top: 25px;
+    margin-top: 10px;
   }
 }
 
-body #header-sticky .logo a p {
+body #header-sticky .logo a span {
   color: #407ebf;
-  margin: -10px 0 0 5px;
+  margin: -10px 0 0 0;
   padding: 0;
   font-family: nunito, sans-serif;
   font-weight: 700;
 }
 
-body #header-sticky .logo a p:hover {
+body #header-sticky .logo a span:hover {
   color: #407ebf;
+}
+
+@media screen and (max-width: 1200px) {
+  body #header-sticky .logo a span {
+    display: block;
+  }
 }
 
 body #home .slider-wrapper-saas {
@@ -110,7 +118,7 @@ body #home .slider-wrapper-saas {
 }
 
 body #home .slider-wrapper-saas .container {
-  margin-top: -45vh;
+  margin-top: -50vh;
 }
 
 @media screen and (max-width: 1200px) {
