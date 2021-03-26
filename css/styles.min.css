@@ -169,25 +169,25 @@ body #home .slider-wrapper-saas .container .row .animated.fadeInUp img {
 
 @media screen and (max-width: 1200px) {
   body #home .slider-wrapper-saas {
-    height: 100vh;
+    height: 110vh;
   }
 }
 
 @media screen and (max-width: 1000px) {
   body #home .slider-wrapper-saas {
-    height: 110vh;
+    height: 130vh;
   }
 }
 
 @media screen and (max-width: 770px) {
   body #home .slider-wrapper-saas {
-    height: 75vh;
+    height: 90vh;
   }
 }
 
 @media screen and (max-width: 575px) {
   body #home .slider-wrapper-saas {
-    height: 70vh;
+    height: 75vh;
   }
 }
 
