@@ -21,7 +21,7 @@ body a#scrollUp:hover {
 
 body #header-sticky {
   background-color: #f9f9f9;
-  border-bottom: 2px solid #e75e08;
+  border-bottom: 4px solid #e27c3d;
 }
 
 body #header-sticky ul#nav-demo li.scroll-to {
@@ -114,10 +114,10 @@ body #header-sticky .logo a span:hover {
 
 body #home .slider-wrapper-saas {
   width: 100%;
-  height: 130vh;
+  height: 140vh;
   background-color: #254292;
-  background: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#417ebd));
-  background: linear-gradient(to bottom right, #fff, #417ebd);
+  background: -webkit-gradient(linear, left top, right bottom, from(#3c91e6), to(#1271cf));
+  background: linear-gradient(to bottom right, #3c91e6, #1271cf);
 }
 
 body #home .slider-wrapper-saas .container {
@@ -125,7 +125,7 @@ body #home .slider-wrapper-saas .container {
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new h1 {
-  color: #1f60a5;
+  color: #f9f9f9;
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new h1 span {
@@ -133,14 +133,14 @@ body #home .slider-wrapper-saas .container .row .slider-text-new h1 span {
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new p {
-  color: #1f60a5;
+  color: #f9f9f9;
   font-weight: 600;
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a {
-  color: #e27c3d;
+  color: #f9f9f9;
   background-color: transparent;
-  border: 2px solid #e27c3d;
+  border: 2px solid #f9f9f9;
   font-size: 1.05rem;
   padding: 0.7rem 1.5rem;
   -webkit-transition: all 0.25s;
@@ -149,6 +149,7 @@ body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a 
 
 body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a:hover {
   background-color: #e27c3d;
+  border: 2px solid #e27c3d;
   color: white;
 }
 
@@ -179,19 +180,13 @@ body #home .slider-wrapper-saas .container .row .animated.fadeInUp img {
 
 @media screen and (max-width: 770px) {
   body #home .slider-wrapper-saas {
-    height: 90vh;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  body #home .slider-wrapper-saas {
     height: 75vh;
   }
 }
 
 @media screen and (max-width: 575px) {
   body #home .slider-wrapper-saas {
-    height: 65vh;
+    height: 70vh;
   }
 }
 
@@ -367,7 +362,7 @@ body #home .features .row .feature .text p {
 
 body .wave {
   position: absolute;
-  top: 95vh;
+  top: 100vh;
   border-bottom: 100px solid #f9f9f9;
 }
 
