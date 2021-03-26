@@ -105,31 +105,27 @@ body #header-sticky .logo a span:hover {
   }
 }
 
-body #home .slider-wrapper-saas {
-  width: 100%;
-  height: 120vh;
-  background-color: #254292;
+@media screen and (max-width: 600px) {
+  body #header-sticky .logo a span {
+    font-size: 0.8rem;
+    padding-left: 10px;
+  }
 }
 
-@media screen and (max-width: 1200px) {
-  body #home .slider-wrapper-saas {
-    height: 100vh;
-  }
+body #home .slider-wrapper-saas {
+  width: 100%;
+  height: 130vh;
+  background-color: #254292;
+  background: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#417ebd));
+  background: linear-gradient(to bottom right, #fff, #417ebd);
 }
 
 body #home .slider-wrapper-saas .container {
-  margin-top: -50vh;
-}
-
-@media screen and (max-width: 1200px) {
-  body #home .slider-wrapper-saas .container {
-    margin-top: -30vh;
-  }
+  margin-top: 3vh;
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new h1 {
-  color: #f9f9f9;
-  margin-top: 100px;
+  color: #1f60a5;
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new h1 span {
@@ -137,7 +133,7 @@ body #home .slider-wrapper-saas .container .row .slider-text-new h1 span {
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new p {
-  color: #f9f9f9;
+  color: #1f60a5;
   font-weight: 600;
 }
 
@@ -157,21 +153,221 @@ body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a:
 }
 
 body #home .slider-wrapper-saas .container .row .animated.fadeInUp img {
-  margin-top: 100px;
+  margin-top: 20px;
   max-width: 1000px;
   width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
   body #home .slider-wrapper-saas .container .row .animated.fadeInUp img {
-    margin-top: 200px;
+    margin-top: 10vh;
     width: 350px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body #home .slider-wrapper-saas {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body #home .slider-wrapper-saas {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  body #home .slider-wrapper-saas {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  body #home .slider-wrapper-saas {
+    height: 75vh;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #home .slider-wrapper-saas {
+    height: 65vh;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  body #home .slider-wrapper-saas {
+    height: 120vh;
+  }
+}
+
+body #home .features {
+  margin: 5vh;
+  text-align: center;
+}
+
+body #home .features .row {
+  margin: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #home .features .row .feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  margin: 0;
+}
+
+body #home .features .row .feature img {
+  max-width: 100px;
+  width: 100%;
+  margin: 0 20px;
+  border-radius: 500px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@media screen and (max-width: 1200px) {
+  body #home .features .row .feature img {
+    max-width: 100px;
+    margin: 0;
+    border-radius: 500px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #home .features .row .feature img {
+    width: 60px;
+  }
+}
+
+body #home .features .row .feature .text {
+  padding: 20px;
+  border-left: 1px solid white;
+}
+
+body #home .features .row .feature .text h3 {
+  color: white;
+  font-family: nunito, sans-serif;
+  font-weight: 600;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  body #home .features .row .feature .text h3 {
+    color: white;
+    font-family: nunito, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 2px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #home .features .row .feature .text h3 {
+    font-size: 0.75rem;
+    padding: 0;
+    width: 100;
+  }
+}
+
+body #home .features .row .feature .text p {
+  color: white;
+  font-family: nunito, sans-serif;
+  font-weight: 600;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  body #home .features .row .feature .text p {
+    color: white;
+    font-family: nunito, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 2px 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body #home .features .row .feature .text p {
+    color: white;
+    font-family: nunito, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 2px 0;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #home .features .row .feature .text p {
+    font-size: 0.7rem;
+    padding: 0;
+    width: 100;
+    line-height: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #home .features .row .feature .text p {
+    font-size: 0.6rem;
+    padding: 0;
+    width: 100;
+    line-height: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body #home .features .row .feature .text {
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body #home .features .row .feature {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #home .features .row .feature {
+    width: 33.3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #home .features .row {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #home .features {
+    margin: 5vh 0;
   }
 }
 
 body .wave {
   position: absolute;
-  top: 85vh;
+  top: 95vh;
   border-bottom: 100px solid #f9f9f9;
 }
 
@@ -181,31 +377,10 @@ body .wave {
   }
 }
 
-body #features {
-  margin: 10vh 0;
-  text-align: center;
-}
-
-body #features .item {
-  margin: 25px 0;
-}
-
-body #features .item .bpack-images-one {
-  border-radius: 200px;
-  overflow: hidden;
-  -webkit-box-shadow: inset 0 0 0 10px #e27c3d;
-          box-shadow: inset 0 0 0 10px #e27c3d;
-  border: 5px solid #e27c3d;
-  max-width: 250px;
-}
-
-body #features .item .bpack-images-one figcaption {
-  padding: 20px;
-}
-
-body #features .item h3 {
-  margin: 10px 0;
-  font-family: nunito, sans-serif;
+@media screen and (min-width: 1300px) {
+  body .wave {
+    top: 87vh;
+  }
 }
 
 body #service .container .row {
