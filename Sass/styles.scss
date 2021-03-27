@@ -375,6 +375,39 @@ body {
     }
   }
 
+  #overview {
+    .swiper-slider-area .swiper-slider-one {
+      .blog-slider__img {
+        box-shadow: 4px 13px 30px 1px rgba(56, 118, 252, 0.2);
+
+        &:after {
+          background: linear-gradient(147deg, #4885f8 0%, #155dc9 74%);
+        }
+      }
+
+      .blog-slider__item {
+        .blog-slider__content {
+          a.blog-slider__button {
+            background: linear-gradient(147deg, #4885f8 0%, #155dc9 74%);
+            box-shadow: 0px 14px 80px rgba(56, 118, 252, 0.4);
+
+            &:hover {
+              color: white;
+              background: linear-gradient(147deg, #4868f8 0%, #1545c9 74%);
+            }
+          }
+        }
+      }
+
+      .blog-slider__pagination {
+        span.swiper-pagination-bullet-active {
+          background-color: #1271cf;
+          box-shadow: 0 0 20px rgba(56, 118, 252, 0.3);
+        }
+      }
+    }
+  }
+
   footer.footer-top-area-7 {
     img {
       max-width: 150px;
