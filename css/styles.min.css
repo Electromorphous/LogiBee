@@ -11,12 +11,12 @@ body {
 }
 
 body a#scrollUp {
-  background-color: #407ebf;
+  background-color: #e27c3d;
   border-radius: 500px;
 }
 
 body a#scrollUp:hover {
-  background-color: #e27c3d;
+  background-color: #e75e08;
 }
 
 body #header-sticky {

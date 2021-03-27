@@ -14,11 +14,11 @@ $white: #f9f9f9;
 body {
   background-color: $white;
   a#scrollUp {
-    background-color: $primary-blue;
+    background-color: $primary-orange;
     border-radius: 500px;
 
     &:hover {
-      background-color: $primary-orange;
+      background-color: $secondary-orange;
     }
   }
   // .background-wave {
