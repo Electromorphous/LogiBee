@@ -376,34 +376,66 @@ body {
   }
 
   footer.footer-top-area-7 {
-    // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
     img {
       max-width: 150px;
       margin: 20px;
     }
     .site-footer {
-      .upper-footer {
-        // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+      * {
         color: white;
+        // font-family: nunito, sans-serif;
+      }
+      .upper-footer {
+        background: linear-gradient(to bottom right, #3c91e6, #1271cf);
         // border-top: 1px solid #ccc;
-        padding: 50px;
+        padding: 40px;
+
+        .footer-subscribe-1 {
+          border: none;
+          margin-bottom: 0;
+        }
+
+        .footer-icon a {
+          i {
+            color: $primary-orange;
+          }
+
+          &:hover {
+            background-color: $primary-orange;
+
+            i {
+              color: $white;
+            }
+          }
+        }
 
         a {
+          color: $white;
           transition: all 0.1s;
           &:hover {
-            color: $white;
+            color: #ffa166;
           }
         }
       }
       .about-widget ul li i {
-        background-color: $header-blue;
-        border-radius: 3px;
+        background-color: $primary-orange;
+        border-radius: 4px;
       }
-      .newsletter-widget form div button {
-        background-color: $header-blue;
-
-        &:hover {
-          // background-color: $primary-orange;
+      .recent-post-widget {
+        span.date {
+          color: #ddd;
+        }
+      }
+      .newsletter-widget form div {
+        input {
+          border: none;
+          outline: none;
+          border-radius: 4px 0 0 4px;
+          font-family: nunito, sans-serif;
+        }
+        button {
+          background-color: $primary-orange;
+          border-radius: 0 4px 4px 0;
         }
       }
     }
