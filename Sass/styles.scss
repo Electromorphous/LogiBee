@@ -56,7 +56,7 @@ body {
     }
 
     a.scroll-click {
-      color: $secondary-blue;
+      color: $primary-blue;
       font-size: 1.1rem;
       padding: 0 10px;
       transition: all 0.1s;
@@ -102,7 +102,24 @@ body {
       }
       .slicknav_nav {
         background-color: $primary-orange;
-        opacity: 0.9;
+        margin: 0 auto;
+        text-align: center;
+        opacity: 0.8;
+
+        a.scroll-click {
+          text-align: center;
+
+          color: white;
+          font-family: nunito, sans-serif;
+          width: 150px;
+          margin: 0 auto;
+          text-align: center;
+
+          &:hover {
+            background: none;
+            color: $primary-blue;
+          }
+        }
       }
     }
 
@@ -142,7 +159,7 @@ body {
   #home {
     .slider-wrapper-saas {
       width: 100%;
-      height: 140vh;
+      height: 1000px;
       background-color: #254292;
       background: linear-gradient(to bottom right, #3c91e6, #1271cf);
       background-position: center;
@@ -189,27 +206,26 @@ body {
             }
           }
         }
-
-        @media screen and (max-width: 1200px) {
-          // margin-top: -30vh;
-        }
       }
 
       @media screen and (max-width: 1200px) {
-        height: 110vh;
+        height: 750px;
       }
       @media screen and (max-width: 1000px) {
-        height: 130vh;
+        height: 850px;
       }
       @media screen and (max-width: 770px) {
-        height: 90vh;
+        height: 600px;
       }
-      @media screen and (max-width: 575px) {
-        height: 75vh;
+      @media screen and (max-width: 600px) {
+        height: 500px;
+      }
+      @media screen and (max-width: 400px) {
+        height: 600px;
       }
 
       @media screen and (min-width: 1300px) {
-        height: 120vh;
+        height: 950px;
       }
     }
 
@@ -339,13 +355,13 @@ body {
   .wave {
     position: absolute;
     top: 100vh;
-    border-bottom: 100px solid $white;
+    border-bottom: 150px solid $white;
 
     @media screen and (max-width: 1200px) {
       display: none;
     }
     @media screen and (min-width: 1300px) {
-      top: 87vh;
+      top: 70vh;
     }
   }
 
