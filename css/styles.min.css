@@ -339,7 +339,7 @@ body #home .features .row .feature .image {
 
 body #home .features .row .feature .image img {
   max-width: 100px;
-  width: 100%;
+  width: 90px;
   border-radius: 500px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -347,8 +347,8 @@ body #home .features .row .feature .image img {
 
 @media screen and (max-width: 1200px) {
   body #home .features .row .feature .image img {
-    max-width: 100px;
     margin: 0;
+    width: 100%;
     border-radius: 500px;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;

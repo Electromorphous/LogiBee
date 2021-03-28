@@ -318,13 +318,13 @@ body {
             padding-right: 20px;
             img {
               max-width: 100px;
-              width: 100%;
+              width: 90px;
               border-radius: 500px;
               transition: all 0.2s;
 
               @media screen and (max-width: 1200px) {
-                max-width: 100px;
                 margin: 0;
+                width: 100%;
 
                 border-radius: 500px;
                 transition: all 0.2s;
