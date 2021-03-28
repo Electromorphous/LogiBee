@@ -3,7 +3,7 @@ $secondary-blue: #1f60a5;
 $header-blue: #357ad4;
 $primary-orange: #e27c3d;
 $secondary-orange: #e75e08;
-$white: #f9f9f9;
+$white: #fff;
 
 * {
   ::selection {
@@ -161,7 +161,8 @@ body {
       width: 100%;
       height: 1000px;
       background-color: #254292;
-      background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+      // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+      background: linear-gradient(to bottom right, #fff, #417ebd);
       background-position: center;
 
       .container {
@@ -169,29 +170,31 @@ body {
 
         .row {
           .slider-text-new {
+            margin-top: 50px;
             h1 {
-              color: $white;
+              color: $primary-blue;
+              font-size: 2.5rem;
 
               span {
                 color: $primary-orange;
               }
             }
             p {
-              color: $white;
+              color: $primary-blue;
               font-weight: 600;
             }
             .saas-button a {
               color: $white;
-              background-color: transparent;
-              border: 2px solid $white;
+              background-color: $primary-orange;
+              border: 2px solid $primary-orange;
               font-size: 1.05rem;
               padding: 0.7rem 1.5rem;
               transition: all 0.25s;
 
               &:hover {
-                background-color: $primary-orange;
-                border: 2px solid $primary-orange;
-                color: white;
+                background-color: transparent;
+                border: 2px solid $primary-blue;
+                color: $primary-blue;
               }
             }
           }
@@ -361,11 +364,12 @@ body {
       display: none;
     }
     @media screen and (min-width: 1300px) {
-      top: 70vh;
+      top: 650px;
     }
   }
 
   #service {
+    background-color: $white;
     .container .row {
       align-items: stretch;
 

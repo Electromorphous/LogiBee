@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 body a#scrollUp {
@@ -20,7 +20,7 @@ body a#scrollUp:hover {
 }
 
 body #header-sticky {
-  background-color: #f9f9f9;
+  background-color: #fff;
   border-bottom: 4px solid #e27c3d;
 }
 
@@ -46,19 +46,19 @@ body #header-sticky.scroll-header {
 }
 
 body #header-sticky.scroll-header .logo a span {
-  color: #f9f9f9;
+  color: #fff;
 }
 
 body #header-sticky.scroll-header .logo a span:hover {
-  color: #f9f9f9;
+  color: #fff;
 }
 
 body #header-sticky.scroll-header .logo a p {
-  color: #f9f9f9;
+  color: #fff;
 }
 
 body #header-sticky.scroll-header .logo a p:hover {
-  color: #f9f9f9;
+  color: #fff;
 }
 
 body #header-sticky.scroll-header a {
@@ -140,8 +140,8 @@ body #home .slider-wrapper-saas {
   width: 100%;
   height: 1000px;
   background-color: #254292;
-  background: -webkit-gradient(linear, left top, right bottom, from(#3c91e6), to(#1271cf));
-  background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+  background: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#417ebd));
+  background: linear-gradient(to bottom right, #fff, #417ebd);
   background-position: center;
 }
 
@@ -149,8 +149,13 @@ body #home .slider-wrapper-saas .container {
   margin-top: 3vh;
 }
 
+body #home .slider-wrapper-saas .container .row .slider-text-new {
+  margin-top: 50px;
+}
+
 body #home .slider-wrapper-saas .container .row .slider-text-new h1 {
-  color: #f9f9f9;
+  color: #407ebf;
+  font-size: 2.5rem;
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new h1 span {
@@ -158,14 +163,14 @@ body #home .slider-wrapper-saas .container .row .slider-text-new h1 span {
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new p {
-  color: #f9f9f9;
+  color: #407ebf;
   font-weight: 600;
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a {
-  color: #f9f9f9;
-  background-color: transparent;
-  border: 2px solid #f9f9f9;
+  color: #fff;
+  background-color: #e27c3d;
+  border: 2px solid #e27c3d;
   font-size: 1.05rem;
   padding: 0.7rem 1.5rem;
   -webkit-transition: all 0.25s;
@@ -173,9 +178,9 @@ body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a 
 }
 
 body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a:hover {
-  background-color: #e27c3d;
-  border: 2px solid #e27c3d;
-  color: white;
+  background-color: transparent;
+  border: 2px solid #407ebf;
+  color: #407ebf;
 }
 
 body #home .slider-wrapper-saas .container .row .animated.fadeInUp img {
@@ -394,7 +399,7 @@ body #home .features .row .feature .text p {
 body .wave {
   position: absolute;
   top: 100vh;
-  border-bottom: 150px solid #f9f9f9;
+  border-bottom: 150px solid #fff;
 }
 
 @media screen and (max-width: 1200px) {
@@ -405,8 +410,12 @@ body .wave {
 
 @media screen and (min-width: 1300px) {
   body .wave {
-    top: 70vh;
+    top: 650px;
   }
+}
+
+body #service {
+  background-color: #fff;
 }
 
 body #service .container .row {
@@ -530,11 +539,11 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-icon a:hover {
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-icon a:hover i {
-  color: #f9f9f9;
+  color: #fff;
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer a {
-  color: #f9f9f9;
+  color: #fff;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
@@ -565,7 +574,7 @@ body footer.footer-top-area-7 .site-footer .newsletter-widget form div button {
 }
 
 body footer.footer-top-area-7 .copyright-info-7 {
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 body footer.footer-top-area-7 .copyright-info-7 p {
