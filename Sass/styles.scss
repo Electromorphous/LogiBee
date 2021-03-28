@@ -49,50 +49,129 @@ body {
     background-color: $white;
     border-bottom: 4px solid $primary-orange;
 
-    ul#nav-demo {
-      li.scroll-to {
-        margin: 10px 0;
+    .contain-custom {
+      margin: 0 75px;
+
+      ul#nav-demo {
+        li.scroll-to {
+          margin: 10px 0;
+        }
+      }
+
+      a.scroll-click {
+        color: $primary-blue;
+        font-size: 1.1rem;
+        padding: 0 10px;
+        transition: all 0.1s;
+        &:hover {
+          color: $secondary-orange;
+        }
+      }
+
+      .logo a {
+        img {
+          width: 200px;
+          margin: 10px auto;
+          max-width: 1000px;
+
+          @media screen and (max-width: 1200px) {
+            width: 175px;
+            margin-top: 10px;
+          }
+        }
+        span {
+          color: $primary-blue;
+          margin: -10px 0 0 0;
+          padding: 0;
+          font-family: nunito, sans-serif;
+          font-weight: 700;
+
+          &:hover {
+            color: $primary-blue;
+          }
+
+          @media screen and (max-width: 1200px) {
+            display: block;
+          }
+          @media screen and (max-width: 600px) {
+            font-size: 0.8rem;
+            padding-left: 10px;
+          }
+        }
+      }
+
+      @media screen and (max-width: 1000px) {
+        margin: 0 30px;
+      }
+      @media screen and (max-width: 500px) {
+        margin: 10px;
       }
     }
 
-    a.scroll-click {
-      color: $primary-blue;
-      font-size: 1.1rem;
-      padding: 0 10px;
-      transition: all 0.1s;
-      &:hover {
-        color: $secondary-orange;
-      }
-    }
     &.scroll-header {
       background-color: #357ad4ee;
       border: none;
 
-      .logo a {
-        span {
-          color: $white;
+      .contain-custom {
+        margin: 0 75px;
 
-          &:hover {
-            color: $white;
+        ul#nav-demo {
+          li.scroll-to {
+            margin: 10px 0;
           }
         }
-        p {
-          color: $white;
 
+        a.scroll-click {
+          color: white;
+          font-size: 1.1rem;
+          padding: 0 10px;
+          transition: all 0.1s;
           &:hover {
-            color: $white;
+            color: $secondary-orange;
           }
         }
-      }
 
-      a {
-        color: white;
+        .logo a {
+          img {
+            width: 200px;
+            margin: 10px auto;
+            max-width: 1000px;
 
-        &:hover {
-          color: $primary-orange;
+            @media screen and (max-width: 1200px) {
+              width: 175px;
+              margin-top: 10px;
+            }
+          }
+          span {
+            color: $white;
+            margin: -10px 0 0 0;
+            padding: 0;
+            font-family: nunito, sans-serif;
+            font-weight: 700;
+
+            &:hover {
+              color: $white;
+            }
+
+            @media screen and (max-width: 1200px) {
+              display: block;
+            }
+            @media screen and (max-width: 600px) {
+              font-size: 0.8rem;
+              padding-left: 10px;
+            }
+          }
+        }
+
+        @media screen and (max-width: 1000px) {
+          margin: 0 30px;
+        }
+        @media screen and (max-width: 500px) {
+          margin: 10px;
         }
       }
     }
+
     .slicknav_menu {
       a.slicknav_btn {
         background-color: $primary-orange;
@@ -122,51 +201,19 @@ body {
         }
       }
     }
-
-    .logo a {
-      img {
-        width: 200px;
-        margin: 10px auto;
-        max-width: 1000px;
-
-        @media screen and (max-width: 1200px) {
-          width: 175px;
-          margin-top: 10px;
-        }
-      }
-      span {
-        color: $primary-blue;
-        margin: -10px 0 0 0;
-        padding: 0;
-        font-family: nunito, sans-serif;
-        font-weight: 700;
-
-        &:hover {
-          color: $primary-blue;
-        }
-
-        @media screen and (max-width: 1200px) {
-          display: block;
-        }
-        @media screen and (max-width: 600px) {
-          font-size: 0.8rem;
-          padding-left: 10px;
-        }
-      }
-    }
   }
 
   #home {
     .slider-wrapper-saas {
       width: 100%;
       height: 1000px;
-      background-color: #254292;
+      background-color: $primary-blue;
       // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
-      background: linear-gradient(to bottom right, #fff, #417ebd);
+      // background: linear-gradient(to bottom right, #fff, #417ebd);
       background-position: center;
 
-      .container {
-        margin-top: 3vh;
+      .contain-custom {
+        padding: 0 75px;
 
         .row {
           .col-md-5 {
@@ -175,10 +222,10 @@ body {
             //   margin-right: 0 !important;
             // }
             .slider-text-new {
-              margin-top: 50px;
+              margin-top: 100px;
 
               h1 {
-                color: $primary-blue;
+                color: $white;
                 font-size: 2.5rem;
 
                 span {
@@ -186,7 +233,7 @@ body {
                 }
               }
               p {
-                color: $primary-blue;
+                color: $white;
                 font-weight: 600;
               }
               .saas-button a {
@@ -199,8 +246,8 @@ body {
 
                 &:hover {
                   background-color: transparent;
-                  border: 2px solid $primary-blue;
-                  color: $primary-blue;
+                  border: 2px solid $white;
+                  color: $white;
                 }
               }
 
@@ -216,11 +263,16 @@ body {
             }
 
             .animated.fadeInUp img {
+              margin: 0;
               margin-top: 30px;
-              max-width: 1000px;
+              // min-width: 600px;
               width: 100%;
             }
           }
+        }
+
+        @media screen and (max-width: 777px) {
+          padding: 0 10px;
         }
       }
 
@@ -234,14 +286,14 @@ body {
         height: 600px;
       }
       @media screen and (max-width: 600px) {
-        height: 500px;
+        height: 525px;
       }
       @media screen and (max-width: 400px) {
-        height: 600px;
+        height: 625px;
       }
 
       @media screen and (min-width: 1300px) {
-        height: 950px;
+        height: 1100px;
       }
     }
 
@@ -252,7 +304,7 @@ body {
       .row {
         margin: auto;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: baseline;
 
         .feature {
           display: flex;
@@ -261,28 +313,34 @@ body {
           text-align: left;
           margin: 0;
 
-          img {
-            max-width: 100px;
-            width: 100%;
-            margin: 0 20px;
-            border-radius: 500px;
-            transition: all 0.2s;
-
-            @media screen and (max-width: 1200px) {
+          .image {
+            border-right: 1px solid white;
+            padding-right: 20px;
+            img {
               max-width: 100px;
-              margin: 0;
-
+              width: 100%;
               border-radius: 500px;
               transition: all 0.2s;
+
+              @media screen and (max-width: 1200px) {
+                max-width: 100px;
+                margin: 0;
+
+                border-radius: 500px;
+                transition: all 0.2s;
+              }
+
+              @media screen and (max-width: 600px) {
+                width: 60px;
+              }
             }
 
-            @media screen and (max-width: 600px) {
-              width: 60px;
+            @media screen and (max-width: 1200px) {
+              border: none;
             }
           }
           .text {
             padding: 20px;
-            border-left: 1px solid white;
 
             h3 {
               color: white;
@@ -294,7 +352,7 @@ body {
                 color: white;
                 font-family: nunito, sans-serif;
                 font-weight: 600;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
                 margin: 2px 0;
               }
 
@@ -343,7 +401,6 @@ body {
             }
 
             @media screen and (max-width: 1200px) {
-              border: none;
               padding: 10px 0;
               width: 100%;
             }
@@ -377,7 +434,7 @@ body {
       display: none;
     }
     @media screen and (min-width: 1300px) {
-      top: 650px;
+      top: 750px;
     }
   }
 
