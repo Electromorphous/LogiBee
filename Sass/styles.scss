@@ -169,43 +169,56 @@ body {
         margin-top: 3vh;
 
         .row {
-          .slider-text-new {
-            margin-top: 50px;
-            h1 {
-              color: $primary-blue;
-              font-size: 2.5rem;
+          .col-md-5 {
+            // @media screen and (max-width: 1000px) {
+            //   width: 100%;
+            //   margin-right: 0 !important;
+            // }
+            .slider-text-new {
+              margin-top: 50px;
 
-              span {
-                color: $primary-orange;
-              }
-            }
-            p {
-              color: $primary-blue;
-              font-weight: 600;
-            }
-            .saas-button a {
-              color: $white;
-              background-color: $primary-orange;
-              border: 2px solid $primary-orange;
-              font-size: 1.05rem;
-              padding: 0.7rem 1.5rem;
-              transition: all 0.25s;
-
-              &:hover {
-                background-color: transparent;
-                border: 2px solid $primary-blue;
+              h1 {
                 color: $primary-blue;
+                font-size: 2.5rem;
+
+                span {
+                  color: $primary-orange;
+                }
+              }
+              p {
+                color: $primary-blue;
+                font-weight: 600;
+              }
+              .saas-button a {
+                color: $white;
+                background-color: $primary-orange;
+                border: 2px solid $primary-orange;
+                font-size: 1.05rem;
+                padding: 0.7rem 1.5rem;
+                transition: all 0.25s;
+
+                &:hover {
+                  background-color: transparent;
+                  border: 2px solid $primary-blue;
+                  color: $primary-blue;
+                }
+              }
+
+              @media screen and (max-width: 770px) {
+                margin-top: 0;
               }
             }
           }
 
-          .animated.fadeInUp img {
-            margin-top: 20px;
-            max-width: 1000px;
-            width: 100%;
+          .col-md-7 {
             @media screen and (max-width: 1000px) {
-              margin-top: 10vh;
-              width: 350px;
+              margin-top: 100px;
+            }
+
+            .animated.fadeInUp img {
+              margin-top: 30px;
+              max-width: 1000px;
+              width: 100%;
             }
           }
         }

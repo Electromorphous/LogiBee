@@ -149,25 +149,25 @@ body #home .slider-wrapper-saas .container {
   margin-top: 3vh;
 }
 
-body #home .slider-wrapper-saas .container .row .slider-text-new {
+body #home .slider-wrapper-saas .container .row .col-md-5 .slider-text-new {
   margin-top: 50px;
 }
 
-body #home .slider-wrapper-saas .container .row .slider-text-new h1 {
+body #home .slider-wrapper-saas .container .row .col-md-5 .slider-text-new h1 {
   color: #407ebf;
   font-size: 2.5rem;
 }
 
-body #home .slider-wrapper-saas .container .row .slider-text-new h1 span {
+body #home .slider-wrapper-saas .container .row .col-md-5 .slider-text-new h1 span {
   color: #e27c3d;
 }
 
-body #home .slider-wrapper-saas .container .row .slider-text-new p {
+body #home .slider-wrapper-saas .container .row .col-md-5 .slider-text-new p {
   color: #407ebf;
   font-weight: 600;
 }
 
-body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a {
+body #home .slider-wrapper-saas .container .row .col-md-5 .slider-text-new .saas-button a {
   color: #fff;
   background-color: #e27c3d;
   border: 2px solid #e27c3d;
@@ -177,23 +177,28 @@ body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a 
   transition: all 0.25s;
 }
 
-body #home .slider-wrapper-saas .container .row .slider-text-new .saas-button a:hover {
+body #home .slider-wrapper-saas .container .row .col-md-5 .slider-text-new .saas-button a:hover {
   background-color: transparent;
   border: 2px solid #407ebf;
   color: #407ebf;
 }
 
-body #home .slider-wrapper-saas .container .row .animated.fadeInUp img {
-  margin-top: 20px;
-  max-width: 1000px;
-  width: 100%;
+@media screen and (max-width: 770px) {
+  body #home .slider-wrapper-saas .container .row .col-md-5 .slider-text-new {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-  body #home .slider-wrapper-saas .container .row .animated.fadeInUp img {
-    margin-top: 10vh;
-    width: 350px;
+  body #home .slider-wrapper-saas .container .row .col-md-7 {
+    margin-top: 100px;
   }
+}
+
+body #home .slider-wrapper-saas .container .row .col-md-7 .animated.fadeInUp img {
+  margin-top: 30px;
+  max-width: 1000px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
