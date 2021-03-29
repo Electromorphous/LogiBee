@@ -614,14 +614,78 @@ body #service {
   background-color: #fff;
 }
 
-body #service .container .row {
+body #service .contain-custom {
+  margin: 0 100px;
+}
+
+body #service .contain-custom .row {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
 }
 
-body #service .container .row .rtin-item {
+body #service .contain-custom .row .rtin-item {
   height: 90%;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+}
+
+body #service .contain-custom .row .rtin-item img {
+  width: 69px;
+  margin-bottom: 20px;
+}
+
+body #service .contain-custom .row .rtin-item p {
+  color: #333;
+}
+
+body #service .contain-custom .row .rtin-item.red {
+  background-color: rgba(253, 91, 91, 0.3);
+  -webkit-box-shadow: 2px 2px 10px rgba(253, 91, 91, 0.3);
+          box-shadow: 2px 2px 10px rgba(253, 91, 91, 0.3);
+}
+
+body #service .contain-custom .row .rtin-item.green {
+  background-color: rgba(91, 253, 99, 0.3);
+  -webkit-box-shadow: 2px 2px 10px rgba(91, 253, 99, 0.3);
+          box-shadow: 2px 2px 10px rgba(91, 253, 99, 0.3);
+}
+
+body #service .contain-custom .row .rtin-item.yellow {
+  background-color: rgba(252, 255, 65, 0.3);
+  -webkit-box-shadow: 2px 2px 10px rgba(252, 255, 65, 0.3);
+          box-shadow: 2px 2px 10px rgba(252, 255, 65, 0.3);
+}
+
+body #service .contain-custom .row .rtin-item.blue {
+  background-color: rgba(91, 107, 253, 0.3);
+  -webkit-box-shadow: 2px 2px 10px rgba(91, 107, 253, 0.3);
+          box-shadow: 2px 2px 10px rgba(91, 107, 253, 0.3);
+}
+
+body #service .contain-custom .row .rtin-item.purple {
+  background-color: rgba(188, 91, 253, 0.3);
+  -webkit-box-shadow: 2px 2px 10px rgba(188, 91, 253, 0.3);
+          box-shadow: 2px 2px 10px rgba(188, 91, 253, 0.3);
+}
+
+body #service .contain-custom .row .rtin-item.orange {
+  background-color: rgba(253, 169, 91, 0.3);
+  -webkit-box-shadow: 2px 2px 10px rgba(253, 169, 91, 0.3);
+          box-shadow: 2px 2px 10px rgba(253, 169, 91, 0.3);
+}
+
+@media screen and (max-width: 900px) {
+  body #service .contain-custom {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  body #service .contain-custom {
+    margin: 0 20px;
+  }
 }
 
 body #overview {
