@@ -114,6 +114,22 @@ body #header-sticky .contain-custom a.scroll-click.demo-btn:hover {
   color: #e27c3d;
 }
 
+body #header-sticky .contain-custom ul.sub-menu {
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+body #header-sticky .contain-custom ul.sub-menu li a {
+  font-size: 1rem;
+}
+
+body #header-sticky .contain-custom ul.sub-menu li a:hover {
+  background-color: #e27c3d;
+}
+
 @media screen and (max-width: 1000px) {
   body #header-sticky .contain-custom {
     margin: 0 30px;
@@ -263,7 +279,8 @@ body #header-sticky .slicknav_menu .slicknav_nav {
   opacity: 0.8;
 }
 
-body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click {
+body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click,
+body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item {
   text-align: center;
   color: white;
   font-family: nunito, sans-serif;
@@ -272,15 +289,30 @@ body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click {
   text-align: center;
 }
 
-body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click:hover {
+body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click:hover,
+body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item:hover {
   background: none;
   color: #407ebf;
 }
 
-body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click.demo-btn {
+body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click.demo-btn,
+body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item.demo-btn {
   background: none;
   border: none;
   border-radius: 0;
+}
+
+body #header-sticky .slicknav_menu .slicknav_nav ul.sub-menu a {
+  color: white;
+  font-family: nunito, sans-serif;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body #header-sticky .slicknav_menu .slicknav_nav ul.sub-menu a:hover {
+  background: none;
+  color: #407ebf;
 }
 
 @media screen and (max-width: 770px) {
