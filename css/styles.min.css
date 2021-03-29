@@ -314,6 +314,26 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
   color: #e27c3d;
 }
 
+@media screen and (max-width: 1180px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
+    font-size: 2rem;
+    padding: 10px 0;
+  }
+}
+
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new p {
   color: #fff;
   font-weight: 600;
@@ -343,13 +363,7 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
 
 @media screen and (max-width: 770px) {
   body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  body #home .slider-wrapper-saas .contain-custom .row .col-md-7 {
-    margin-top: 100px;
+    margin: 5px 15px;
   }
 }
 
@@ -357,6 +371,12 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
   margin: 0;
   margin-top: 30px;
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-7 {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 777px) {
@@ -371,27 +391,21 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
   }
 }
 
-@media screen and (max-width: 1000px) {
-  body #home .slider-wrapper-saas {
-    height: 850px;
-  }
-}
-
 @media screen and (max-width: 770px) {
   body #home .slider-wrapper-saas {
-    height: 600px;
+    height: 550px;
   }
 }
 
 @media screen and (max-width: 600px) {
   body #home .slider-wrapper-saas {
-    height: 525px;
+    height: 500px;
   }
 }
 
 @media screen and (max-width: 400px) {
   body #home .slider-wrapper-saas {
-    height: 625px;
+    height: 550px;
   }
 }
 
@@ -575,7 +589,7 @@ body #home .features .row .feature .text p {
 
 body .wave {
   position: absolute;
-  top: 100vh;
+  top: 80vh;
   border-bottom: 150px solid #fff;
 }
 

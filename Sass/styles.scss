@@ -293,6 +293,18 @@ body {
                 span {
                   color: $primary-orange;
                 }
+
+                @media screen and (max-width: 1180px) {
+                  font-size: 2rem;
+                }
+                @media screen and (max-width: 850px) {
+                  font-size: 1.5rem;
+                  padding: 0;
+                }
+                @media screen and (max-width: 850px) {
+                  font-size: 2rem;
+                  padding: 10px 0;
+                }
               }
               p {
                 color: $white;
@@ -317,21 +329,20 @@ body {
                 margin-top: 30px;
               }
               @media screen and (max-width: 770px) {
-                margin-top: 0;
+                margin: 5px 15px;
               }
             }
           }
 
           .col-md-7 {
-            @media screen and (max-width: 1000px) {
-              margin-top: 100px;
-            }
-
             .animated.fadeInUp img {
               margin: 0;
               margin-top: 30px;
               // min-width: 600px;
               width: 100%;
+            }
+            @media screen and (max-width: 1000px) {
+              margin-top: 50px;
             }
           }
         }
@@ -344,19 +355,15 @@ body {
       @media screen and (max-width: 1200px) {
         height: 750px;
       }
-      @media screen and (max-width: 1000px) {
-        height: 850px;
-      }
       @media screen and (max-width: 770px) {
-        height: 600px;
+        height: 550px;
       }
       @media screen and (max-width: 600px) {
-        height: 525px;
+        height: 500px;
       }
       @media screen and (max-width: 400px) {
-        height: 625px;
+        height: 550px;
       }
-
       @media screen and (min-width: 1300px) {
         height: 1100px;
       }
@@ -492,7 +499,7 @@ body {
 
   .wave {
     position: absolute;
-    top: 100vh;
+    top: 80vh;
     border-bottom: 150px solid $white;
 
     @media screen and (max-width: 1200px) {
