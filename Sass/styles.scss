@@ -115,7 +115,7 @@ body {
           background-color: $primary-orange;
           border: 2px solid $primary-orange;
           color: white;
-          margin-left: 5px;
+          // margin-left: 5px;
           padding: 7px 15px;
 
           &:hover {
@@ -134,7 +134,7 @@ body {
     }
 
     &.scroll-header {
-      background-color: #357ad4ee;
+      background-color: #407ebfee;
       border: none;
 
       .contain-custom {
@@ -159,7 +159,7 @@ body {
             background-color: $primary-orange;
             border: 2px solid $primary-orange;
             color: white;
-            margin-left: 5px;
+            // margin-left: 5px;
             padding: 7px 15px;
 
             &:hover {
@@ -522,9 +522,13 @@ body {
   }
 
   #overview {
+    margin-left: 20px;
     .swiper-slider-area .swiper-slider-one {
       .blog-slider {
         height: 450px;
+        max-width: 1000px;
+        width: 80vw;
+        // margin: 0 10px 0 50px;
 
         .blog-slider__img {
           box-shadow: 4px 13px 30px 1px rgba(56, 118, 252, 0.2);
@@ -541,7 +545,11 @@ body {
 
             .blog-slider__text {
               font-size: 1rem;
-              padding-right: 10px;
+              padding-right: 30px;
+
+              @media screen and (max-width: 770px) {
+                padding: 10px;
+              }
             }
             a.blog-slider__button {
               background: linear-gradient(147deg, #4885f8 0%, #155dc9 74%);
@@ -566,23 +574,32 @@ body {
           }
         }
 
-        @media screen and (max-width: 777px) {
+        @media screen and (max-width: 990px) {
+          height: 500px;
+        }
+        @media screen and (max-width: 890px) {
+          height: 575px;
+        }
+        @media screen and (max-width: 800px) {
           height: 650px;
         }
-        @media screen and (max-width: 660px) {
-          height: 700px;
+        @media screen and (max-width: 680px) {
+          height: 725px;
         }
-        @media screen and (max-width: 550px) {
-          height: 750px;
+        @media screen and (max-width: 570px) {
+          height: 775px;
+        }
+        @media screen and (max-width: 460px) {
+          height: 900px;
         }
         @media screen and (max-width: 400px) {
-          height: 800px;
+          height: 950px;
         }
       }
     }
 
     @media screen and (max-width: 1000px) {
-      margin-left: 30px;
+      margin-left: 50px;
     }
     @media screen and (max-width: 777px) {
       margin-left: 0;
