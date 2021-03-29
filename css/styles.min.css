@@ -711,8 +711,7 @@ body footer.footer-top-area-7 .site-footer * {
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer {
-  background: -webkit-gradient(linear, left top, right bottom, from(#3c91e6), to(#1271cf));
-  background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+  background-color: #407ebf;
   padding: 40px;
 }
 

@@ -600,7 +600,8 @@ body {
         // font-family: nunito, sans-serif;
       }
       .upper-footer {
-        background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+        background-color: $primary-blue;
+        // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
         // border-top: 1px solid #ccc;
         padding: 40px;
 
