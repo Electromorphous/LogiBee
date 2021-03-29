@@ -102,6 +102,19 @@ body #header-sticky .contain-custom a.scroll-click:hover {
   color: #e75e08;
 }
 
+body #header-sticky .contain-custom a.scroll-click.demo-btn {
+  background-color: #e27c3d;
+  border: 2px solid #e27c3d;
+  color: white;
+  margin-left: 5px;
+  padding: 7px 15px;
+}
+
+body #header-sticky .contain-custom a.scroll-click.demo-btn:hover {
+  background: transparent;
+  color: #e27c3d;
+}
+
 @media screen and (max-width: 1000px) {
   body #header-sticky .contain-custom {
     margin: 0 30px;
@@ -137,6 +150,20 @@ body #header-sticky.scroll-header .contain-custom a.scroll-click {
 
 body #header-sticky.scroll-header .contain-custom a.scroll-click:hover {
   color: #e75e08;
+}
+
+body #header-sticky.scroll-header .contain-custom a.scroll-click.demo-btn {
+  background-color: #e27c3d;
+  border: 2px solid #e27c3d;
+  color: white;
+  margin-left: 5px;
+  padding: 7px 15px;
+}
+
+body #header-sticky.scroll-header .contain-custom a.scroll-click.demo-btn:hover {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
 }
 
 body #header-sticky.scroll-header .contain-custom .logo a {

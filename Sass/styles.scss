@@ -110,6 +110,19 @@ body {
         &:hover {
           color: $secondary-orange;
         }
+
+        &.demo-btn {
+          background-color: $primary-orange;
+          border: 2px solid $primary-orange;
+          color: white;
+          margin-left: 5px;
+          padding: 7px 15px;
+
+          &:hover {
+            background: transparent;
+            color: $primary-orange;
+          }
+        }
       }
 
       @media screen and (max-width: 1000px) {
@@ -140,6 +153,20 @@ body {
           transition: all 0.1s;
           &:hover {
             color: $secondary-orange;
+          }
+
+          &.demo-btn {
+            background-color: $primary-orange;
+            border: 2px solid $primary-orange;
+            color: white;
+            margin-left: 5px;
+            padding: 7px 15px;
+
+            &:hover {
+              background: transparent;
+              border: 2px solid white;
+              color: white;
+            }
           }
         }
 
