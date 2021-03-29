@@ -199,9 +199,16 @@ body {
     .slicknav_menu {
       a.slicknav_btn {
         background-color: $primary-orange;
-        margin: -10px 20px 10px 0;
+        margin: -20px 20px 10px 0;
         span.slicknav_menutxt {
           text-shadow: none;
+        }
+
+        @media screen and (max-width: 770px) {
+          margin-top: 5px;
+        }
+        @media screen and (max-width: 500px) {
+          margin-top: -20px;
         }
       }
       .slicknav_nav {
@@ -226,6 +233,13 @@ body {
         }
       }
     }
+
+    @media screen and (max-width: 770px) {
+      padding-bottom: 20px;
+    }
+    @media screen and (max-width: 580px) {
+      padding: 10px 0;
+    }
   }
 
   #home {
@@ -242,10 +256,6 @@ body {
 
         .row {
           .col-md-5 {
-            // @media screen and (max-width: 1000px) {
-            //   width: 100%;
-            //   margin-right: 0 !important;
-            // }
             .slider-text-new {
               margin-top: 100px;
 
@@ -276,6 +286,9 @@ body {
                 }
               }
 
+              @media screen and (max-width: 1200px) {
+                margin-top: 30px;
+              }
               @media screen and (max-width: 770px) {
                 margin-top: 0;
               }
@@ -340,7 +353,7 @@ body {
 
           .image {
             border-right: 1px solid white;
-            padding-right: 20px;
+            padding: 0 20px;
             img {
               max-width: 100px;
               width: 90px;

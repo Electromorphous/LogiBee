@@ -211,11 +211,23 @@ body #header-sticky.scroll-header .contain-custom .logo a span:hover {
 
 body #header-sticky .slicknav_menu a.slicknav_btn {
   background-color: #e27c3d;
-  margin: -10px 20px 10px 0;
+  margin: -20px 20px 10px 0;
 }
 
 body #header-sticky .slicknav_menu a.slicknav_btn span.slicknav_menutxt {
   text-shadow: none;
+}
+
+@media screen and (max-width: 770px) {
+  body #header-sticky .slicknav_menu a.slicknav_btn {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body #header-sticky .slicknav_menu a.slicknav_btn {
+    margin-top: -20px;
+  }
 }
 
 body #header-sticky .slicknav_menu .slicknav_nav {
@@ -237,6 +249,18 @@ body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click {
 body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click:hover {
   background: none;
   color: #407ebf;
+}
+
+@media screen and (max-width: 770px) {
+  body #header-sticky {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body #header-sticky {
+    padding: 10px 0;
+  }
 }
 
 body #home .slider-wrapper-saas {
@@ -282,6 +306,12 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -375,7 +405,7 @@ body #home .features .row .feature {
 
 body #home .features .row .feature .image {
   border-right: 1px solid white;
-  padding-right: 20px;
+  padding: 0 20px;
 }
 
 body #home .features .row .feature .image img {
