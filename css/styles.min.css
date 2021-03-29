@@ -257,8 +257,9 @@ body #header-sticky .slicknav_menu a.slicknav_btn span.slicknav_menutxt {
 
 body #header-sticky .slicknav_menu .slicknav_nav {
   background-color: #e27c3d;
-  margin: 0 auto;
   text-align: center;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
   opacity: 0.8;
 }
 
@@ -274,6 +275,12 @@ body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click {
 body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click:hover {
   background: none;
   color: #407ebf;
+}
+
+body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click.demo-btn {
+  background: none;
+  border: none;
+  border-radius: 0;
 }
 
 @media screen and (max-width: 770px) {

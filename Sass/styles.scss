@@ -240,8 +240,8 @@ body {
       }
       .slicknav_nav {
         background-color: $primary-orange;
-        margin: 0 auto;
         text-align: center;
+        transform: translateY(10px);
         opacity: 0.8;
 
         a.scroll-click {
@@ -256,6 +256,12 @@ body {
           &:hover {
             background: none;
             color: $primary-blue;
+          }
+
+          &.demo-btn {
+            background: none;
+            border: none;
+            border-radius: 0;
           }
         }
       }
