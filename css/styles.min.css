@@ -302,7 +302,7 @@ body #home .slider-wrapper-saas .contain-custom {
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
@@ -589,7 +589,7 @@ body #home .features .row .feature .text p {
 
 body .wave {
   position: absolute;
-  top: 80vh;
+  top: 650px;
   border-bottom: 150px solid #fff;
 }
 
