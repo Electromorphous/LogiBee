@@ -110,7 +110,7 @@ body #header-sticky .contain-custom a.scroll-click:hover {
 
 @media screen and (max-width: 500px) {
   body #header-sticky .contain-custom {
-    margin: 10px;
+    margin: 5px 0 15px 0;
   }
 }
 
@@ -194,6 +194,18 @@ body #header-sticky.scroll-header .contain-custom .logo a span:hover {
 @media screen and (max-width: 775px) {
   body #header-sticky.scroll-header .contain-custom .logo a span {
     top: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body #header-sticky.scroll-header .contain-custom {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body #header-sticky.scroll-header .contain-custom {
+    margin: 5px 0 15px 0;
   }
 }
 

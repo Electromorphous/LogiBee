@@ -71,7 +71,6 @@ body {
           position: absolute;
           color: $primary-blue;
           width: 13rem;
-          // border: 1px solid red;
           top: 13px;
           left: 195px;
 
@@ -117,7 +116,7 @@ body {
         margin: 0 30px;
       }
       @media screen and (max-width: 500px) {
-        margin: 10px;
+        margin: 5px 0 15px 0;
       }
     }
 
@@ -163,7 +162,6 @@ body {
             position: absolute;
             color: $white;
             width: 13rem;
-            // border: 1px solid red;
             top: 13px;
             left: 195px;
 
@@ -187,6 +185,13 @@ body {
               top: 25px;
             }
           }
+        }
+
+        @media screen and (max-width: 1000px) {
+          margin: 0 30px;
+        }
+        @media screen and (max-width: 500px) {
+          margin: 5px 0 15px 0;
         }
       }
     }
