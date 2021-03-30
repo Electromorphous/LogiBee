@@ -335,11 +335,13 @@ body #home .slider-wrapper-saas {
 }
 
 body #home .slider-wrapper-saas .contain-custom {
-  padding: 0 75px;
+  padding: 0 50px;
 }
 
-body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new {
-  margin-top: 70px;
+body #home .slider-wrapper-saas .contain-custom .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
@@ -390,18 +392,6 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
-}
-
-@media screen and (max-width: 1200px) {
-  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new {
-    margin-top: 30px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new {
-    margin: 5px 15px;
-  }
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInUp img {
@@ -462,9 +452,9 @@ body #home .features .row {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 body #home .features .row .feature {
@@ -474,15 +464,16 @@ body #home .features .row .feature {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   text-align: left;
   margin: 0;
 }
 
 body #home .features .row .feature .image {
   border-right: 1px solid white;
+  height: 110px;
   padding: 0 20px;
 }
 
@@ -517,7 +508,7 @@ body #home .features .row .feature .image img {
 }
 
 body #home .features .row .feature .text {
-  padding: 20px;
+  padding: 0 20px;
 }
 
 body #home .features .row .feature .text h3 {
@@ -525,6 +516,7 @@ body #home .features .row .feature .text h3 {
   font-family: nunito, sans-serif;
   font-weight: 600;
   width: 100%;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1200px) {
