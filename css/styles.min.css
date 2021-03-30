@@ -55,6 +55,12 @@ body #header-sticky .contain-custom .logo a img {
   }
 }
 
+@media screen and (max-width: 500px) {
+  body #header-sticky .contain-custom .logo a img {
+    margin-top: 5px 0 30px -50px;
+  }
+}
+
 body #header-sticky .contain-custom .logo a span {
   position: absolute;
   color: #407ebf;
@@ -142,7 +148,7 @@ body #header-sticky .contain-custom ul.sub-menu li a:hover {
 
 @media screen and (max-width: 500px) {
   body #header-sticky .contain-custom {
-    margin: 5px 0 15px 0;
+    margin: 0 15px 5px 15px;
   }
 }
 
@@ -250,7 +256,7 @@ body #header-sticky.scroll-header .contain-custom .logo a span:hover {
 
 @media screen and (max-width: 500px) {
   body #header-sticky.scroll-header .contain-custom {
-    margin: 5px 0 15px 0;
+    margin: 0 15px 5px 15px;
   }
 }
 
@@ -271,7 +277,7 @@ body #header-sticky .slicknav_menu a.slicknav_btn span.slicknav_menutxt {
 
 @media screen and (max-width: 500px) {
   body #header-sticky .slicknav_menu a.slicknav_btn {
-    margin-top: -20px;
+    margin-top: -10px;
   }
 }
 
