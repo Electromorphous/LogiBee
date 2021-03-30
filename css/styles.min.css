@@ -282,17 +282,23 @@ body #header-sticky .slicknav_menu a.slicknav_btn span.slicknav_menutxt {
 }
 
 body #header-sticky .slicknav_menu .slicknav_nav {
-  background-color: #d47d48;
+  position: absolute;
+  background-color: white;
   text-align: center;
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
-  opacity: 0.8;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  top: 60px;
+  right: 20px;
+  z-index: 10;
 }
 
 body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click,
 body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item {
   text-align: center;
-  color: white;
+  color: #d47d48;
   font-family: nunito, sans-serif;
   width: 150px;
   margin: 0 auto;
@@ -301,19 +307,25 @@ body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item {
 
 body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click:hover,
 body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item:hover {
-  background: none;
-  color: #407ebf;
+  background: #407ebf;
+  color: white;
 }
 
 body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click.demo-btn,
 body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item.demo-btn {
   background: none;
   border: none;
-  border-radius: 0;
+  font-size: 1.3rem;
+}
+
+body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click.demo-btn:hover,
+body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item.demo-btn:hover {
+  background: #407ebf;
+  color: white;
 }
 
 body #header-sticky .slicknav_menu .slicknav_nav ul.sub-menu a {
-  color: white;
+  color: #d47d48;
   font-family: nunito, sans-serif;
   width: 150px;
   margin: 0 auto;
@@ -321,8 +333,8 @@ body #header-sticky .slicknav_menu .slicknav_nav ul.sub-menu a {
 }
 
 body #header-sticky .slicknav_menu .slicknav_nav ul.sub-menu a:hover {
-  background: none;
-  color: #407ebf;
+  background: #407ebf;
+  color: white;
 }
 
 @media screen and (max-width: 770px) {
