@@ -55,6 +55,12 @@ body {
       margin: 0 75px;
 
       .logo a {
+        span.white-logo {
+          display: none;
+        }
+        span.blue-logo {
+          display: initial;
+        }
         position: relative;
         img {
           width: 200px;
@@ -72,7 +78,7 @@ body {
             margin-top: 5px 0 30px -50px;
           }
         }
-        span {
+        span.tagline {
           position: absolute;
           color: $primary-blue;
           width: 13rem;
@@ -191,6 +197,12 @@ body {
         }
 
         .logo a {
+          span.blue-logo {
+            display: none;
+          }
+          span.white-logo {
+            display: initial;
+          }
           position: relative;
           img {
             width: 200px;
@@ -205,7 +217,7 @@ body {
               margin-bottom: 20px;
             }
           }
-          span {
+          span.tagline {
             position: absolute;
             color: $white;
             width: 13rem;

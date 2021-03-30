@@ -36,6 +36,14 @@ body #header-sticky .contain-custom .logo a {
   position: relative;
 }
 
+body #header-sticky .contain-custom .logo a span.white-logo {
+  display: none;
+}
+
+body #header-sticky .contain-custom .logo a span.blue-logo {
+  display: initial;
+}
+
 body #header-sticky .contain-custom .logo a img {
   width: 200px;
   margin: 10px auto;
@@ -61,7 +69,7 @@ body #header-sticky .contain-custom .logo a img {
   }
 }
 
-body #header-sticky .contain-custom .logo a span {
+body #header-sticky .contain-custom .logo a span.tagline {
   position: absolute;
   color: #407ebf;
   width: 13rem;
@@ -71,18 +79,18 @@ body #header-sticky .contain-custom .logo a span {
   font-weight: 700;
 }
 
-body #header-sticky .contain-custom .logo a span:hover {
+body #header-sticky .contain-custom .logo a span.tagline:hover {
   color: #407ebf;
 }
 
 @media screen and (max-width: 1200px) {
-  body #header-sticky .contain-custom .logo a span {
+  body #header-sticky .contain-custom .logo a span.tagline {
     left: 170px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  body #header-sticky .contain-custom .logo a span {
+  body #header-sticky .contain-custom .logo a span.tagline {
     display: block;
     font-size: 0.8rem;
     top: 30px;
@@ -91,7 +99,7 @@ body #header-sticky .contain-custom .logo a span:hover {
 }
 
 @media screen and (max-width: 775px) {
-  body #header-sticky .contain-custom .logo a span {
+  body #header-sticky .contain-custom .logo a span.tagline {
     top: 25px;
   }
 }
@@ -194,6 +202,14 @@ body #header-sticky.scroll-header .contain-custom .logo a {
   position: relative;
 }
 
+body #header-sticky.scroll-header .contain-custom .logo a span.blue-logo {
+  display: none;
+}
+
+body #header-sticky.scroll-header .contain-custom .logo a span.white-logo {
+  display: initial;
+}
+
 body #header-sticky.scroll-header .contain-custom .logo a img {
   width: 200px;
   margin: 10px auto;
@@ -213,7 +229,7 @@ body #header-sticky.scroll-header .contain-custom .logo a img {
   }
 }
 
-body #header-sticky.scroll-header .contain-custom .logo a span {
+body #header-sticky.scroll-header .contain-custom .logo a span.tagline {
   position: absolute;
   color: #fff;
   width: 13rem;
@@ -223,18 +239,18 @@ body #header-sticky.scroll-header .contain-custom .logo a span {
   font-weight: 700;
 }
 
-body #header-sticky.scroll-header .contain-custom .logo a span:hover {
+body #header-sticky.scroll-header .contain-custom .logo a span.tagline:hover {
   color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
-  body #header-sticky.scroll-header .contain-custom .logo a span {
+  body #header-sticky.scroll-header .contain-custom .logo a span.tagline {
     left: 170px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  body #header-sticky.scroll-header .contain-custom .logo a span {
+  body #header-sticky.scroll-header .contain-custom .logo a span.tagline {
     display: block;
     font-size: 0.8rem;
     top: 30px;
@@ -243,7 +259,7 @@ body #header-sticky.scroll-header .contain-custom .logo a span:hover {
 }
 
 @media screen and (max-width: 775px) {
-  body #header-sticky.scroll-header .contain-custom .logo a span {
+  body #header-sticky.scroll-header .contain-custom .logo a span.tagline {
     top: 25px;
   }
 }
