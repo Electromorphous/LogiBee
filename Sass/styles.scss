@@ -725,7 +725,7 @@ body {
           margin-bottom: 0;
 
           .container {
-            max-width: 900px;
+            max-width: 1200px;
             width: 90%;
 
             @media screen and (max-width: 777px) {
@@ -746,7 +746,7 @@ body {
 
         .footer-icon {
           margin-top: 40px;
-          text-align: center;
+          text-align: right;
           a {
             border-radius: 0;
             background-color: transparent;
@@ -767,6 +767,7 @@ body {
 
           @media screen and (max-width: 575px) {
             margin-top: 25px;
+            text-align: center;
           }
         }
 
