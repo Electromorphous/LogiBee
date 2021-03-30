@@ -327,6 +327,11 @@ body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item:hover {
   color: white;
 }
 
+body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click:hover *,
+body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item:hover * {
+  color: white;
+}
+
 body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click.demo-btn,
 body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item.demo-btn {
   background: none;

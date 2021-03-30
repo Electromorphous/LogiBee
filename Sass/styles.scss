@@ -294,6 +294,9 @@ body {
           &:hover {
             background: $primary-blue;
             color: white;
+            * {
+              color: white;
+            }
           }
 
           &.demo-btn {
