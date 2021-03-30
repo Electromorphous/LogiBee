@@ -13,10 +13,16 @@ body {
 body a#scrollUp {
   background-color: #e27c3d;
   border-radius: 500px;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 body a#scrollUp:hover {
   background-color: #e75e08;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 body #header-sticky {
