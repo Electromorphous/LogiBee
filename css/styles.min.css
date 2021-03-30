@@ -636,6 +636,7 @@ body .wave {
 
 body #service {
   background-color: #fff;
+  padding: 0 20px 20px 20px;
 }
 
 body #service .contain-custom {
@@ -664,40 +665,40 @@ body #service .contain-custom .row .rtin-item p {
   color: #333;
 }
 
-body #service .contain-custom .row .rtin-item.red {
-  background-color: rgba(253, 91, 91, 0.3);
-  -webkit-box-shadow: 2px 2px 10px rgba(253, 91, 91, 0.3);
-          box-shadow: 2px 2px 10px rgba(253, 91, 91, 0.3);
-}
-
 body #service .contain-custom .row .rtin-item.green {
-  background-color: rgba(91, 253, 99, 0.3);
-  -webkit-box-shadow: 2px 2px 10px rgba(91, 253, 99, 0.3);
-          box-shadow: 2px 2px 10px rgba(91, 253, 99, 0.3);
+  background-color: rgba(129, 195, 65, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-body #service .contain-custom .row .rtin-item.yellow {
-  background-color: rgba(252, 255, 65, 0.3);
-  -webkit-box-shadow: 2px 2px 10px rgba(252, 255, 65, 0.3);
-          box-shadow: 2px 2px 10px rgba(252, 255, 65, 0.3);
-}
-
-body #service .contain-custom .row .rtin-item.blue {
-  background-color: rgba(96, 195, 253, 0.3);
-  -webkit-box-shadow: 2px 2px 10px rgba(96, 195, 253, 0.3);
-          box-shadow: 2px 2px 10px rgba(96, 195, 253, 0.3);
+body #service .contain-custom .row .rtin-item.red {
+  background-color: rgba(240, 81, 35, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 body #service .contain-custom .row .rtin-item.purple {
-  background-color: rgba(149, 126, 255, 0.3);
-  -webkit-box-shadow: 2px 2px 10px rgba(149, 126, 255, 0.3);
-          box-shadow: 2px 2px 10px rgba(149, 126, 255, 0.3);
+  background-color: rgba(229, 154, 247, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-body #service .contain-custom .row .rtin-item.orange {
-  background-color: rgba(255, 174, 107, 0.3);
-  -webkit-box-shadow: 2px 2px 10px rgba(255, 174, 107, 0.3);
-          box-shadow: 2px 2px 10px rgba(255, 174, 107, 0.3);
+body #service .contain-custom .row .rtin-item.blue {
+  background-color: rgba(119, 178, 232, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body #service .contain-custom .row .rtin-item.yellow {
+  background-color: rgba(239, 179, 10, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body #service .contain-custom .row .rtin-item.brown {
+  background-color: rgba(235, 179, 107, 0.15);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -709,6 +710,12 @@ body #service .contain-custom .row .rtin-item.orange {
 @media screen and (max-width: 630px) {
   body #service .contain-custom {
     margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body #service {
+    padding: 100px 20px;
   }
 }
 
