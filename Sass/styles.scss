@@ -1,7 +1,7 @@
 $primary-blue: #407ebf;
 $secondary-blue: #1f60a5;
 $header-blue: #357ad4;
-$primary-orange: #e27c3d;
+$primary-orange: #d47d48;
 $secondary-orange: #e75e08;
 $white: #fff;
 
@@ -17,11 +17,10 @@ body {
     background-color: $primary-orange;
     border-radius: 500px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1);
 
     &:hover {
       background-color: $secondary-orange;
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
   }
   // .background-wave {
@@ -705,23 +704,32 @@ body {
         background-color: $primary-blue;
         // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
         // border-top: 1px solid #ccc;
-        padding: 40px;
+        padding: 0;
 
         .footer-subscribe-1 {
           border: none;
           margin-bottom: 0;
+
+          .container .row {
+            .footer-logo {
+              margin: 0;
+            }
+          }
         }
 
-        .footer-icon a {
-          i {
-            color: $primary-orange;
-          }
-
-          &:hover {
-            background-color: $primary-orange;
+        .footer-icon {
+          margin-top: 40px;
+          a {
+            border-radius: 0;
+            background-color: transparent;
+            margin: 10px;
+            padding: 10px 0 0 0;
 
             i {
-              color: $white;
+              font-size: 2rem;
+              &:hover {
+                color: $primary-orange;
+              }
             }
           }
         }
@@ -732,27 +740,6 @@ body {
           &:hover {
             color: #ffa166;
           }
-        }
-      }
-      .about-widget ul li i {
-        background-color: $primary-orange;
-        border-radius: 4px;
-      }
-      .recent-post-widget {
-        span.date {
-          color: #ddd;
-        }
-      }
-      .newsletter-widget form div {
-        input {
-          border: none;
-          outline: none;
-          border-radius: 4px 0 0 4px;
-          font-family: nunito, sans-serif;
-        }
-        button {
-          background-color: $primary-orange;
-          border-radius: 0 4px 4px 0;
         }
       }
     }
