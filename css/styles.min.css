@@ -414,7 +414,7 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
 
 @media screen and (max-width: 777px) {
   body #home .slider-wrapper-saas .contain-custom {
-    padding: 0 10px;
+    padding: 10px 30px 0 30px;
   }
 }
 
@@ -510,6 +510,12 @@ body #home .features .row .feature .image img {
 @media screen and (max-width: 1200px) {
   body #home .features .row .feature .image {
     border: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body #home .features .row .feature .image {
+    height: auto;
   }
 }
 
@@ -672,37 +678,37 @@ body #service .contain-custom .row .rtin-item p {
 }
 
 body #service .contain-custom .row .rtin-item.green {
-  background-color: rgba(129, 195, 65, 0.13);
+  background-color: rgba(129, 195, 65, 0.15);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 body #service .contain-custom .row .rtin-item.red {
-  background-color: rgba(240, 81, 35, 0.13);
+  background-color: rgba(240, 81, 35, 0.15);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 body #service .contain-custom .row .rtin-item.purple {
-  background-color: rgba(229, 154, 247, 0.13);
+  background-color: rgba(229, 154, 247, 0.15);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 body #service .contain-custom .row .rtin-item.blue {
-  background-color: rgba(119, 178, 232, 0.13);
+  background-color: rgba(119, 178, 232, 0.15);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 body #service .contain-custom .row .rtin-item.yellow {
-  background-color: rgba(239, 179, 10, 0.13);
+  background-color: rgba(239, 179, 10, 0.15);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 body #service .contain-custom .row .rtin-item.brown {
-  background-color: rgba(235, 179, 107, 0.13);
+  background-color: rgba(235, 179, 107, 0.15);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
