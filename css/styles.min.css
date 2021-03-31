@@ -881,11 +881,6 @@ body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider_
   }
 }
 
-body footer.footer-top-area-7 img {
-  max-width: 150px;
-  margin: 20px;
-}
-
 body footer.footer-top-area-7 .site-footer * {
   color: white;
 }
@@ -977,11 +972,17 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   padding: 15px 0 0 0;
   font-family: nunito, sans-serif;
   font-size: 0.8rem;
+  text-align: right;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1070px) {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text .copyright {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1070px) {
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text {
-    margin-top: 25px;
     text-align: center;
   }
 }
@@ -996,43 +997,12 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   color: #ffa166;
 }
 
-body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .footer-logo {
-  margin: 0;
-}
-
-@media screen and (max-width: 575px) {
-  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .footer-logo {
-    display: none;
+@media screen and (max-width: 1070px) {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row {
+    display: block;
+    text-align: center;
   }
-}
-
-body footer.footer-top-area-7 .copyright-info-7 {
-  background-color: #fff;
-  margin: 0 20px;
-  padding: 5px;
-}
-
-body footer.footer-top-area-7 .copyright-info-7 a {
-  font-family: nunito, sans-serif;
-  font-size: 0.9rem;
-  margin: 0;
-  padding: 0 5px;
-  color: #407ebf;
-  border-left: 1px solid #d47d48;
-}
-
-body footer.footer-top-area-7 .copyright-info-7 a:hover {
-  color: #d47d48;
-}
-
-body footer.footer-top-area-7 .copyright-info-7 p {
-  font-family: nunito, sans-serif;
-  font-size: 0.9rem;
-  padding: 0;
-}
-
-@media screen and (max-width: 777px) {
-  body footer.footer-top-area-7 .copyright-info-7 p {
-    font-size: 0.8rem;
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-6 {
+    max-width: 100%;
   }
 }

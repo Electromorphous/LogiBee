@@ -720,10 +720,10 @@ body {
   }
 
   footer.footer-top-area-7 {
-    img {
-      max-width: 150px;
-      margin: 20px;
-    }
+    // img {
+    //   max-width: 150px;
+    //   margin: 20px;
+    // }
     .site-footer {
       * {
         color: white;
@@ -807,10 +807,14 @@ body {
                   padding: 15px 0 0 0;
                   font-family: nunito, sans-serif;
                   font-size: 0.8rem;
+                  text-align: right;
+
+                  @media screen and (max-width: 1070px) {
+                    text-align: center;
+                  }
                 }
 
-                @media screen and (max-width: 575px) {
-                  margin-top: 25px;
+                @media screen and (max-width: 1070px) {
                   text-align: center;
                 }
               }
@@ -822,11 +826,13 @@ body {
                   color: #ffa166;
                 }
               }
-              .footer-logo {
-                margin: 0;
 
-                @media screen and (max-width: 575px) {
-                  display: none;
+              @media screen and (max-width: 1070px) {
+                display: block;
+                text-align: center;
+
+                .col-sm-6 {
+                  max-width: 100%;
                 }
               }
             }
@@ -834,32 +840,32 @@ body {
         }
       }
     }
-    .copyright-info-7 {
-      background-color: $white;
-      margin: 0 20px;
-      padding: 5px;
+    // .copyright-info-7 {
+    //   background-color: $white;
+    //   margin: 0 20px;
+    //   padding: 5px;
 
-      a {
-        font-family: nunito, sans-serif;
-        font-size: 0.9rem;
-        margin: 0;
-        padding: 0 5px;
-        color: $primary-blue;
-        border-left: 1px solid $primary-orange;
+    //   a {
+    //     font-family: nunito, sans-serif;
+    //     font-size: 0.9rem;
+    //     margin: 0;
+    //     padding: 0 5px;
+    //     color: $primary-blue;
+    //     border-left: 1px solid $primary-orange;
 
-        &:hover {
-          color: $primary-orange;
-        }
-      }
-      p {
-        font-family: nunito, sans-serif;
-        font-size: 0.9rem;
-        padding: 0;
+    //     &:hover {
+    //       color: $primary-orange;
+    //     }
+    //   }
+    //   p {
+    //     font-family: nunito, sans-serif;
+    //     font-size: 0.9rem;
+    //     padding: 0;
 
-        @media screen and (max-width: 777px) {
-          font-size: 0.8rem;
-        }
-      }
-    }
+    //     @media screen and (max-width: 777px) {
+    //       font-size: 0.8rem;
+    //     }
+    //   }
+    // }
   }
 }
