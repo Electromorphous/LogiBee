@@ -755,15 +755,21 @@ body {
                 font-size: 1.5rem;
                 padding: 10px 0 0 0;
                 margin: 0;
+
+                @media screen and (max-width: 1070px) {
+                  padding: 10px 0;
+                }
               }
 
               &.discover,
               &.branding {
                 border-top: 1px solid white;
 
-                a {
+                .text a {
                   font-family: nunito, sans-serif;
                   font-weight: 600;
+                  margin: 0;
+                  padding: 0 10px 20px 10px;
                 }
 
                 img {
@@ -771,25 +777,43 @@ body {
                   padding: 10px 0;
                   max-width: 150px;
                   margin-left: -20px;
+
+                  @media screen and (max-width: 1070px) {
+                    margin: 0;
+                    padding: 20px 0 10px 0;
+                  }
                 }
+
+                // &.branding {
+                //   .links a {
+                //     margin: 0;
+                //     padding: 0 10px 20px 10px;
+                //   }
+                // }
 
                 h3 {
                   font-family: nunito, sans-serif;
                   font-size: 1.5rem;
                   padding: 0;
                   margin: 0;
+
+                  @media screen and (max-width: 1070px) {
+                    padding: 20px 0;
+                  }
                 }
               }
 
               .text {
                 margin: 5px 0;
                 text-align: right;
+                flex-wrap: wrap;
 
                 a {
                   border-radius: 0;
                   background-color: transparent;
                   margin: 10px;
                   padding: 10px 0 0 0;
+                  display: inline-block;
 
                   i {
                     font-size: 2rem;
@@ -811,6 +835,7 @@ body {
 
                   @media screen and (max-width: 1070px) {
                     text-align: center;
+                    font-size: 0.7rem;
                   }
                 }
 
@@ -830,6 +855,7 @@ body {
               @media screen and (max-width: 1070px) {
                 display: block;
                 text-align: center;
+                padding-bottom: 20px;
 
                 .col-sm-6 {
                   max-width: 100%;
