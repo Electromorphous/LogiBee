@@ -933,19 +933,6 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   border-top: 1px solid white;
 }
 
-body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover .text a, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding .text a {
-  font-family: nunito, sans-serif;
-  font-weight: 600;
-  margin: 0;
-  padding: 10px 20px;
-}
-
-@media screen and (max-width: 1070px) {
-  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover .text a, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding .text a {
-    padding: 5px 10px;
-  }
-}
-
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding img {
   margin: 0;
   padding: 10px 0;
@@ -1000,6 +987,37 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text a i {
     font-size: 1.7rem;
   }
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form input {
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  color: black;
+  font-family: nunito, sans-serif;
+  margin: 0;
+  padding: 3px 10px;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button {
+  background-color: #d47d48;
+  font-family: nunito, sans-serif;
+  border: none;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  margin: 0;
+  padding: 3px 10px;
+  margin-left: -4px;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button:hover {
+  background-color: #e75e08;
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text .copyright {

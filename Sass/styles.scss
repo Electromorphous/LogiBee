@@ -763,17 +763,6 @@ body {
               &.branding {
                 border-top: 1px solid white;
 
-                .text a {
-                  font-family: nunito, sans-serif;
-                  font-weight: 600;
-                  margin: 0;
-                  padding: 10px 20px;
-
-                  @media screen and (max-width: 1070px) {
-                    padding: 5px 10px;
-                  }
-                }
-
                 img {
                   margin: 0;
                   padding: 10px 0;
@@ -818,6 +807,33 @@ body {
 
                     @media screen and (max-width: 777px) {
                       font-size: 1.7rem;
+                    }
+                  }
+                }
+
+                form {
+                  align-items: flex-start;
+                  input {
+                    border: none;
+                    outline: none;
+                    border-radius: 5px 0 0 5px;
+                    color: black;
+                    font-family: nunito, sans-serif;
+                    margin: 0;
+                    padding: 3px 10px;
+                  }
+                  button {
+                    background-color: $primary-orange;
+                    font-family: nunito, sans-serif;
+                    border: none;
+                    outline: none;
+                    border-radius: 0 5px 5px 0;
+                    margin: 0;
+                    padding: 3px 10px;
+                    margin-left: -4px;
+
+                    &:hover {
+                      background-color: $secondary-orange;
                     }
                   }
                 }
