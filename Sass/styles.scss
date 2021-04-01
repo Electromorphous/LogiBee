@@ -750,7 +750,7 @@ body {
 
               h3 {
                 font-family: nunito, sans-serif;
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 padding: 0;
                 margin: 0;
 
@@ -760,6 +760,7 @@ body {
               }
 
               &.discover,
+              &.newsletter,
               &.branding {
                 border-top: 1px solid white;
 
@@ -777,7 +778,7 @@ body {
 
                 h3 {
                   font-family: nunito, sans-serif;
-                  font-size: 1.4rem;
+                  font-size: 1.2rem;
                   padding: 0;
                   margin: 0;
 
@@ -897,7 +898,11 @@ body {
                 text-align: center;
                 padding-bottom: 20px;
 
-                .col-sm-6 {
+                .col-sm-3,
+                .col-sm-5,
+                .col-sm-6,
+                .col-sm-7,
+                .col-sm-9 {
                   max-width: 100%;
                 }
               }

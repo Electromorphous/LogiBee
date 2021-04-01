@@ -878,7 +878,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row h3 {
   font-family: nunito, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 0;
   margin: 0;
 }
@@ -889,11 +889,11 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   }
 }
 
-body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding {
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding {
   border-top: 1px solid white;
 }
 
-body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding img {
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding img {
   margin: 0;
   padding: 10px 0;
   max-width: 150px;
@@ -901,21 +901,21 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 }
 
 @media screen and (max-width: 1070px) {
-  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding img {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding img {
     margin: 0;
     padding: 20px 0 10px 0;
   }
 }
 
-body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover h3, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding h3 {
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover h3, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter h3, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding h3 {
   font-family: nunito, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 0;
   margin: 0;
 }
 
 @media screen and (max-width: 1070px) {
-  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover h3, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding h3 {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover h3, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter h3, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding h3 {
     padding: 20px 0;
   }
 }
@@ -1049,7 +1049,11 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
     text-align: center;
     padding-bottom: 20px;
   }
-  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-6 {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-3,
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-5,
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-6,
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-7,
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-9 {
     max-width: 100%;
   }
 }
