@@ -974,13 +974,24 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   border-radius: 5px 0 0 5px;
   color: black;
   font-family: nunito, sans-serif;
+  font-size: 1.1rem;
   margin: 0;
   padding: 3px 10px;
+}
+
+@media screen and (max-width: 450px) {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form input {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px 15px;
+  }
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button {
   background-color: #d47d48;
   font-family: nunito, sans-serif;
+  font-size: 1.1rem;
   border: none;
   outline: none;
   border-radius: 0 5px 5px 0;
@@ -991,6 +1002,15 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button:hover {
   background-color: #e75e08;
+}
+
+@media screen and (max-width: 450px) {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+  }
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text .copyright {

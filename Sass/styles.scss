@@ -642,7 +642,6 @@ body {
         height: fit-content;
         max-width: 1000px;
         width: 80vw;
-        // margin: 0 10px 0 50px;
 
         .blog-slider__img {
           background-image: none;
@@ -833,12 +832,21 @@ body {
                     border-radius: 5px 0 0 5px;
                     color: black;
                     font-family: nunito, sans-serif;
+                    font-size: 1.1rem;
                     margin: 0;
                     padding: 3px 10px;
+
+                    @media screen and (max-width: 450px) {
+                      width: 100%;
+                      border-radius: 5px;
+                      margin: 10px 0;
+                      padding: 20px 15px;
+                    }
                   }
                   button {
                     background-color: $primary-orange;
                     font-family: nunito, sans-serif;
+                    font-size: 1.1rem;
                     border: none;
                     outline: none;
                     border-radius: 0 5px 5px 0;
@@ -848,6 +856,13 @@ body {
 
                     &:hover {
                       background-color: $secondary-orange;
+                    }
+
+                    @media screen and (max-width: 450px) {
+                      width: 100%;
+                      border-radius: 5px;
+                      margin: 10px 0;
+                      padding: 5px;
                     }
                   }
                 }
