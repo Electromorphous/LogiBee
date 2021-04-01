@@ -48,49 +48,6 @@
 
   <!-- START NAVBAR -->
   <div id="header-sticky" class="saas porri gym mobile-menu">
-    <div class="contain-custom">
-      <div class="row">
-        <div class="col-xl-6 col-lg-4 col-md-4 col-sm-8">
-          <div class="logo">
-            <a href="">
-              <span class="blue-logo">
-                <img src="./img/logo-blue.png" alt="Logibee" />
-              </span>
-              <span class="white-logo">
-                <img src="./img/logo-white.png" alt="Logibee" />
-              </span>
-              <span class="tagline">Simple & efficient last mile</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-8 col-md-8 col-sm-2">
-          <div class="wrap_nav mainmenu text-right">
-            <ul id="nav-demo">
-              <li class="scroll-to"><a href="#overview" class="active scroll-click">Overview</a></li>
-              <li class="scroll-to"><a href="#solutions" class="scroll-click">Solutions</a>
-                <ul class="sub-menu">
-                  <li><a href="#">Option1</a></li>
-                  <li><a href="#">Option2</a></li>
-                </ul>
-              </li>
-              <li class="scroll-to"><a href="#modules" class="scroll-click">Modules</a></li>
-              <li class="scroll-to"><a href="#contact" class="scroll-click">Contact</a></li>
-              <!-- <li class="scroll-to"><a href="#blogs" class="scroll-click">Blogs</a></li> -->
-              <li class="scroll-to">
-                <div class="saas-button new-btn orange-btn">
-                  <a href="#demo" class="scroll-click demo-btn">Demo</a>
-                </div>
-              </li>
-              <!-- <li class="scroll-to">
-                <div class="saas-button new-btn blue-btn">
-                  <a href="#login" class="scroll-click demo-btn"><i class="fas fa-lock"></i>Partner Login</a>
-                </div>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
   <!-- END NAVBAR -->
 
@@ -370,86 +327,6 @@
   <!-- START FOOTER -->
 
   <footer class="footer-top-area-7 pt-80 pb-45">
-    <div class="site-footer">
-      <div class="upper-footer">
-        <div class="footer-subscribe-1">
-          <div class="container">
-
-            <div class="row links">
-              <div class="col-sm-6">
-                <div class="title">
-                  <h3>Social links</h3>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="text">
-                  <a href="#"><i class="fab fa-facebook-square"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-                  <a href="#"><i class="fab fa-twitter-square"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="row discover">
-              <div class="col-sm-6">
-                <div class="title">
-                  <h3>Discover</h3>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="text">
-                  <a href="#overview">Overview</a>
-                  <a href="#solutions">Solutions</a>
-                  <a href="#modules">Modules</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#blogs">Blogs</a>
-                  <a href="#demo"><span>Book demo</span></a>
-                  <a href="#login"><span>Partner login</span></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="row discover">
-              <div class="col-sm-6">
-                <div class="title">
-                  <h3>Subscribe to our news-letter</h3>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="text">
-                  <form action="">
-                    <input type="email" placeholder="email address">
-                    <button type="submit">SUBSCRIBE</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-
-            <div class="row branding">
-              <div class="col-sm-6">
-                <div class="logo">
-                  <img src="./img/logo-white.png" alt="LogiBee">
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="text">
-                  <div class="links">
-                    <a href="">Terms of service</a>
-                    <a href="">Privacy policy</a>
-                  </div>
-                  <div class="copyright">
-                    Copyright &copy; 2021 ConnetSys LLP. All rights reserved.
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
   </footer>
 
   <!-- END FOOTER -->
@@ -477,6 +354,14 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/megapack-main.js"></script>
   <script src="js/jquery.scrollUp.min.js"></script>
+
+  <script>
+    $(function () {
+      $("#header-sticky").load("./assets/header.html");
+      $("footer").load("./assets/footer.html");
+    });
+
+  </script>
 </body>
 
 </html>
