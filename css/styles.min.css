@@ -25,7 +25,7 @@ body a#scrollUp:hover {
 
 body #header-sticky {
   background-color: #fff;
-  border-bottom: 4px solid #d47d48;
+  border-bottom: 3px solid #d47d48;
 }
 
 body #header-sticky .contain-custom {
@@ -133,6 +133,7 @@ body #header-sticky .contain-custom a.scroll-click.demo-btn:hover {
 }
 
 body #header-sticky .contain-custom ul.sub-menu {
+  margin-top: -10px;
   border: none;
   border-radius: 10px;
   -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
