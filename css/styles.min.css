@@ -968,6 +968,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text a {
+  font-family: nunito, sans-serif;
   border-radius: 0;
   background-color: transparent;
   margin: 10px;
