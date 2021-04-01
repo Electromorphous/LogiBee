@@ -963,9 +963,10 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form input {
@@ -976,7 +977,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   font-family: nunito, sans-serif;
   font-size: 1.1rem;
   margin: 0;
-  padding: 3px 10px;
+  padding: 19px 10px;
 }
 
 @media screen and (max-width: 450px) {
@@ -991,13 +992,13 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button {
   background-color: #d47d48;
   font-family: nunito, sans-serif;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
   border: none;
   outline: none;
   border-radius: 0 5px 5px 0;
   margin: 0;
-  padding: 3px 10px;
-  margin-left: -4px;
+  padding: 10px;
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button:hover {
@@ -1008,8 +1009,23 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button {
     width: 100%;
     border-radius: 5px;
-    margin: 10px 0;
-    padding: 5px;
+    margin: 5px 0;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form {
+    float: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form {
+    display: block;
   }
 }
 
