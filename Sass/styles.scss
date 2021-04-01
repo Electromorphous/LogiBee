@@ -811,6 +811,18 @@ body {
                       font-size: 1.7rem;
                     }
                   }
+
+                  span {
+                    font-weight: 800;
+
+                    &:hover {
+                      color: $primary-orange;
+                    }
+                  }
+
+                  &:hover {
+                    color: $primary-orange;
+                  }
                 }
 
                 form {

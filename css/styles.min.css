@@ -950,6 +950,18 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   }
 }
 
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text a span {
+  font-weight: 800;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text a span:hover {
+  color: #d47d48;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text a:hover {
+  color: #d47d48;
+}
+
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form {
   -webkit-box-align: start;
       -ms-flex-align: start;
