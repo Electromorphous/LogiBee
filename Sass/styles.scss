@@ -67,9 +67,13 @@ body {
           margin: 10px auto;
           max-width: 1000px;
 
-          @media screen and (max-width: 1200px) {
+          @media screen and (max-width: 1300px) {
             width: 175px;
             margin-top: 10px;
+          }
+          @media screen and (max-width: 1200px) {
+            width: 175px;
+            margin-bottom: 20px;
           }
           @media screen and (max-width: 775px) {
             margin-bottom: 20px;
@@ -92,14 +96,11 @@ body {
             color: $primary-blue;
           }
 
-          @media screen and (max-width: 1200px) {
-            left: 170px;
-          }
-          @media screen and (max-width: 1000px) {
+          @media screen and (max-width: 1300px) {
             display: block;
             font-size: 0.8rem;
             top: 30px;
-            left: 15px;
+            left: 20px;
           }
           @media screen and (max-width: 775px) {
             top: 25px;
@@ -122,16 +123,31 @@ body {
           color: $secondary-orange;
         }
 
-        &.demo-btn {
+        &.orange-btn {
           background-color: $primary-orange;
           border: 2px solid $primary-orange;
           color: white;
-          // margin-left: 5px;
-          padding: 7px 15px;
+          padding: 10px 20px;
 
           &:hover {
             background: transparent;
             color: $primary-orange;
+          }
+        }
+        &.blue-btn {
+          background-color: $primary-blue;
+          border: 2px solid $primary-blue;
+          color: white;
+          padding: 10px 20px;
+          margin: 0 5px;
+
+          i {
+            margin-top: -15px;
+          }
+
+          &:hover {
+            background: transparent;
+            color: $primary-blue;
           }
         }
       }
@@ -161,7 +177,7 @@ body {
     }
 
     &.scroll-header {
-      background-color: #407ebfee;
+      background-color: #407ebf;
       border: none;
 
       .contain-custom {
@@ -182,16 +198,31 @@ body {
             color: $secondary-orange;
           }
 
-          &.demo-btn {
+          &.orange-btn {
             background-color: $primary-orange;
             border: 2px solid $primary-orange;
             color: white;
-            // margin-left: 5px;
-            padding: 7px 15px;
+            padding: 10px 20px;
 
             &:hover {
               background: transparent;
               border: 2px solid white;
+              color: white;
+            }
+          }
+          &.blue-btn {
+            background-color: white;
+            border: 2px solid white;
+            color: $primary-blue;
+            padding: 10px 20px;
+            margin: 0 5px;
+
+            i {
+              margin-top: -15px;
+            }
+
+            &:hover {
+              background: transparent;
               color: white;
             }
           }
@@ -210,12 +241,19 @@ body {
             margin: 10px auto;
             max-width: 1000px;
 
-            @media screen and (max-width: 1200px) {
+            @media screen and (max-width: 1300px) {
               width: 175px;
               margin-top: 10px;
             }
+            @media screen and (max-width: 1200px) {
+              width: 175px;
+              margin-bottom: 20px;
+            }
             @media screen and (max-width: 775px) {
               margin-bottom: 20px;
+            }
+            @media screen and (max-width: 500px) {
+              margin-top: 5px 0 30px -50px;
             }
           }
           span.tagline {
@@ -232,14 +270,11 @@ body {
               color: $white;
             }
 
-            @media screen and (max-width: 1200px) {
-              left: 170px;
-            }
-            @media screen and (max-width: 1000px) {
+            @media screen and (max-width: 1300px) {
               display: block;
               font-size: 0.8rem;
               top: 30px;
-              left: 15px;
+              left: 20px;
             }
             @media screen and (max-width: 775px) {
               top: 25px;
@@ -274,7 +309,7 @@ body {
       .slicknav_nav {
         position: absolute;
         background-color: white;
-        text-align: center;
+        text-align: left;
         font-size: 1.3rem;
         border-radius: 10px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -285,12 +320,12 @@ body {
 
         a.scroll-click,
         a.slicknav_item {
-          text-align: center;
+          text-align: left;
           color: $primary-orange;
           font-family: nunito, sans-serif;
           width: 150px;
           margin: 0 auto;
-          text-align: center;
+          text-align: right;
 
           &:hover {
             background: $primary-blue;
@@ -300,14 +335,20 @@ body {
             }
           }
 
-          &.demo-btn {
+          &.orange-btn,
+          &.blue-btn {
             background: none;
             border: none;
             font-size: 1.3rem;
+            padding: 10px;
 
             &:hover {
               background: $primary-blue;
               color: white;
+            }
+
+            i {
+              display: none;
             }
           }
         }
@@ -316,7 +357,7 @@ body {
           font-family: nunito, sans-serif;
           width: 150px;
           margin: 0 auto;
-          text-align: center;
+          text-align: left;
 
           &:hover {
             background: $primary-blue;
