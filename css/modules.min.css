@@ -50,11 +50,11 @@ body .custom-contain .row .image {
 
 body .custom-contain .row .custom-card {
   margin: 0;
-  padding: 30px;
+  padding: 40px 50px;
   max-width: 40%;
   height: 100%;
   background-color: #eee;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #ebf2f9;
 }
 
