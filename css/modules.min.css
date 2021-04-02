@@ -24,3 +24,43 @@ body a#scrollUp:hover {
 body {
   background: #fff;
 }
+
+body .custom-contain {
+  padding: 0 50px;
+  width: 90vw;
+  margin: auto;
+}
+
+body .custom-contain .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 150px 0;
+}
+
+body .custom-contain .row .image {
+  text-align: center;
+  max-width: 500px;
+}
+
+body .custom-contain .row .custom-card {
+  margin: 0;
+  padding: 30px;
+  max-width: 40%;
+  height: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+body .custom-contain .row .custom-card h3 {
+  font-size: 2rem;
+  font-family: nunito, sans-serif;
+}
+
+body .custom-contain .row .custom-card p {
+  font-size: 1.2rem;
+  font-family: nunito, sans-serif;
+}
