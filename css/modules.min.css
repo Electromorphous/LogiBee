@@ -64,3 +64,24 @@ body .custom-contain .row .custom-card p {
   font-size: 1.2rem;
   font-family: nunito, sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+  body .custom-contain .row .custom-card {
+    max-width: 80%;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  body .custom-contain .row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body .custom-contain {
+    width: 100vw;
+    padding: 0;
+  }
+}
