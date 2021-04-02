@@ -10,3 +10,17 @@ $white: #fff;
     background-color: rgba(238, 135, 51, 0.7);
   }
 }
+
+body {
+  a#scrollUp {
+    background-color: $primary-orange;
+    border-radius: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background-color: $secondary-orange;
+      transform: scale(1.1);
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
