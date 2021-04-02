@@ -39,7 +39,7 @@ body .custom-contain .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 150px 0;
+  margin: 100px 0;
 }
 
 body .custom-contain .row .image {
@@ -91,20 +91,89 @@ body .custom-contain .row .custom-card h3 {
 
 body .custom-contain .row .custom-card ul {
   color: #7b7b7b;
-  list-style: inside;
+  padding-left: 30px;
 }
 
 @media (max-width: 600px) {
   body .custom-contain .row .custom-card {
     max-width: 80%;
-    margin: 20px 0;
+    margin: 20px auto;
+  }
+}
+
+body .custom-contain .row.image-left {
+  height: 500px;
+}
+
+body .custom-contain .row.image-left .image {
+  position: absolute;
+  right: 47%;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  body .custom-contain .row.image-left .image {
+    position: static;
+  }
+}
+
+body .custom-contain .row.image-left .custom-card {
+  position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  left: 47%;
+}
+
+@media (max-width: 600px) {
+  body .custom-contain .row.image-left .custom-card {
+    position: static;
   }
 }
 
 @media (max-width: 600px) {
-  body .custom-contain .row {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 100px;
+  body .custom-contain .row.image-left {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+body .custom-contain .row.image-right {
+  height: 500px;
+}
+
+body .custom-contain .row.image-right .image {
+  position: absolute;
+  left: 47%;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  body .custom-contain .row.image-right .image {
+    position: static;
+  }
+}
+
+body .custom-contain .row.image-right .custom-card {
+  position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  right: 47%;
+}
+
+@media (max-width: 600px) {
+  body .custom-contain .row.image-right .custom-card {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  body .custom-contain .row.image-right {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 
