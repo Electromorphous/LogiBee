@@ -39,12 +39,13 @@ body .custom-contain .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 100px 0;
+  margin: 30px 0;
 }
 
 body .custom-contain .row .image {
   text-align: center;
-  max-width: 600px;
+  max-width: 500px;
+  z-index: 1;
 }
 
 body .custom-contain .row .custom-card {
@@ -54,35 +55,12 @@ body .custom-contain .row .custom-card {
   height: 100%;
   background-color: #eee;
   border-radius: 10px;
+  background-color: #ebf2f9;
 }
 
 body .custom-contain .row .custom-card * {
   font-family: nunito, sans-serif;
   font-size: 1.3rem;
-}
-
-body .custom-contain .row .custom-card.red {
-  background-color: rgba(240, 81, 35, 0.1);
-}
-
-body .custom-contain .row .custom-card.green {
-  background-color: rgba(129, 195, 65, 0.1);
-}
-
-body .custom-contain .row .custom-card.purple {
-  background-color: rgba(229, 154, 247, 0.1);
-}
-
-body .custom-contain .row .custom-card.blue {
-  background-color: rgba(119, 178, 232, 0.1);
-}
-
-body .custom-contain .row .custom-card.yellow {
-  background-color: rgba(239, 179, 10, 0.1);
-}
-
-body .custom-contain .row .custom-card.brown {
-  background-color: rgba(235, 179, 107, 0.1);
 }
 
 body .custom-contain .row .custom-card h3 {
@@ -107,8 +85,7 @@ body .custom-contain .row.image-left {
 
 body .custom-contain .row.image-left .image {
   position: absolute;
-  right: 47%;
-  z-index: 1;
+  right: 49%;
 }
 
 @media (max-width: 600px) {
@@ -122,7 +99,7 @@ body .custom-contain .row.image-left .custom-card {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  left: 47%;
+  left: 49%;
 }
 
 @media (max-width: 600px) {
@@ -145,8 +122,7 @@ body .custom-contain .row.image-right {
 
 body .custom-contain .row.image-right .image {
   position: absolute;
-  left: 47%;
-  z-index: 1;
+  left: 49%;
 }
 
 @media (max-width: 600px) {
@@ -160,7 +136,7 @@ body .custom-contain .row.image-right .custom-card {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  right: 47%;
+  right: 49%;
 }
 
 @media (max-width: 600px) {
