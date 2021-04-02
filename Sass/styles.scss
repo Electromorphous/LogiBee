@@ -23,30 +23,7 @@ body {
       transform: scale(1.1);
     }
   }
-  // .background-wave {
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   width: 1920px;
-  //   height: 300px;
-  //   background-image: url("../img/wave-header.svg");
-  //   background-color: #00000000;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   background-position: left top;
-  //   transform: translate(-50px, -40px);
-  //   filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.25));
-  //   z-index: -1;
-
-  //   @media screen and (max-width: 1050px) {
-  //     transform: translate(-50px, -20px);
-  //   }
-
-  //   @media screen and (max-width: 1000px) {
-  //     display: none;
-  //   }
-  // }
-
+  
   #header-sticky {
     background-color: $white;
     border-bottom: 3px solid $primary-orange;
