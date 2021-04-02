@@ -1,0 +1,12 @@
+$primary-blue: #407ebf;
+$secondary-blue: #1f60a5;
+$header-blue: #357ad4;
+$primary-orange: #d47d48;
+$secondary-orange: #e75e08;
+$white: #fff;
+
+* {
+  ::selection {
+    background-color: rgba(238, 135, 51, 0.7);
+  }
+}

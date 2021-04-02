@@ -1,0 +1,6 @@
+* ::-moz-selection {
+  background-color: rgba(238, 135, 51, 0.7);
+}
+* ::selection {
+  background-color: rgba(238, 135, 51, 0.7);
+}
