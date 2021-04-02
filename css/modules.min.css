@@ -32,6 +32,7 @@ body .custom-contain {
 }
 
 body .custom-contain .row {
+  position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -43,7 +44,7 @@ body .custom-contain .row {
 
 body .custom-contain .row .image {
   text-align: center;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 body .custom-contain .row .custom-card {
@@ -55,62 +56,42 @@ body .custom-contain .row .custom-card {
   border-radius: 10px;
 }
 
-body .custom-contain .row .custom-card.red {
-  background-color: rgba(240, 81, 35, 0.15);
+body .custom-contain .row .custom-card * {
+  font-family: nunito, sans-serif;
+  font-size: 1.3rem;
 }
 
-body .custom-contain .row .custom-card.red * {
-  color: #9e0000;
+body .custom-contain .row .custom-card.red {
+  background-color: rgba(240, 81, 35, 0.1);
 }
 
 body .custom-contain .row .custom-card.green {
-  background-color: rgba(129, 195, 65, 0.15);
-}
-
-body .custom-contain .row .custom-card.green * {
-  color: green;
+  background-color: rgba(129, 195, 65, 0.1);
 }
 
 body .custom-contain .row .custom-card.purple {
-  background-color: rgba(229, 154, 247, 0.15);
-}
-
-body .custom-contain .row .custom-card.purple * {
-  color: purple;
+  background-color: rgba(229, 154, 247, 0.1);
 }
 
 body .custom-contain .row .custom-card.blue {
-  background-color: rgba(119, 178, 232, 0.15);
-}
-
-body .custom-contain .row .custom-card.blue * {
-  color: darkblue;
+  background-color: rgba(119, 178, 232, 0.1);
 }
 
 body .custom-contain .row .custom-card.yellow {
-  background-color: rgba(239, 179, 10, 0.15);
-}
-
-body .custom-contain .row .custom-card.yellow * {
-  color: #8b8b0a;
+  background-color: rgba(239, 179, 10, 0.1);
 }
 
 body .custom-contain .row .custom-card.brown {
-  background-color: rgba(235, 179, 107, 0.15);
-}
-
-body .custom-contain .row .custom-card.brown * {
-  color: brown;
+  background-color: rgba(235, 179, 107, 0.1);
 }
 
 body .custom-contain .row .custom-card h3 {
   font-size: 2rem;
-  font-family: nunito, sans-serif;
 }
 
-body .custom-contain .row .custom-card p {
-  font-size: 1.2rem;
-  font-family: nunito, sans-serif;
+body .custom-contain .row .custom-card ul {
+  color: #7b7b7b;
+  list-style: inside;
 }
 
 @media screen and (max-width: 600px) {

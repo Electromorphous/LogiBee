@@ -9,13 +9,14 @@ body {
     margin: auto;
 
     .row {
+      position: relative;
       justify-content: center;
       align-items: center;
       margin: 150px 0;
 
       .image {
         text-align: center;
-        max-width: 500px;
+        max-width: 600px;
       }
       .custom-card {
         margin: 0;
@@ -25,50 +26,55 @@ body {
         background-color: #eee;
         border-radius: 10px;
 
+        * {
+          // color: black;
+          font-family: nunito, sans-serif;
+          font-size: 1.3rem;
+        }
+
         &.red {
-          background-color: rgba(240, 81, 35, 0.15);
-          * {
-            color: rgb(158, 0, 0);
-          }
+          background-color: rgba(240, 81, 35, 0.1);
+          // * {
+          //   color: rgb(158, 0, 0);
+          // }
         }
         &.green {
-          background-color: rgba(129, 195, 65, 0.15);
-          * {
-            color: green;
-          }
+          background-color: rgba(129, 195, 65, 0.1);
+          // * {
+          //   color: green;
+          // }
         }
         &.purple {
-          background-color: rgba(229, 154, 247, 0.15);
-          * {
-            color: purple;
-          }
+          background-color: rgba(229, 154, 247, 0.1);
+          // * {
+          //   color: purple;
+          // }
         }
         &.blue {
-          background-color: rgba(119, 178, 232, 0.15);
-          * {
-            color: darkblue;
-          }
+          background-color: rgba(119, 178, 232, 0.1);
+          // * {
+          //   color: darkblue;
+          // }
         }
         &.yellow {
-          background-color: rgba(239, 179, 10, 0.15);
-          * {
-            color: rgb(139, 139, 10);
-          }
+          background-color: rgba(239, 179, 10, 0.1);
+          // * {
+          //   color: rgb(139, 139, 10);
+          // }
         }
         &.brown {
-          background-color: rgba(235, 179, 107, 0.15);
-          * {
-            color: brown;
-          }
+          background-color: rgba(235, 179, 107, 0.1);
+          // * {
+          //   color: brown;
+          // }
         }
 
         h3 {
           font-size: 2rem;
-          font-family: nunito, sans-serif;
         }
-        p {
-          font-size: 1.2rem;
-          font-family: nunito, sans-serif;
+        ul {
+          color: #7b7b7b;
+          list-style: inside;
         }
 
         @media screen and (max-width: 600px) {
