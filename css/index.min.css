@@ -431,6 +431,7 @@ body #overview .swiper-slider-area .swiper-slider-one .blog-slider {
   height: fit-content;
   max-width: 1000px;
   width: 80vw;
+  padding: 50px 0;
 }
 
 body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider__img {
@@ -480,6 +481,12 @@ body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider_
   background-color: #fc7a2e;
   -webkit-box-shadow: 0 0 20px rgba(252, 122, 46, 0.3);
           box-shadow: 0 0 20px rgba(252, 122, 46, 0.3);
+}
+
+@media screen and (max-width: 750px) {
+  body #overview .swiper-slider-area .swiper-slider-one .blog-slider {
+    padding: 0 20px;
+  }
 }
 
 @media screen and (max-width: 1000px) {

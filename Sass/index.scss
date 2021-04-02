@@ -321,6 +321,7 @@ body {
         height: fit-content;
         max-width: 1000px;
         width: 80vw;
+        padding: 50px 0;
 
         .blog-slider__img {
           background-image: none;
@@ -367,6 +368,9 @@ body {
           }
         }
 
+        @media screen and (max-width: 750px) {
+          padding: 0 20px;
+        }
         // @media screen and (max-width: 990px) {
         //   height: 500px;
         // }
