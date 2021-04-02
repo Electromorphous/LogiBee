@@ -21,18 +21,18 @@ body {
           margin: 10px auto;
           max-width: 1000px;
 
-          @media screen and (max-width: 1300px) {
+          @media (max-width: 1300px) {
             width: 175px;
             margin-top: 10px;
           }
-          @media screen and (max-width: 1200px) {
+          @media (max-width: 1200px) {
             width: 175px;
             margin-bottom: 20px;
           }
-          @media screen and (max-width: 775px) {
+          @media (max-width: 775px) {
             margin-bottom: 20px;
           }
-          @media screen and (max-width: 500px) {
+          @media (max-width: 500px) {
             margin-top: 5px 0 30px -50px;
           }
         }
@@ -50,13 +50,13 @@ body {
             color: $primary-blue;
           }
 
-          @media screen and (max-width: 1300px) {
+          @media (max-width: 1300px) {
             display: block;
             font-size: 0.8rem;
             top: 30px;
             left: 20px;
           }
-          @media screen and (max-width: 775px) {
+          @media (max-width: 775px) {
             top: 25px;
           }
         }
@@ -122,10 +122,10 @@ body {
         }
       }
 
-      @media screen and (max-width: 1000px) {
+      @media (max-width: 1000px) {
         margin: 0 30px;
       }
-      @media screen and (max-width: 500px) {
+      @media (max-width: 500px) {
         margin: 0 15px 5px 15px;
       }
     }
@@ -195,18 +195,18 @@ body {
             margin: 10px auto;
             max-width: 1000px;
 
-            @media screen and (max-width: 1300px) {
+            @media (max-width: 1300px) {
               width: 175px;
               margin-top: 10px;
             }
-            @media screen and (max-width: 1200px) {
+            @media (max-width: 1200px) {
               width: 175px;
               margin-bottom: 20px;
             }
-            @media screen and (max-width: 775px) {
+            @media (max-width: 775px) {
               margin-bottom: 20px;
             }
-            @media screen and (max-width: 500px) {
+            @media (max-width: 500px) {
               margin-top: 5px 0 30px -50px;
             }
           }
@@ -224,22 +224,22 @@ body {
               color: $white;
             }
 
-            @media screen and (max-width: 1300px) {
+            @media (max-width: 1300px) {
               display: block;
               font-size: 0.8rem;
               top: 30px;
               left: 20px;
             }
-            @media screen and (max-width: 775px) {
+            @media (max-width: 775px) {
               top: 25px;
             }
           }
         }
 
-        @media screen and (max-width: 1000px) {
+        @media (max-width: 1000px) {
           margin: 0 30px;
         }
-        @media screen and (max-width: 500px) {
+        @media (max-width: 500px) {
           margin: 0 15px 5px 15px;
         }
       }
@@ -253,10 +253,10 @@ body {
           text-shadow: none;
         }
 
-        @media screen and (max-width: 770px) {
+        @media (max-width: 770px) {
           margin-top: 5px;
         }
-        @media screen and (max-width: 500px) {
+        @media (max-width: 500px) {
           margin-top: -10px;
         }
       }
@@ -321,10 +321,10 @@ body {
       }
     }
 
-    @media screen and (max-width: 770px) {
+    @media (max-width: 770px) {
       padding-bottom: 20px;
     }
-    @media screen and (max-width: 580px) {
+    @media (max-width: 580px) {
       padding: 10px 0;
     }
   }

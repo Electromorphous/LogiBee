@@ -20,7 +20,7 @@ body {
             max-width: 1200px;
             width: 90%;
 
-            @media screen and (max-width: 777px) {
+            @media (max-width: 777px) {
               margin: 0 20px;
               text-align: center;
             }
@@ -35,7 +35,7 @@ body {
                 padding: 0;
                 margin: 0;
 
-                @media screen and (max-width: 1070px) {
+                @media (max-width: 1070px) {
                   padding: 10px 0;
                 }
               }
@@ -51,7 +51,7 @@ body {
                   max-width: 150px;
                   margin-left: -20px;
 
-                  @media screen and (max-width: 1070px) {
+                  @media (max-width: 1070px) {
                     margin: 0;
                     padding: 20px 0 10px 0;
                   }
@@ -63,7 +63,7 @@ body {
                   padding: 0;
                   margin: 0;
 
-                  @media screen and (max-width: 1070px) {
+                  @media (max-width: 1070px) {
                     padding: 20px 0;
                   }
                 }
@@ -88,7 +88,7 @@ body {
                       color: $primary-orange;
                     }
 
-                    @media screen and (max-width: 777px) {
+                    @media (max-width: 777px) {
                       font-size: 1.7rem;
                     }
                   }
@@ -120,7 +120,7 @@ body {
                     margin: 0;
                     padding: 19px 10px;
 
-                    @media screen and (max-width: 450px) {
+                    @media (max-width: 450px) {
                       width: 100%;
                       border-radius: 5px;
                       margin: 10px 0;
@@ -142,18 +142,18 @@ body {
                       background-color: $secondary-orange;
                     }
 
-                    @media screen and (max-width: 450px) {
+                    @media (max-width: 450px) {
                       width: 100%;
                       border-radius: 5px;
                       margin: 5px 0;
                       padding: 10px;
                     }
                   }
-                  @media screen and (max-width: 1070px) {
+                  @media (max-width: 1070px) {
                     float: none;
                     justify-content: center;
                   }
-                  @media screen and (max-width: 450px) {
+                  @media (max-width: 450px) {
                     display: block;
                   }
                 }
@@ -164,13 +164,13 @@ body {
                   font-size: 0.8rem;
                   text-align: right;
 
-                  @media screen and (max-width: 1070px) {
+                  @media (max-width: 1070px) {
                     text-align: center;
                     font-size: 0.7rem;
                   }
                 }
 
-                @media screen and (max-width: 1070px) {
+                @media (max-width: 1070px) {
                   text-align: center;
                 }
               }
@@ -183,7 +183,7 @@ body {
                 }
               }
 
-              @media screen and (max-width: 1070px) {
+              @media (max-width: 1070px) {
                 display: block;
                 text-align: center;
                 padding-bottom: 20px;

@@ -94,7 +94,7 @@ body .custom-contain .row .custom-card ul {
   list-style: inside;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   body .custom-contain .row .custom-card {
     max-width: 80%;
     margin: 20px 0;
@@ -108,7 +108,7 @@ body .custom-contain .row .custom-card ul {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   body .custom-contain {
     width: 100vw;
     padding: 0;
