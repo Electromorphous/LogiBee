@@ -25,6 +25,43 @@ body {
         background-color: #eee;
         border-radius: 10px;
 
+        &.red {
+          background-color: rgba(240, 81, 35, 0.15);
+          * {
+            color: rgb(158, 0, 0);
+          }
+        }
+        &.green {
+          background-color: rgba(129, 195, 65, 0.15);
+          * {
+            color: green;
+          }
+        }
+        &.purple {
+          background-color: rgba(229, 154, 247, 0.15);
+          * {
+            color: purple;
+          }
+        }
+        &.blue {
+          background-color: rgba(119, 178, 232, 0.15);
+          * {
+            color: darkblue;
+          }
+        }
+        &.yellow {
+          background-color: rgba(239, 179, 10, 0.15);
+          * {
+            color: rgb(139, 139, 10);
+          }
+        }
+        &.brown {
+          background-color: rgba(235, 179, 107, 0.15);
+          * {
+            color: brown;
+          }
+        }
+
         h3 {
           font-size: 2rem;
           font-family: nunito, sans-serif;

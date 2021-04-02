@@ -55,6 +55,54 @@ body .custom-contain .row .custom-card {
   border-radius: 10px;
 }
 
+body .custom-contain .row .custom-card.red {
+  background-color: rgba(240, 81, 35, 0.15);
+}
+
+body .custom-contain .row .custom-card.red * {
+  color: #9e0000;
+}
+
+body .custom-contain .row .custom-card.green {
+  background-color: rgba(129, 195, 65, 0.15);
+}
+
+body .custom-contain .row .custom-card.green * {
+  color: green;
+}
+
+body .custom-contain .row .custom-card.purple {
+  background-color: rgba(229, 154, 247, 0.15);
+}
+
+body .custom-contain .row .custom-card.purple * {
+  color: purple;
+}
+
+body .custom-contain .row .custom-card.blue {
+  background-color: rgba(119, 178, 232, 0.15);
+}
+
+body .custom-contain .row .custom-card.blue * {
+  color: darkblue;
+}
+
+body .custom-contain .row .custom-card.yellow {
+  background-color: rgba(239, 179, 10, 0.15);
+}
+
+body .custom-contain .row .custom-card.yellow * {
+  color: #8b8b0a;
+}
+
+body .custom-contain .row .custom-card.brown {
+  background-color: rgba(235, 179, 107, 0.15);
+}
+
+body .custom-contain .row .custom-card.brown * {
+  color: brown;
+}
+
 body .custom-contain .row .custom-card h3 {
   font-size: 2rem;
   font-family: nunito, sans-serif;
