@@ -62,8 +62,14 @@ body #overview .contain-custom .row .text p {
 }
 
 @media (max-width: 600px) {
+  body #overview .contain-custom .row .text p {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 600px) {
   body #overview .contain-custom .row .text {
-    padding: 0;
+    padding: 10px 0;
   }
 }
 

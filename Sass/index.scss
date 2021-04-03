@@ -337,6 +337,9 @@ body {
               @media (max-width: 770px) {
                 padding: 10px;
               }
+              @media (max-width: 613px) {
+                text-align: justify;
+              }
             }
             a.blog-slider__button {
               background: linear-gradient(147deg, #4885f8 0%, #155dc9 74%);

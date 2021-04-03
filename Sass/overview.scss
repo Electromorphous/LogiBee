@@ -29,10 +29,14 @@ body {
           p {
             font-family: nunito, sans-serif;
             font-size: 1.2rem;
+
+            @media (max-width: 600px) {
+              text-align: justify;
+            }
           }
 
           @media (max-width: 600px) {
-            padding: 0;
+            padding: 10px 0;
           }
         }
 
