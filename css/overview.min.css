@@ -62,12 +62,6 @@ body #overview .contain-custom .row .text p {
 }
 
 @media (max-width: 600px) {
-  body #overview .contain-custom .row .text p {
-    text-align: justify;
-  }
-}
-
-@media (max-width: 600px) {
   body #overview .contain-custom .row .text {
     padding: 10px 0;
   }
@@ -152,7 +146,8 @@ body #overview .contain-custom .row.image-left .text {
 @media (max-width: 600px) {
   body #overview .contain-custom .row {
     width: 100vw;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 40px;
   }
   body #overview .contain-custom .row .image {
     margin: 50px 0;
