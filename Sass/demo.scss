@@ -1,0 +1,45 @@
+@import "./config.scss";
+
+body {
+  #contact-form {
+    form {
+      .cv {
+        margin: 20px 0;
+        label,
+        input,
+        button,
+        select,
+        textarea {
+          font-family: nunito, sans-serif;
+        }
+
+        input {
+          margin-left: 10px;
+
+          &:focus {
+            border-bottom: 2px solid $primary-blue;
+          }
+        }
+
+        textarea {
+          border: none;
+          border-bottom: 2px solid #ddd;
+          &:focus {
+            border-bottom: 2px solid $primary-blue;
+          }
+        }
+
+        button {
+          background-color: $primary-orange;
+          border-radius: 5px;
+          border: 2px solid $primary-orange;
+
+          &:hover {
+            background-color: white;
+            color: $primary-orange;
+          }
+        }
+      }
+    }
+  }
+}

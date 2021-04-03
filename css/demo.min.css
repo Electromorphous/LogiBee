@@ -1,0 +1,62 @@
+* ::-moz-selection {
+  background-color: rgba(238, 135, 51, 0.7);
+}
+
+* ::selection {
+  background-color: rgba(238, 135, 51, 0.7);
+}
+
+body a#scrollUp {
+  background-color: #d47d48;
+  border-radius: 500px;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+body a#scrollUp:hover {
+  background-color: #e75e08;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+body #contact-form form .cv {
+  margin: 20px 0;
+}
+
+body #contact-form form .cv label,
+body #contact-form form .cv input,
+body #contact-form form .cv button,
+body #contact-form form .cv select,
+body #contact-form form .cv textarea {
+  font-family: nunito, sans-serif;
+}
+
+body #contact-form form .cv input {
+  margin-left: 10px;
+}
+
+body #contact-form form .cv input:focus {
+  border-bottom: 2px solid #407ebf;
+}
+
+body #contact-form form .cv textarea {
+  border: none;
+  border-bottom: 2px solid #ddd;
+}
+
+body #contact-form form .cv textarea:focus {
+  border-bottom: 2px solid #407ebf;
+}
+
+body #contact-form form .cv button {
+  background-color: #d47d48;
+  border-radius: 5px;
+  border: 2px solid #d47d48;
+}
+
+body #contact-form form .cv button:hover {
+  background-color: white;
+  color: #d47d48;
+}
