@@ -4,143 +4,146 @@ $illustration-blue: #ebf2f9;
 body {
   background: $white;
 
-  .contain-custom {
-    padding: 0 50px;
-    width: 90vw;
-    margin: auto;
+  #features {
+    .contain-custom {
+      padding: 0 50px;
+      width: 90vw;
+      margin: auto;
 
-    .row {
-      position: relative;
-      justify-content: center;
-      align-items: center;
-      margin: 100px 0;
+      .row.image-left,
+      .row.image-right {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 0;
 
-      .image {
-        text-align: center;
-        max-width: 500px;
-        z-index: 1;
-      }
-      .card-custom {
-        margin: 0;
-        padding: 40px 50px;
-        max-width: 40%;
-        height: 100%;
-        background-color: #eee;
-        border-radius: 30px;
-        // background-color: $illustration-blue;
-        // background-color: rgba(64, 125, 191, 0.15);
-
-        * {
-          // color: black;
-          font-family: nunito, sans-serif;
-          font-size: 1.3rem;
-        }
-
-        &.red {
-          background-color: rgba(240, 81, 35, 0.15);
-          // * {
-          //   color: rgb(158, 0, 0);
-          // }
-        }
-        &.green {
-          background-color: rgba(129, 195, 65, 0.15);
-          // * {
-          //   color: green;
-          // }
-        }
-        &.purple {
-          background-color: rgba(229, 154, 247, 0.15);
-          // * {
-          //   color: purple;
-          // }
-        }
-        &.blue {
-          background-color: rgba(119, 178, 232, 0.15);
-          // * {
-          //   color: darkblue;
-          // }
-        }
-        &.yellow {
-          background-color: rgba(239, 179, 10, 0.15);
-          // * {
-          //   color: rgb(139, 139, 10);
-          // }
-        }
-        &.brown {
-          background-color: rgba(235, 179, 107, 0.15);
-          // * {
-          //   color: brown;
-          // }
-        }
-
-        h3 {
-          font-size: 2rem;
-        }
-        ul {
-          color: #7b7b7b;
-          padding-left: 30px;
-        }
-
-        @media (max-width: 600px) {
-          max-width: 80%;
-          margin: 20px auto;
-        }
-      }
-
-      &.image-left {
-        height: 500px;
         .image {
-          position: absolute;
-          right: 49%;
-
-          @media (max-width: 600px) {
-            position: static;
-          }
+          text-align: center;
+          max-width: 500px;
+          z-index: 1;
         }
         .card-custom {
-          position: absolute;
-          height: fit-content;
-          left: 49%;
+          margin: 0;
+          padding: 40px 50px;
+          max-width: 40%;
+          height: 100%;
+          background-color: #eee;
+          border-radius: 30px;
+          // background-color: $illustration-blue;
+          // background-color: rgba(64, 125, 191, 0.15);
+
+          * {
+            // color: black;
+            font-family: nunito, sans-serif;
+            font-size: 1.3rem;
+          }
+
+          &.red {
+            background-color: rgba(240, 81, 35, 0.15);
+            // * {
+            //   color: rgb(158, 0, 0);
+            // }
+          }
+          &.green {
+            background-color: rgba(129, 195, 65, 0.15);
+            // * {
+            //   color: green;
+            // }
+          }
+          &.purple {
+            background-color: rgba(229, 154, 247, 0.15);
+            // * {
+            //   color: purple;
+            // }
+          }
+          &.blue {
+            background-color: rgba(119, 178, 232, 0.15);
+            // * {
+            //   color: darkblue;
+            // }
+          }
+          &.yellow {
+            background-color: rgba(239, 179, 10, 0.15);
+            // * {
+            //   color: rgb(139, 139, 10);
+            // }
+          }
+          &.brown {
+            background-color: rgba(235, 179, 107, 0.15);
+            // * {
+            //   color: brown;
+            // }
+          }
+
+          h3 {
+            font-size: 2rem;
+          }
+          ul {
+            color: #7b7b7b;
+            padding-left: 30px;
+          }
 
           @media (max-width: 600px) {
-            position: static;
+            max-width: 80%;
+            margin: 20px auto;
           }
         }
 
-        @media (max-width: 600px) {
-          height: fit-content;
+        &.image-left {
+          height: 500px;
+          .image {
+            position: absolute;
+            right: 49%;
+
+            @media (max-width: 600px) {
+              position: static;
+            }
+          }
+          .card-custom {
+            position: absolute;
+            height: fit-content;
+            left: 49%;
+
+            @media (max-width: 600px) {
+              position: static;
+            }
+          }
+
+          @media (max-width: 600px) {
+            height: fit-content;
+          }
+        }
+
+        &.image-right {
+          height: 500px;
+          .image {
+            position: absolute;
+            left: 49%;
+
+            @media (max-width: 600px) {
+              position: static;
+            }
+          }
+          .card-custom {
+            position: absolute;
+            height: fit-content;
+            right: 49%;
+
+            @media (max-width: 600px) {
+              position: static;
+            }
+          }
+
+          @media (max-width: 600px) {
+            height: fit-content;
+          }
         }
       }
 
-      &.image-right {
-        height: 500px;
-        .image {
-          position: absolute;
-          left: 49%;
-
-          @media (max-width: 600px) {
-            position: static;
-          }
-        }
-        .card-custom {
-          position: absolute;
-          height: fit-content;
-          right: 49%;
-
-          @media (max-width: 600px) {
-            position: static;
-          }
-        }
-
-        @media (max-width: 600px) {
-          height: fit-content;
-        }
+      @media (max-width: 600px) {
+        width: 100vw;
+        padding: 0;
       }
-    }
-
-    @media (max-width: 600px) {
-      width: 100vw;
-      padding: 0;
     }
   }
 }

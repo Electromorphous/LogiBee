@@ -25,13 +25,14 @@ body {
   background: #fff;
 }
 
-body .contain-custom {
+body #features .contain-custom {
   padding: 0 50px;
   width: 90vw;
   margin: auto;
 }
 
-body .contain-custom .row {
+body #features .contain-custom .row.image-left,
+body #features .contain-custom .row.image-right {
   position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -42,13 +43,15 @@ body .contain-custom .row {
   margin: 100px 0;
 }
 
-body .contain-custom .row .image {
+body #features .contain-custom .row.image-left .image,
+body #features .contain-custom .row.image-right .image {
   text-align: center;
   max-width: 500px;
   z-index: 1;
 }
 
-body .contain-custom .row .card-custom {
+body #features .contain-custom .row.image-left .card-custom,
+body #features .contain-custom .row.image-right .card-custom {
   margin: 0;
   padding: 40px 50px;
   max-width: 40%;
@@ -57,67 +60,81 @@ body .contain-custom .row .card-custom {
   border-radius: 30px;
 }
 
-body .contain-custom .row .card-custom * {
+body #features .contain-custom .row.image-left .card-custom *,
+body #features .contain-custom .row.image-right .card-custom * {
   font-family: nunito, sans-serif;
   font-size: 1.3rem;
 }
 
-body .contain-custom .row .card-custom.red {
+body #features .contain-custom .row.image-left .card-custom.red,
+body #features .contain-custom .row.image-right .card-custom.red {
   background-color: rgba(240, 81, 35, 0.15);
 }
 
-body .contain-custom .row .card-custom.green {
+body #features .contain-custom .row.image-left .card-custom.green,
+body #features .contain-custom .row.image-right .card-custom.green {
   background-color: rgba(129, 195, 65, 0.15);
 }
 
-body .contain-custom .row .card-custom.purple {
+body #features .contain-custom .row.image-left .card-custom.purple,
+body #features .contain-custom .row.image-right .card-custom.purple {
   background-color: rgba(229, 154, 247, 0.15);
 }
 
-body .contain-custom .row .card-custom.blue {
+body #features .contain-custom .row.image-left .card-custom.blue,
+body #features .contain-custom .row.image-right .card-custom.blue {
   background-color: rgba(119, 178, 232, 0.15);
 }
 
-body .contain-custom .row .card-custom.yellow {
+body #features .contain-custom .row.image-left .card-custom.yellow,
+body #features .contain-custom .row.image-right .card-custom.yellow {
   background-color: rgba(239, 179, 10, 0.15);
 }
 
-body .contain-custom .row .card-custom.brown {
+body #features .contain-custom .row.image-left .card-custom.brown,
+body #features .contain-custom .row.image-right .card-custom.brown {
   background-color: rgba(235, 179, 107, 0.15);
 }
 
-body .contain-custom .row .card-custom h3 {
+body #features .contain-custom .row.image-left .card-custom h3,
+body #features .contain-custom .row.image-right .card-custom h3 {
   font-size: 2rem;
 }
 
-body .contain-custom .row .card-custom ul {
+body #features .contain-custom .row.image-left .card-custom ul,
+body #features .contain-custom .row.image-right .card-custom ul {
   color: #7b7b7b;
   padding-left: 30px;
 }
 
 @media (max-width: 600px) {
-  body .contain-custom .row .card-custom {
+  body #features .contain-custom .row.image-left .card-custom,
+  body #features .contain-custom .row.image-right .card-custom {
     max-width: 80%;
     margin: 20px auto;
   }
 }
 
-body .contain-custom .row.image-left {
+body #features .contain-custom .row.image-left.image-left,
+body #features .contain-custom .row.image-right.image-left {
   height: 500px;
 }
 
-body .contain-custom .row.image-left .image {
+body #features .contain-custom .row.image-left.image-left .image,
+body #features .contain-custom .row.image-right.image-left .image {
   position: absolute;
   right: 49%;
 }
 
 @media (max-width: 600px) {
-  body .contain-custom .row.image-left .image {
+  body #features .contain-custom .row.image-left.image-left .image,
+  body #features .contain-custom .row.image-right.image-left .image {
     position: static;
   }
 }
 
-body .contain-custom .row.image-left .card-custom {
+body #features .contain-custom .row.image-left.image-left .card-custom,
+body #features .contain-custom .row.image-right.image-left .card-custom {
   position: absolute;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -126,35 +143,41 @@ body .contain-custom .row.image-left .card-custom {
 }
 
 @media (max-width: 600px) {
-  body .contain-custom .row.image-left .card-custom {
+  body #features .contain-custom .row.image-left.image-left .card-custom,
+  body #features .contain-custom .row.image-right.image-left .card-custom {
     position: static;
   }
 }
 
 @media (max-width: 600px) {
-  body .contain-custom .row.image-left {
+  body #features .contain-custom .row.image-left.image-left,
+  body #features .contain-custom .row.image-right.image-left {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
 }
 
-body .contain-custom .row.image-right {
+body #features .contain-custom .row.image-left.image-right,
+body #features .contain-custom .row.image-right.image-right {
   height: 500px;
 }
 
-body .contain-custom .row.image-right .image {
+body #features .contain-custom .row.image-left.image-right .image,
+body #features .contain-custom .row.image-right.image-right .image {
   position: absolute;
   left: 49%;
 }
 
 @media (max-width: 600px) {
-  body .contain-custom .row.image-right .image {
+  body #features .contain-custom .row.image-left.image-right .image,
+  body #features .contain-custom .row.image-right.image-right .image {
     position: static;
   }
 }
 
-body .contain-custom .row.image-right .card-custom {
+body #features .contain-custom .row.image-left.image-right .card-custom,
+body #features .contain-custom .row.image-right.image-right .card-custom {
   position: absolute;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -163,13 +186,15 @@ body .contain-custom .row.image-right .card-custom {
 }
 
 @media (max-width: 600px) {
-  body .contain-custom .row.image-right .card-custom {
+  body #features .contain-custom .row.image-left.image-right .card-custom,
+  body #features .contain-custom .row.image-right.image-right .card-custom {
     position: static;
   }
 }
 
 @media (max-width: 600px) {
-  body .contain-custom .row.image-right {
+  body #features .contain-custom .row.image-left.image-right,
+  body #features .contain-custom .row.image-right.image-right {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -177,7 +202,7 @@ body .contain-custom .row.image-right .card-custom {
 }
 
 @media (max-width: 600px) {
-  body .contain-custom {
+  body #features .contain-custom {
     width: 100vw;
     padding: 0;
   }
