@@ -1,0 +1,383 @@
+@import "./config.scss";
+
+body {
+  #home {
+    .slider-wrapper-saas {
+      width: 100%;
+      height: 800px;
+      background-color: $primary-blue;
+      // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
+      // background: linear-gradient(to bottom right, #fff, #417ebd);
+      background-position: center;
+
+      .contain-custom {
+        padding: 0 50px;
+
+        .row {
+          align-items: center;
+          .col-md-5 {
+            .slider-text-new {
+              h1 {
+                color: $white;
+                font-size: 3rem;
+
+                span {
+                  color: $primary-orange;
+                }
+
+                @media (max-width: 1180px) {
+                  font-size: 2rem;
+                }
+                @media (max-width: 850px) {
+                  font-size: 1.5rem;
+                  padding: 0;
+                }
+                @media (max-width: 850px) {
+                  font-size: 2rem;
+                  padding: 10px 0;
+                }
+              }
+              p {
+                color: $white;
+                font-weight: 600;
+                font-size: 1.3rem;
+              }
+              .saas-button a {
+                color: $white;
+                background-color: $primary-orange;
+                border: 2px solid $primary-orange;
+                font-size: 1.05rem;
+                padding: 0.7rem 1.5rem;
+                transition: all 0.25s;
+                margin: 10px 0;
+
+                &:hover {
+                  background-color: transparent;
+                  border: 2px solid $white;
+                  color: $white;
+                }
+              }
+            }
+          }
+
+          .col-md-7 {
+            .animated.fadeInUp img {
+              margin: 0;
+              margin-top: 30px;
+              // max-width: 700px;
+              width: 80%;
+            }
+            @media (max-width: 1000px) {
+              margin-top: 50px;
+            }
+          }
+        }
+
+        @media (max-width: 777px) {
+          padding: 10px 30px 0 30px;
+        }
+      }
+
+      @media (max-width: 1200px) {
+        height: 750px;
+      }
+      @media (max-width: 770px) {
+        height: 550px;
+      }
+      @media (max-width: 600px) {
+        height: 500px;
+      }
+      @media (max-width: 400px) {
+        height: 550px;
+      }
+      @media (min-width: 1300px) {
+        height: 900px;
+      }
+    }
+
+    .features {
+      margin: 5vh;
+      text-align: center;
+
+      .row {
+        margin: auto;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+        .feature {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          text-align: left;
+          margin: 0;
+
+          .image {
+            border-right: 1px solid white;
+            height: 110px;
+            padding: 0 20px;
+            img {
+              max-width: 100px;
+              width: 90px;
+              border-radius: 500px;
+              transition: all 0.2s;
+
+              @media (max-width: 1200px) {
+                margin: 0;
+                width: 100%;
+
+                border-radius: 500px;
+                transition: all 0.2s;
+              }
+
+              @media (max-width: 600px) {
+                width: 60px;
+              }
+            }
+
+            @media (max-width: 1200px) {
+              border: none;
+            }
+            @media (max-width: 600px) {
+              height: auto;
+            }
+          }
+          .text {
+            padding: 0 20px;
+
+            h3 {
+              color: white;
+              font-family: nunito, sans-serif;
+              font-weight: 600;
+              width: 100%;
+              text-transform: uppercase;
+
+              @media (max-width: 1200px) {
+                color: white;
+                font-family: nunito, sans-serif;
+                font-weight: 600;
+                font-size: 1.1rem;
+                margin: 2px 0;
+              }
+
+              @media (max-width: 600px) {
+                font-size: 0.75rem;
+                padding: 0;
+                width: 100;
+              }
+            }
+            p {
+              color: white;
+              font-family: nunito, sans-serif;
+              font-weight: 600;
+              width: 100%;
+
+              @media (max-width: 1200px) {
+                color: white;
+                font-family: nunito, sans-serif;
+                font-weight: 500;
+                font-size: 1rem;
+                margin: 2px 0;
+              }
+
+              @media (max-width: 1000px) {
+                color: white;
+                font-family: nunito, sans-serif;
+                font-weight: 500;
+                font-size: 1rem;
+                margin: 2px 0;
+                padding: 0 10px;
+              }
+
+              @media (max-width: 600px) {
+                font-size: 0.7rem;
+                padding: 0;
+                width: 100;
+                line-height: 0.9rem;
+              }
+
+              @media (max-width: 600px) {
+                font-size: 0.6rem;
+                padding: 0;
+                width: 100;
+                line-height: 0.9rem;
+              }
+            }
+
+            @media (max-width: 1200px) {
+              padding: 10px 0;
+              width: 100%;
+            }
+          }
+
+          @media (max-width: 1200px) {
+            display: block;
+            text-align: center;
+          }
+
+          @media (max-width: 575px) {
+            width: 33.3%;
+          }
+        }
+        @media (max-width: 600px) {
+          justify-content: space-around;
+        }
+      }
+      @media (max-width: 600px) {
+        margin: 5vh 0;
+      }
+    }
+  }
+
+  .wave {
+    position: absolute;
+    top: 450px;
+    border-bottom: 150px solid $white;
+
+    @media (max-width: 1200px) {
+      display: none;
+    }
+    @media (min-width: 1300px) {
+      top: 500px;
+    }
+  }
+
+  .contain-custom {
+    padding: 0 50px;
+    width: 90vw;
+    margin: 0 auto 100px auto;
+
+    .row {
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 0;
+
+      .image {
+        text-align: center;
+        max-width: 500px;
+        z-index: 1;
+      }
+      .card-custom {
+        margin: 0;
+        padding: 40px 50px;
+        max-width: 40%;
+        height: 100%;
+        background-color: #eee;
+        border-radius: 30px;
+        // background-color: $illustration-blue;
+        // background-color: rgba(64, 125, 191, 0.15);
+
+        * {
+          // color: black;
+          font-family: nunito, sans-serif;
+          font-size: 1.3rem;
+        }
+
+        &.red {
+          background-color: rgba(240, 81, 35, 0.15);
+          // * {
+          //   color: rgb(158, 0, 0);
+          // }
+        }
+        &.green {
+          background-color: rgba(129, 195, 65, 0.15);
+          // * {
+          //   color: green;
+          // }
+        }
+        &.purple {
+          background-color: rgba(229, 154, 247, 0.15);
+          // * {
+          //   color: purple;
+          // }
+        }
+        &.blue {
+          background-color: rgba(119, 178, 232, 0.15);
+          // * {
+          //   color: darkblue;
+          // }
+        }
+        &.yellow {
+          background-color: rgba(239, 179, 10, 0.15);
+          // * {
+          //   color: rgb(139, 139, 10);
+          // }
+        }
+        &.brown {
+          background-color: rgba(235, 179, 107, 0.15);
+          // * {
+          //   color: brown;
+          // }
+        }
+
+        h3 {
+          font-size: 2rem;
+        }
+        ul {
+          color: #7b7b7b;
+          padding-left: 30px;
+        }
+
+        @media (max-width: 600px) {
+          max-width: 80%;
+          margin: 20px auto;
+        }
+      }
+
+      &.image-left {
+        height: 500px;
+        .image {
+          position: absolute;
+          right: 49%;
+
+          @media (max-width: 600px) {
+            position: static;
+          }
+        }
+        .card-custom {
+          position: absolute;
+          height: fit-content;
+          left: 49%;
+
+          @media (max-width: 600px) {
+            position: static;
+          }
+        }
+
+        @media (max-width: 600px) {
+          height: fit-content;
+        }
+      }
+
+      &.image-right {
+        height: 500px;
+        .image {
+          position: absolute;
+          left: 49%;
+
+          @media (max-width: 600px) {
+            position: static;
+          }
+        }
+        .card-custom {
+          position: absolute;
+          height: fit-content;
+          right: 49%;
+
+          @media (max-width: 600px) {
+            position: static;
+          }
+        }
+
+        @media (max-width: 600px) {
+          height: fit-content;
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      width: 100vw;
+      padding: 0;
+    }
+  }
+}
