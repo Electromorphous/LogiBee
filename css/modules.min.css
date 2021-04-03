@@ -55,12 +55,35 @@ body .contain-custom .row .card-custom {
   height: 100%;
   background-color: #eee;
   border-radius: 30px;
-  background-color: #ebf2f9;
 }
 
 body .contain-custom .row .card-custom * {
   font-family: nunito, sans-serif;
   font-size: 1.3rem;
+}
+
+body .contain-custom .row .card-custom.red {
+  background-color: rgba(240, 81, 35, 0.15);
+}
+
+body .contain-custom .row .card-custom.green {
+  background-color: rgba(129, 195, 65, 0.15);
+}
+
+body .contain-custom .row .card-custom.purple {
+  background-color: rgba(229, 154, 247, 0.15);
+}
+
+body .contain-custom .row .card-custom.blue {
+  background-color: rgba(119, 178, 232, 0.15);
+}
+
+body .contain-custom .row .card-custom.yellow {
+  background-color: rgba(239, 179, 10, 0.15);
+}
+
+body .contain-custom .row .card-custom.brown {
+  background-color: rgba(235, 179, 107, 0.15);
 }
 
 body .contain-custom .row .card-custom h3 {
