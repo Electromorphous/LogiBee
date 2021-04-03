@@ -5,7 +5,7 @@ body {
     background-color: $white;
     border-bottom: 3px solid $primary-orange;
 
-    .contain-custom {
+    .header-container {
       margin: 0 75px;
 
       .logo a {
@@ -93,7 +93,7 @@ body {
           border: 2px solid $primary-blue;
           color: white;
           padding: 10px 20px;
-          margin: 0 5px;
+          margin: 0 10px;
 
           i {
             margin-top: -15px;
@@ -134,7 +134,7 @@ body {
       background-color: #407ebf;
       border: none;
 
-      .contain-custom {
+      .header-container {
         margin: 0 75px;
 
         ul#nav-demo {
@@ -169,7 +169,7 @@ body {
             border: 2px solid white;
             color: $primary-blue;
             padding: 10px 20px;
-            margin: 0 5px;
+            margin: 0 10px;
 
             i {
               margin-top: -15px;

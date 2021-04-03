@@ -21,7 +21,7 @@ body {
             .slider-text-new {
               h1 {
                 color: $white;
-                font-size: 2.5rem;
+                font-size: 3rem;
 
                 span {
                   color: $primary-orange;
@@ -42,6 +42,7 @@ body {
               p {
                 color: $white;
                 font-weight: 600;
+                font-size: 1.3rem;
               }
               .saas-button a {
                 color: $white;
@@ -50,6 +51,7 @@ body {
                 font-size: 1.05rem;
                 padding: 0.7rem 1.5rem;
                 transition: all 0.25s;
+                margin: 10px 0;
 
                 &:hover {
                   background-color: transparent;
@@ -315,10 +317,11 @@ body {
 
         .blog-slider__img {
           background-image: none;
-          box-shadow: 4px 13px 30px 1px rgba(56, 118, 252, 0.2);
+          box-shadow: 4px 13px 20px 1px rgba(56, 118, 252, 0.15);
 
           &:after {
-            background: linear-gradient(147deg, #4885f8 0%, #155dc9 74%);
+            background: linear-gradient(147deg, #4885f8 0, #155dc9 74%);
+            opacity: 0.6;
           }
         }
 

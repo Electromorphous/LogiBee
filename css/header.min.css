@@ -26,55 +26,55 @@ body #header-sticky {
   border-bottom: 3px solid #d47d48;
 }
 
-body #header-sticky .contain-custom {
+body #header-sticky .header-container {
   margin: 0 75px;
 }
 
-body #header-sticky .contain-custom .logo a {
+body #header-sticky .header-container .logo a {
   position: relative;
 }
 
-body #header-sticky .contain-custom .logo a span.white-logo {
+body #header-sticky .header-container .logo a span.white-logo {
   display: none;
 }
 
-body #header-sticky .contain-custom .logo a span.blue-logo {
+body #header-sticky .header-container .logo a span.blue-logo {
   display: initial;
 }
 
-body #header-sticky .contain-custom .logo a img {
+body #header-sticky .header-container .logo a img {
   width: 200px;
   margin: 10px auto;
   max-width: 1000px;
 }
 
 @media (max-width: 1300px) {
-  body #header-sticky .contain-custom .logo a img {
+  body #header-sticky .header-container .logo a img {
     width: 175px;
     margin-top: 10px;
   }
 }
 
 @media (max-width: 1200px) {
-  body #header-sticky .contain-custom .logo a img {
+  body #header-sticky .header-container .logo a img {
     width: 175px;
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 775px) {
-  body #header-sticky .contain-custom .logo a img {
+  body #header-sticky .header-container .logo a img {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 500px) {
-  body #header-sticky .contain-custom .logo a img {
+  body #header-sticky .header-container .logo a img {
     margin-top: 5px 0 30px -50px;
   }
 }
 
-body #header-sticky .contain-custom .logo a span.tagline {
+body #header-sticky .header-container .logo a span.tagline {
   position: absolute;
   color: #407ebf;
   width: 13rem;
@@ -84,12 +84,12 @@ body #header-sticky .contain-custom .logo a span.tagline {
   font-weight: 700;
 }
 
-body #header-sticky .contain-custom .logo a span.tagline:hover {
+body #header-sticky .header-container .logo a span.tagline:hover {
   color: #407ebf;
 }
 
 @media (max-width: 1300px) {
-  body #header-sticky .contain-custom .logo a span.tagline {
+  body #header-sticky .header-container .logo a span.tagline {
     display: block;
     font-size: 0.8rem;
     top: 30px;
@@ -98,16 +98,16 @@ body #header-sticky .contain-custom .logo a span.tagline:hover {
 }
 
 @media (max-width: 775px) {
-  body #header-sticky .contain-custom .logo a span.tagline {
+  body #header-sticky .header-container .logo a span.tagline {
     top: 25px;
   }
 }
 
-body #header-sticky .contain-custom ul#nav-demo li.scroll-to {
+body #header-sticky .header-container ul#nav-demo li.scroll-to {
   margin: 10px 0;
 }
 
-body #header-sticky .contain-custom a.scroll-click {
+body #header-sticky .header-container a.scroll-click {
   color: #407ebf;
   font-size: 1.1rem;
   padding: 0 10px;
@@ -115,40 +115,40 @@ body #header-sticky .contain-custom a.scroll-click {
   transition: all 0.1s;
 }
 
-body #header-sticky .contain-custom a.scroll-click:hover {
+body #header-sticky .header-container a.scroll-click:hover {
   color: #e75e08;
 }
 
-body #header-sticky .contain-custom a.scroll-click.orange-btn {
+body #header-sticky .header-container a.scroll-click.orange-btn {
   background-color: #d47d48;
   border: 2px solid #d47d48;
   color: white;
   padding: 10px 20px;
 }
 
-body #header-sticky .contain-custom a.scroll-click.orange-btn:hover {
+body #header-sticky .header-container a.scroll-click.orange-btn:hover {
   background: transparent;
   color: #d47d48;
 }
 
-body #header-sticky .contain-custom a.scroll-click.blue-btn {
+body #header-sticky .header-container a.scroll-click.blue-btn {
   background-color: #407ebf;
   border: 2px solid #407ebf;
   color: white;
   padding: 10px 20px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
-body #header-sticky .contain-custom a.scroll-click.blue-btn i {
+body #header-sticky .header-container a.scroll-click.blue-btn i {
   margin-top: -15px;
 }
 
-body #header-sticky .contain-custom a.scroll-click.blue-btn:hover {
+body #header-sticky .header-container a.scroll-click.blue-btn:hover {
   background: transparent;
   color: #407ebf;
 }
 
-body #header-sticky .contain-custom ul.sub-menu {
+body #header-sticky .header-container ul.sub-menu {
   margin-top: -10px;
   border: none;
   border-radius: 10px;
@@ -157,22 +157,22 @@ body #header-sticky .contain-custom ul.sub-menu {
   overflow: hidden;
 }
 
-body #header-sticky .contain-custom ul.sub-menu li a {
+body #header-sticky .header-container ul.sub-menu li a {
   font-size: 1rem;
 }
 
-body #header-sticky .contain-custom ul.sub-menu li a:hover {
+body #header-sticky .header-container ul.sub-menu li a:hover {
   background-color: #d47d48;
 }
 
 @media (max-width: 1000px) {
-  body #header-sticky .contain-custom {
+  body #header-sticky .header-container {
     margin: 0 30px;
   }
 }
 
 @media (max-width: 500px) {
-  body #header-sticky .contain-custom {
+  body #header-sticky .header-container {
     margin: 0 15px 5px 15px;
   }
 }
@@ -182,15 +182,15 @@ body #header-sticky.scroll-header {
   border: none;
 }
 
-body #header-sticky.scroll-header .contain-custom {
+body #header-sticky.scroll-header .header-container {
   margin: 0 75px;
 }
 
-body #header-sticky.scroll-header .contain-custom ul#nav-demo li.scroll-to {
+body #header-sticky.scroll-header .header-container ul#nav-demo li.scroll-to {
   margin: 10px 0;
 }
 
-body #header-sticky.scroll-header .contain-custom a.scroll-click {
+body #header-sticky.scroll-header .header-container a.scroll-click {
   color: white;
   font-size: 1.1rem;
   padding: 0 10px;
@@ -198,85 +198,85 @@ body #header-sticky.scroll-header .contain-custom a.scroll-click {
   transition: all 0.1s;
 }
 
-body #header-sticky.scroll-header .contain-custom a.scroll-click:hover {
+body #header-sticky.scroll-header .header-container a.scroll-click:hover {
   color: #e75e08;
 }
 
-body #header-sticky.scroll-header .contain-custom a.scroll-click.orange-btn {
+body #header-sticky.scroll-header .header-container a.scroll-click.orange-btn {
   background-color: #d47d48;
   border: 2px solid #d47d48;
   color: white;
   padding: 10px 20px;
 }
 
-body #header-sticky.scroll-header .contain-custom a.scroll-click.orange-btn:hover {
+body #header-sticky.scroll-header .header-container a.scroll-click.orange-btn:hover {
   background: transparent;
   border: 2px solid white;
   color: white;
 }
 
-body #header-sticky.scroll-header .contain-custom a.scroll-click.blue-btn {
+body #header-sticky.scroll-header .header-container a.scroll-click.blue-btn {
   background-color: white;
   border: 2px solid white;
   color: #407ebf;
   padding: 10px 20px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
-body #header-sticky.scroll-header .contain-custom a.scroll-click.blue-btn i {
+body #header-sticky.scroll-header .header-container a.scroll-click.blue-btn i {
   margin-top: -15px;
 }
 
-body #header-sticky.scroll-header .contain-custom a.scroll-click.blue-btn:hover {
+body #header-sticky.scroll-header .header-container a.scroll-click.blue-btn:hover {
   background: transparent;
   color: white;
 }
 
-body #header-sticky.scroll-header .contain-custom .logo a {
+body #header-sticky.scroll-header .header-container .logo a {
   position: relative;
 }
 
-body #header-sticky.scroll-header .contain-custom .logo a span.blue-logo {
+body #header-sticky.scroll-header .header-container .logo a span.blue-logo {
   display: none;
 }
 
-body #header-sticky.scroll-header .contain-custom .logo a span.white-logo {
+body #header-sticky.scroll-header .header-container .logo a span.white-logo {
   display: initial;
 }
 
-body #header-sticky.scroll-header .contain-custom .logo a img {
+body #header-sticky.scroll-header .header-container .logo a img {
   width: 200px;
   margin: 10px auto;
   max-width: 1000px;
 }
 
 @media (max-width: 1300px) {
-  body #header-sticky.scroll-header .contain-custom .logo a img {
+  body #header-sticky.scroll-header .header-container .logo a img {
     width: 175px;
     margin-top: 10px;
   }
 }
 
 @media (max-width: 1200px) {
-  body #header-sticky.scroll-header .contain-custom .logo a img {
+  body #header-sticky.scroll-header .header-container .logo a img {
     width: 175px;
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 775px) {
-  body #header-sticky.scroll-header .contain-custom .logo a img {
+  body #header-sticky.scroll-header .header-container .logo a img {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 500px) {
-  body #header-sticky.scroll-header .contain-custom .logo a img {
+  body #header-sticky.scroll-header .header-container .logo a img {
     margin-top: 5px 0 30px -50px;
   }
 }
 
-body #header-sticky.scroll-header .contain-custom .logo a span.tagline {
+body #header-sticky.scroll-header .header-container .logo a span.tagline {
   position: absolute;
   color: #fff;
   width: 13rem;
@@ -286,12 +286,12 @@ body #header-sticky.scroll-header .contain-custom .logo a span.tagline {
   font-weight: 700;
 }
 
-body #header-sticky.scroll-header .contain-custom .logo a span.tagline:hover {
+body #header-sticky.scroll-header .header-container .logo a span.tagline:hover {
   color: #fff;
 }
 
 @media (max-width: 1300px) {
-  body #header-sticky.scroll-header .contain-custom .logo a span.tagline {
+  body #header-sticky.scroll-header .header-container .logo a span.tagline {
     display: block;
     font-size: 0.8rem;
     top: 30px;
@@ -300,19 +300,19 @@ body #header-sticky.scroll-header .contain-custom .logo a span.tagline:hover {
 }
 
 @media (max-width: 775px) {
-  body #header-sticky.scroll-header .contain-custom .logo a span.tagline {
+  body #header-sticky.scroll-header .header-container .logo a span.tagline {
     top: 25px;
   }
 }
 
 @media (max-width: 1000px) {
-  body #header-sticky.scroll-header .contain-custom {
+  body #header-sticky.scroll-header .header-container {
     margin: 0 30px;
   }
 }
 
 @media (max-width: 500px) {
-  body #header-sticky.scroll-header .contain-custom {
+  body #header-sticky.scroll-header .header-container {
     margin: 0 15px 5px 15px;
   }
 }
