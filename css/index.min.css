@@ -27,7 +27,7 @@ body {
 
 body #home .slider-wrapper-saas {
   width: 100%;
-  height: 1000px;
+  height: 950px;
   background-color: #407ebf;
   background-position: center;
 }
@@ -324,7 +324,7 @@ body #home .features .row .feature .text p {
 
 body .wave {
   position: absolute;
-  top: 650px;
+  top: 600px;
   border-bottom: 150px solid #fff;
 }
 
@@ -336,7 +336,7 @@ body .wave {
 
 @media (min-width: 1300px) {
   body .wave {
-    top: 750px;
+    top: 700px;
   }
 }
 
