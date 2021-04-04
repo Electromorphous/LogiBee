@@ -1,11 +1,14 @@
 @import "./config.scss";
 
+$home-bg: #dbe3f3;
+$font-black: #111;
+
 body {
   #home {
     .slider-wrapper-saas {
       width: 100%;
       height: 800px;
-      background-color: $primary-blue;
+      background-color: $home-bg;
       // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
       // background: linear-gradient(to bottom right, #fff, #417ebd);
       background-position: center;
@@ -18,7 +21,7 @@ body {
           .col-md-5 {
             .slider-text-new {
               h1 {
-                color: $white;
+                color: $font-black;
                 font-size: 3rem;
 
                 span {
@@ -38,7 +41,7 @@ body {
                 }
               }
               p {
-                color: $white;
+                color: $font-black;
                 font-weight: 600;
                 font-size: 1.3rem;
               }

@@ -24,7 +24,7 @@ body a#scrollUp:hover {
 body #home .slider-wrapper-saas {
   width: 100%;
   height: 800px;
-  background-color: #407ebf;
+  background-color: #dbe3f3;
   background-position: center;
 }
 
@@ -39,7 +39,7 @@ body #home .slider-wrapper-saas .contain-custom .row {
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
-  color: #fff;
+  color: #111;
   font-size: 3rem;
 }
 
@@ -68,7 +68,7 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new p {
-  color: #fff;
+  color: #111;
   font-weight: 600;
   font-size: 1.3rem;
 }
