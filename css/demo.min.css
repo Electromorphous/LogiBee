@@ -158,43 +158,47 @@ body .wave {
   }
 }
 
-body #contact-form form .cv {
+body #contact-form .contact-form-area {
+  padding: 50px 0;
+}
+
+body #contact-form .contact-form-area form .cv {
   margin: 20px 0;
 }
 
-body #contact-form form .cv label,
-body #contact-form form .cv input,
-body #contact-form form .cv button,
-body #contact-form form .cv select,
-body #contact-form form .cv textarea {
+body #contact-form .contact-form-area form .cv label,
+body #contact-form .contact-form-area form .cv input,
+body #contact-form .contact-form-area form .cv button,
+body #contact-form .contact-form-area form .cv select,
+body #contact-form .contact-form-area form .cv textarea {
   font-family: nunito, sans-serif;
 }
 
-body #contact-form form .cv input {
+body #contact-form .contact-form-area form .cv input {
   margin-left: 10px;
 }
 
-body #contact-form form .cv input:focus {
+body #contact-form .contact-form-area form .cv input:focus {
   border-bottom: 2px solid #407ebf;
 }
 
-body #contact-form form .cv textarea {
+body #contact-form .contact-form-area form .cv textarea {
   border: none;
   border-bottom: 2px solid #ddd;
   border-radius: 0;
 }
 
-body #contact-form form .cv textarea:focus {
+body #contact-form .contact-form-area form .cv textarea:focus {
   border-bottom: 2px solid #407ebf;
 }
 
-body #contact-form form .cv button {
+body #contact-form .contact-form-area form .cv button {
   background-color: #d47d48;
   border-radius: 10px;
   border: 2px solid #d47d48;
 }
 
-body #contact-form form .cv button:hover {
+body #contact-form .contact-form-area form .cv button:hover {
   background-color: white;
   color: #d47d48;
 }
