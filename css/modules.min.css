@@ -25,6 +25,143 @@ body {
   background: #fff;
 }
 
+body #home .slider-wrapper-saas {
+  width: 100%;
+  height: 600px;
+  background-color: #407ebf;
+  background-position: center;
+}
+
+body #home .slider-wrapper-saas .contain-custom {
+  padding: 0 50px;
+}
+
+body #home .slider-wrapper-saas .contain-custom .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 span {
+  color: #d47d48;
+}
+
+@media (max-width: 1180px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
+    font-size: 2rem;
+    padding: 10px 0;
+  }
+}
+
+body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new .saas-button a {
+  color: #fff;
+  background-color: #d47d48;
+  border: 2px solid #d47d48;
+  font-size: 1.05rem;
+  padding: 0.7rem 1.5rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  margin: 10px 0;
+}
+
+body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new .saas-button a:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInUp img {
+  margin: 0;
+  margin-top: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-7 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 777px) {
+  body #home .slider-wrapper-saas .contain-custom {
+    padding: 10px 30px 0 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body #home .slider-wrapper-saas {
+    height: 750px;
+  }
+}
+
+@media (max-width: 770px) {
+  body #home .slider-wrapper-saas {
+    height: 550px;
+  }
+}
+
+@media (max-width: 600px) {
+  body #home .slider-wrapper-saas {
+    height: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  body #home .slider-wrapper-saas {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1300px) {
+  body #home .slider-wrapper-saas {
+    height: 600px;
+  }
+}
+
+body .wave {
+  position: absolute;
+  top: 350px;
+  border-bottom: 150px solid #fff;
+}
+
+@media (max-width: 1200px) {
+  body .wave {
+    display: none;
+  }
+}
+
+@media (min-width: 1300px) {
+  body .wave {
+    top: 300px;
+  }
+}
+
 body #features .contain-custom {
   padding: 0 50px;
   width: 90vw;
