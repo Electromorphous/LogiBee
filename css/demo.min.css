@@ -44,6 +44,7 @@ body #contact-form form .cv input:focus {
 body #contact-form form .cv textarea {
   border: none;
   border-bottom: 2px solid #ddd;
+  border-radius: 0;
 }
 
 body #contact-form form .cv textarea:focus {

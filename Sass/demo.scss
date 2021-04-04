@@ -24,6 +24,8 @@ body {
         textarea {
           border: none;
           border-bottom: 2px solid #ddd;
+          border-radius: 0;
+
           &:focus {
             border-bottom: 2px solid $primary-blue;
           }
