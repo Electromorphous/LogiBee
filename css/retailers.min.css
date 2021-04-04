@@ -23,7 +23,7 @@ body a#scrollUp:hover {
 
 body #home .slider-wrapper-saas {
   width: 100%;
-  height: 800px;
+  height: 750px;
   background-color: #dbe3f3;
   background-position: center;
 }
@@ -134,187 +134,7 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
 
 @media (min-width: 1300px) {
   body #home .slider-wrapper-saas {
-    height: 900px;
-  }
-}
-
-body #home .features {
-  margin: 5vh;
-  text-align: center;
-}
-
-body #home .features .row {
-  margin: auto;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-body #home .features .row .feature {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  text-align: left;
-  margin: 0;
-}
-
-body #home .features .row .feature .image {
-  border-right: 1px solid white;
-  height: 110px;
-  padding: 0 20px;
-}
-
-body #home .features .row .feature .image img {
-  max-width: 100px;
-  width: 90px;
-  border-radius: 500px;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-@media (max-width: 1200px) {
-  body #home .features .row .feature .image img {
-    margin: 0;
-    width: 100%;
-    border-radius: 500px;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-  }
-}
-
-@media (max-width: 600px) {
-  body #home .features .row .feature .image img {
-    width: 60px;
-  }
-}
-
-@media (max-width: 1200px) {
-  body #home .features .row .feature .image {
-    border: none;
-  }
-}
-
-@media (max-width: 600px) {
-  body #home .features .row .feature .image {
-    height: auto;
-  }
-}
-
-body #home .features .row .feature .text {
-  padding: 0 20px;
-}
-
-body #home .features .row .feature .text h3 {
-  color: white;
-  font-family: nunito, sans-serif;
-  font-weight: 600;
-  width: 100%;
-  text-transform: uppercase;
-}
-
-@media (max-width: 1200px) {
-  body #home .features .row .feature .text h3 {
-    color: white;
-    font-family: nunito, sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    margin: 2px 0;
-  }
-}
-
-@media (max-width: 600px) {
-  body #home .features .row .feature .text h3 {
-    font-size: 0.75rem;
-    padding: 0;
-    width: 100;
-  }
-}
-
-body #home .features .row .feature .text p {
-  color: white;
-  font-family: nunito, sans-serif;
-  font-weight: 600;
-  width: 100%;
-}
-
-@media (max-width: 1200px) {
-  body #home .features .row .feature .text p {
-    color: white;
-    font-family: nunito, sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    margin: 2px 0;
-  }
-}
-
-@media (max-width: 1000px) {
-  body #home .features .row .feature .text p {
-    color: white;
-    font-family: nunito, sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    margin: 2px 0;
-    padding: 0 10px;
-  }
-}
-
-@media (max-width: 600px) {
-  body #home .features .row .feature .text p {
-    font-size: 0.7rem;
-    padding: 0;
-    width: 100;
-    line-height: 0.9rem;
-  }
-}
-
-@media (max-width: 600px) {
-  body #home .features .row .feature .text p {
-    font-size: 0.6rem;
-    padding: 0;
-    width: 100;
-    line-height: 0.9rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  body #home .features .row .feature .text {
-    padding: 10px 0;
-    width: 100%;
-  }
-}
-
-@media (max-width: 1200px) {
-  body #home .features .row .feature {
-    display: block;
-    text-align: center;
-  }
-}
-
-@media (max-width: 575px) {
-  body #home .features .row .feature {
-    width: 33.3%;
-  }
-}
-
-@media (max-width: 600px) {
-  body #home .features .row {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
-@media (max-width: 600px) {
-  body #home .features {
-    margin: 5vh 0;
+    height: 800px;
   }
 }
 
@@ -351,7 +171,7 @@ body #features .contain-custom .row.image-right {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 body #features .contain-custom .row.image-left .image,
@@ -365,7 +185,7 @@ body #features .contain-custom .row.image-left .card-custom,
 body #features .contain-custom .row.image-right .card-custom {
   margin: 0;
   padding: 40px 50px;
-  max-width: 40%;
+  max-width: 45%;
   height: 100%;
   background-color: #eee;
   border-radius: 30px;
