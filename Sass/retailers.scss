@@ -7,8 +7,8 @@ body {
   #home {
     .slider-wrapper-saas {
       width: 100%;
-      height: 750px;
-      background-color: $home-bg;
+      height: 400px;
+      background-color: $primary-blue;
       // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
       // background: linear-gradient(to bottom right, #fff, #417ebd);
       background-position: center;
@@ -21,8 +21,8 @@ body {
           .col-md-5 {
             .slider-text-new {
               h1 {
-                color: $font-black;
-                font-size: 3rem;
+                color: $white;
+                font-size: 2.5rem;
 
                 span {
                   color: $primary-orange;
@@ -41,9 +41,9 @@ body {
                 }
               }
               p {
-                color: $font-black;
+                color: $white;
                 font-weight: 600;
-                font-size: 1.3rem;
+                font-size: 1rem;
               }
               .saas-button a {
                 color: $white;
@@ -67,7 +67,7 @@ body {
             .animated.fadeInUp img {
               margin: 0;
               margin-top: 30px;
-              // max-width: 700px;
+              max-width: 400px;
               width: 80%;
             }
             @media (max-width: 1000px) {
@@ -93,22 +93,6 @@ body {
       @media (max-width: 400px) {
         height: 550px;
       }
-      @media (min-width: 1300px) {
-        height: 800px;
-      }
-    }
-  }
-
-  .wave {
-    position: absolute;
-    top: 450px;
-    border-bottom: 150px solid $white;
-
-    @media (max-width: 1200px) {
-      display: none;
-    }
-    @media (min-width: 1300px) {
-      top: 500px;
     }
   }
 
