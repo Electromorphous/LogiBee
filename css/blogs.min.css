@@ -159,7 +159,7 @@ body .wave {
 }
 
 body .coming-soon {
-  margin: 300px;
+  margin: 300px auto;
 }
 
 body .coming-soon h1 {
