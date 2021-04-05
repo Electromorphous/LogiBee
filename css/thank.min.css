@@ -27,6 +27,7 @@ body .thank {
 
 body .thank h1 {
   color: #d47d48;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: nunito, sans-serif;
+  text-align: center;
 }
