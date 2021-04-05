@@ -1,0 +1,13 @@
+@import "./config.scss";
+
+body {
+  .thank {
+    margin: 100px auto;
+
+    h1 {
+      color: $primary-orange;
+      font-size: 2rem;
+      font-family: nunito, sans-serif;
+    }
+  }
+}
