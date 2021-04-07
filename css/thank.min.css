@@ -93,6 +93,12 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
   width: 100%;
 }
 
+@media (max-width: 770px) {
+  body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInUp img {
+    display: inline-block;
+  }
+}
+
 @media (max-width: 1000px) {
   body #home .slider-wrapper-saas .contain-custom .row .col-md-7 {
     margin-top: 50px;
@@ -131,7 +137,8 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
 
 @media (max-width: 400px) {
   body #home .slider-wrapper-saas {
-    height: 120px;
+    height: 500px;
+    padding-top: 20px;
   }
 }
 
