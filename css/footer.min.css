@@ -82,7 +82,18 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 @media (max-width: 1070px) {
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter img, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding img {
     margin: 0;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 0 0;
+  }
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span {
+  font-size: 0.9rem;
+  font-family: nunito, sans-serif;
+}
+
+@media (max-width: 1070px) {
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span {
+    display: block;
   }
 }
 
@@ -245,9 +256,11 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
     padding-bottom: 20px;
   }
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-3,
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-4,
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-5,
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-6,
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-7,
+  body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-8,
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .col-sm-9 {
     max-width: 100%;
   }

@@ -53,7 +53,16 @@ body {
 
                   @media (max-width: 1070px) {
                     margin: 0;
-                    padding: 20px 0 10px 0;
+                    padding: 20px 0 0 0;
+                  }
+                }
+
+                span {
+                  font-size: 0.9rem;
+                  font-family: nunito, sans-serif;
+
+                  @media (max-width: 1070px) {
+                    display: block;
                   }
                 }
 
@@ -189,9 +198,11 @@ body {
                 padding-bottom: 20px;
 
                 .col-sm-3,
+                .col-sm-4,
                 .col-sm-5,
                 .col-sm-6,
                 .col-sm-7,
+                .col-sm-8,
                 .col-sm-9 {
                   max-width: 100%;
                 }
