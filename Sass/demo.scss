@@ -17,7 +17,7 @@ body {
         .row {
           align-items: center;
           margin: auto;
-          width: 1000px;
+          width: 75vw;
 
           .col-md-5 {
             .slider-text-new {
@@ -68,12 +68,16 @@ body {
             .animated.fadeInUp img {
               margin: 0;
               margin-top: 30px;
-              width: 400px;
-              // width: 100%;
+              max-width: 400px;
+              width: 100%;
             }
             @media (max-width: 1000px) {
               margin-top: 50px;
             }
+          }
+
+          @media (max-width: 400px) {
+            width: 100%;
           }
         }
 
@@ -92,7 +96,7 @@ body {
         height: 500px;
       }
       @media (max-width: 400px) {
-        height: 350px;
+        height: 80px;
       }
     }
   }
