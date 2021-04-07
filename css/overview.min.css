@@ -30,18 +30,20 @@ body #home .slider-wrapper-saas {
 
 body #home .slider-wrapper-saas .contain-custom {
   padding: 0 50px;
+  margin: auto;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   margin: auto;
+  width: 80vw;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 span {
@@ -94,13 +96,19 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInUp img {
   margin: 0;
   margin-top: 30px;
-  max-width: 375px;
+  max-width: 600px;
   width: 100%;
 }
 
 @media (max-width: 1000px) {
   body #home .slider-wrapper-saas .contain-custom .row .col-md-7 {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  body #home .slider-wrapper-saas .contain-custom .row {
+    width: 100%;
   }
 }
 
@@ -130,7 +138,7 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
 
 @media (max-width: 400px) {
   body #home .slider-wrapper-saas {
-    height: 350px;
+    height: 80px;
   }
 }
 
