@@ -63,13 +63,6 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
   }
 }
 
-@media (max-width: 850px) {
-  body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
-    font-size: 2rem;
-    padding: 10px 0;
-  }
-}
-
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new p {
   color: #fff;
   font-weight: 600;
