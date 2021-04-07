@@ -128,7 +128,7 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
 
 @media (max-width: 400px) {
   body #home .slider-wrapper-saas {
-    height: 550px;
+    height: 400px;
   }
 }
 
