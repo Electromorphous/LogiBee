@@ -396,11 +396,11 @@ body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item.blue-btn i {
 }
 
 body #header-sticky .slicknav_menu .slicknav_nav ul.sub-menu a {
-  color: #d47d48;
+  color: #407ebf;
   font-family: nunito, sans-serif;
   width: 150px;
   margin: 0 auto;
-  text-align: left;
+  text-align: right;
 }
 
 body #header-sticky .slicknav_menu .slicknav_nav ul.sub-menu a:hover {
