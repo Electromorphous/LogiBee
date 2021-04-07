@@ -61,6 +61,16 @@ body {
                   font-size: 0.9rem;
                   font-family: nunito, sans-serif;
 
+                  a {
+                    font-family: nunito, sans-serif;
+                    text-decoration: underline;
+                    color: $white;
+
+                    &:hover {
+                      color: $primary-orange;
+                    }
+                  }
+
                   @media (max-width: 1070px) {
                     display: block;
                   }

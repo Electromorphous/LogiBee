@@ -91,6 +91,16 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   font-family: nunito, sans-serif;
 }
 
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span a, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span a, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span a {
+  font-family: nunito, sans-serif;
+  text-decoration: underline;
+  color: #fff;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span a:hover, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span a:hover, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span a:hover {
+  color: #d47d48;
+}
+
 @media (max-width: 1070px) {
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span {
     display: block;
