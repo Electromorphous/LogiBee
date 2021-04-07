@@ -232,14 +232,14 @@ body {
 
   .wave {
     position: absolute;
-    top: 600px;
+    top: 675px;
     border-bottom: 150px solid $white;
 
     @media (max-width: 1200px) {
       display: none;
     }
     @media (min-width: 1300px) {
-      top: 700px;
+      top: 775px;
     }
   }
 

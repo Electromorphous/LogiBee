@@ -324,7 +324,7 @@ body #home .features .row .feature .text p {
 
 body .wave {
   position: absolute;
-  top: 600px;
+  top: 675px;
   border-bottom: 150px solid #fff;
 }
 
@@ -336,7 +336,7 @@ body .wave {
 
 @media (min-width: 1300px) {
   body .wave {
-    top: 700px;
+    top: 775px;
   }
 }
 
