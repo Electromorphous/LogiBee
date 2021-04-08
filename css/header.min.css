@@ -318,12 +318,12 @@ body #header-sticky.scroll-header .header-container .logo a span.tagline:hover {
 }
 
 body #header-sticky .slicknav_menu {
-  margin: -20px 50px 0 0;
+  margin: -20px 20px 0 0;
 }
 
 body #header-sticky .slicknav_menu a.slicknav_btn {
   background-color: #d47d48;
-  margin: -20px 20px 10px 0;
+  margin: -20px 0 10px 0;
 }
 
 body #header-sticky .slicknav_menu a.slicknav_btn span.slicknav_menutxt {
