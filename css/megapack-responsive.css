@@ -572,7 +572,7 @@
 
 /* small mobile layout :320px. */
 /* @media only screen and (max-width: 767px) { */
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1090px) {
   .slicknav_menu {
     display: block;
   }
@@ -1835,7 +1835,8 @@
 }
 
 /* Large Mobile layout:550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+/* @media only screen and (min-width: 576px) and (max-width: 767px) { */
+@media only screen and (min-width: 576px) and (max-width: 1090px) {
   .slicknav_menu {
     display: block;
   }
