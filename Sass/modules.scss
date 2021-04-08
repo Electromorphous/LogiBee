@@ -18,15 +18,15 @@ body {
         margin: auto;
 
         .row {
-          align-items: baseline;
+          align-items: center;
           margin: auto;
-          width: 75vw;
+          width: 80vw;
 
           .col-md-5 {
             .slider-text-new {
               h1 {
                 color: $white;
-                font-size: 3.2rem;
+                font-size: 3.5rem;
 
                 span {
                   color: $primary-orange;

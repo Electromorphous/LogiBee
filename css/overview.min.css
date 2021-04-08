@@ -21,9 +21,13 @@ body a#scrollUp:hover {
           box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
 }
 
+body {
+  background: #fff;
+}
+
 body #home .slider-wrapper-saas {
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-color: #407ebf;
   background-position: center;
 }
@@ -34,16 +38,16 @@ body #home .slider-wrapper-saas .contain-custom {
 }
 
 body #home .slider-wrapper-saas .contain-custom .row {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
   width: 80vw;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
   color: #fff;
-  font-size: 3.3rem;
+  font-size: 3.5rem;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 span {
@@ -90,7 +94,7 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
   margin: 0;
   margin-top: 30px;
   max-width: 600px;
-  width: 100%;
+  width: 200%;
 }
 
 @media (max-width: 1000px) {

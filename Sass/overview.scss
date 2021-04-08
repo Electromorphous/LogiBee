@@ -1,10 +1,12 @@
 @import "./config.scss";
 
 body {
+  background: $white;
+
   #home {
     .slider-wrapper-saas {
       width: 100%;
-      height: 400px;
+      height: 300px;
       background-color: $primary-blue;
       // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
       // background: linear-gradient(to bottom right, #fff, #417ebd);
@@ -15,7 +17,7 @@ body {
         margin: auto;
 
         .row {
-          align-items: baseline;
+          align-items: center;
           margin: auto;
           width: 80vw;
 
@@ -23,7 +25,7 @@ body {
             .slider-text-new {
               h1 {
                 color: $white;
-                font-size: 3.3rem;
+                font-size: 3.5rem;
 
                 span {
                   color: $primary-orange;
@@ -65,7 +67,7 @@ body {
               margin: 0;
               margin-top: 30px;
               max-width: 600px;
-              width: 100%;
+              width: 200%;
             }
             @media (max-width: 1000px) {
               margin-top: 50px;
