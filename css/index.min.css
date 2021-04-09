@@ -340,6 +340,12 @@ body .wave {
   }
 }
 
+@media (min-width: 1580px) {
+  body .wave {
+    top: 850px;
+  }
+}
+
 body #service {
   background-color: #fff;
   padding: 0 20px 20px 20px;
