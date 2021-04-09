@@ -94,7 +94,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span a, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span a, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span a {
   font-family: nunito, sans-serif;
   text-decoration: underline;
-  color: #fff;
+  color: white;
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span a:hover, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span a:hover, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span a:hover {
@@ -236,6 +236,17 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   text-align: right;
 }
 
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text .copyright a {
+  color: white;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
+
+body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text .copyright a:hover {
+  color: #d47d48;
+}
+
 @media (max-width: 1070px) {
   body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text .copyright {
     text-align: center;
@@ -250,7 +261,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row a {
-  color: #fff;
+  color: white;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
