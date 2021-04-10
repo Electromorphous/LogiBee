@@ -3,6 +3,10 @@
 body {
   background: $white;
 
+  * {
+    font-family: $primary-font-family;
+  }
+
   #home {
     .slider-wrapper-saas {
       width: 100%;

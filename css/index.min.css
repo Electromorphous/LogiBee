@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 * ::-moz-selection {
   background-color: rgba(238, 135, 51, 0.7);
 }
@@ -23,6 +27,10 @@ body a#scrollUp:hover {
 
 body {
   background-color: #fff;
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
 }
 
 body #home .slider-wrapper-saas {
@@ -219,7 +227,7 @@ body #home .features .row .feature .text {
 
 body #home .features .row .feature .text h3 {
   color: white;
-  font-family: nunito, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   width: 100%;
   text-transform: uppercase;
@@ -228,7 +236,7 @@ body #home .features .row .feature .text h3 {
 @media (max-width: 1200px) {
   body #home .features .row .feature .text h3 {
     color: white;
-    font-family: nunito, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     margin: 2px 0;
@@ -245,7 +253,7 @@ body #home .features .row .feature .text h3 {
 
 body #home .features .row .feature .text p {
   color: white;
-  font-family: nunito, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   width: 100%;
 }
@@ -253,7 +261,7 @@ body #home .features .row .feature .text p {
 @media (max-width: 1200px) {
   body #home .features .row .feature .text p {
     color: white;
-    font-family: nunito, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 1rem;
     margin: 2px 0;
@@ -263,7 +271,7 @@ body #home .features .row .feature .text p {
 @media (max-width: 1000px) {
   body #home .features .row .feature .text p {
     color: white;
-    font-family: nunito, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 1rem;
     margin: 2px 0;
@@ -457,7 +465,7 @@ body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider_
 
 body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider__item .blog-slider__content {
   margin-left: -40px;
-  font-family: nunito, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider__item .blog-slider__content .blog-slider__text {

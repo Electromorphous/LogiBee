@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 * ::-moz-selection {
   background-color: rgba(238, 135, 51, 0.7);
 }

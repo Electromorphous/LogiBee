@@ -3,6 +3,10 @@
 body {
   background: $white;
 
+  * {
+    font-family: $primary-font-family;
+  }
+
   #home {
     .slider-wrapper-saas {
       width: 100%;
@@ -121,12 +125,12 @@ body {
           max-width: 700px;
           padding: 50px;
           h3 {
-            font-family: nunito, sans-serif;
+            font-family: $primary-font-family;
             font-size: 2.1rem;
             margin-bottom: 20px;
           }
           p {
-            font-family: nunito, sans-serif;
+            font-family: $primary-font-family;
             font-size: 1.2rem;
 
             // @media (max-width: 600px) {

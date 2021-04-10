@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 * ::-moz-selection {
   background-color: rgba(238, 135, 51, 0.7);
 }
@@ -23,6 +27,10 @@ body a#scrollUp:hover {
 
 body {
   background: #fff;
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
 }
 
 body #home .slider-wrapper-saas {
@@ -177,7 +185,7 @@ body #features .contain-custom .row.image-right .card-custom {
 
 body #features .contain-custom .row.image-left .card-custom *,
 body #features .contain-custom .row.image-right .card-custom * {
-  font-family: nunito, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
 }
 

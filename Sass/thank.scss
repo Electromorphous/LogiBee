@@ -1,6 +1,10 @@
 @import "./config.scss";
 
 body {
+  * {
+    font-family: $primary-font-family;
+  }
+
   #home {
     .slider-wrapper-saas {
       width: 100%;

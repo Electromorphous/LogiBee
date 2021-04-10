@@ -5,6 +5,10 @@ body {
     background-color: $white;
     border-bottom: 3px solid $primary-orange;
 
+    * {
+      font-family: $primary-font-family;
+    }
+
     .header-container {
       margin: 0 75px;
 
@@ -40,7 +44,7 @@ body {
           top: 13px;
           left: 195px;
 
-          font-family: nunito, sans-serif;
+          font-family: $primary-font-family;
           font-weight: 700;
 
           &:hover {
@@ -215,7 +219,7 @@ body {
             top: 13px;
             left: 195px;
 
-            font-family: nunito, sans-serif;
+            font-family: $primary-font-family;
             font-weight: 700;
 
             &:hover {
@@ -284,7 +288,7 @@ body {
         a.slicknav_item {
           text-align: left;
           color: $primary-orange;
-          font-family: nunito, sans-serif;
+          font-family: $primary-font-family;
           width: 150px;
           margin: 0 auto;
           text-align: right;
@@ -316,7 +320,7 @@ body {
         }
         ul.sub-menu a {
           color: $primary-blue;
-          font-family: nunito, sans-serif;
+          font-family: $primary-font-family;
           width: 150px;
           margin: 0 auto;
           text-align: right;

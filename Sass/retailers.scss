@@ -6,6 +6,10 @@ $font-black: #111;
 body {
   background: $white;
 
+  * {
+    font-family: $primary-font-family;
+  }
+
   #home {
     .slider-wrapper-saas {
       width: 100%;
@@ -133,7 +137,7 @@ body {
 
           * {
             // color: black;
-            font-family: nunito, sans-serif;
+            font-family: $primary-font-family;
             font-size: 1.3rem;
           }
 

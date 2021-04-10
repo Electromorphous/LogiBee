@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 * ::-moz-selection {
   background-color: rgba(238, 135, 51, 0.7);
 }
@@ -19,6 +23,10 @@ body a#scrollUp:hover {
           transform: scale(1.1);
   -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
 }
 
 body #home .slider-wrapper-saas {

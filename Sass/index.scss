@@ -3,6 +3,10 @@
 body {
   background-color: $white;
 
+  * {
+    font-family: $primary-font-family;
+  }
+
   #home {
     .slider-wrapper-saas {
       width: 100%;
@@ -148,14 +152,14 @@ body {
 
             h3 {
               color: white;
-              font-family: nunito, sans-serif;
+              font-family: $primary-font-family;
               font-weight: 600;
               width: 100%;
               text-transform: uppercase;
 
               @media (max-width: 1200px) {
                 color: white;
-                font-family: nunito, sans-serif;
+                font-family: $primary-font-family;
                 font-weight: 600;
                 font-size: 1.1rem;
                 margin: 2px 0;
@@ -169,13 +173,13 @@ body {
             }
             p {
               color: white;
-              font-family: nunito, sans-serif;
+              font-family: $primary-font-family;
               font-weight: 600;
               width: 100%;
 
               @media (max-width: 1200px) {
                 color: white;
-                font-family: nunito, sans-serif;
+                font-family: $primary-font-family;
                 font-weight: 500;
                 font-size: 1rem;
                 margin: 2px 0;
@@ -183,7 +187,7 @@ body {
 
               @media (max-width: 1000px) {
                 color: white;
-                font-family: nunito, sans-serif;
+                font-family: $primary-font-family;
                 font-weight: 500;
                 font-size: 1rem;
                 margin: 2px 0;
@@ -331,7 +335,7 @@ body {
         .blog-slider__item {
           .blog-slider__content {
             margin-left: -40px;
-            font-family: nunito, sans-serif;
+            font-family: $primary-font-family;
 
             .blog-slider__text {
               font-size: 1rem;
