@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 * ::-moz-selection {
@@ -29,10 +29,6 @@ body {
   background-color: #fff;
 }
 
-body * {
-  font-family: "Poppins", sans-serif;
-}
-
 body #home .slider-wrapper-saas {
   width: 100%;
   height: 950px;
@@ -53,6 +49,8 @@ body #home .slider-wrapper-saas .contain-custom .row {
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
   color: #fff;
   font-size: 3rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 span {
@@ -81,8 +79,9 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new p {
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new .saas-button a {
@@ -90,6 +89,8 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
   background-color: #d47d48;
   border: 2px solid #d47d48;
   font-size: 1.05rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
   padding: 0.7rem 1.5rem;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -177,6 +178,7 @@ body #home .features .row .feature {
           align-items: flex-start;
   text-align: left;
   margin: 0;
+  font-family: "Rubik", sans-serif;
 }
 
 body #home .features .row .feature .image {
@@ -227,8 +229,8 @@ body #home .features .row .feature .text {
 
 body #home .features .row .feature .text h3 {
   color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
   width: 100%;
   text-transform: uppercase;
 }
@@ -236,7 +238,7 @@ body #home .features .row .feature .text h3 {
 @media (max-width: 1200px) {
   body #home .features .row .feature .text h3 {
     color: white;
-    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
     margin: 2px 0;
@@ -253,15 +255,15 @@ body #home .features .row .feature .text h3 {
 
 body #home .features .row .feature .text p {
   color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
   width: 100%;
 }
 
 @media (max-width: 1200px) {
   body #home .features .row .feature .text p {
     color: white;
-    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 500;
     font-size: 1rem;
     margin: 2px 0;
@@ -271,7 +273,7 @@ body #home .features .row .feature .text p {
 @media (max-width: 1000px) {
   body #home .features .row .feature .text p {
     color: white;
-    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 500;
     font-size: 1rem;
     margin: 2px 0;
@@ -374,6 +376,7 @@ body #service .contain-custom .row .rtin-item {
   border-radius: 10px;
   padding: 30px;
   text-align: left;
+  font-family: "Rubik", sans-serif;
 }
 
 body #service .contain-custom .row .rtin-item img {
@@ -381,8 +384,14 @@ body #service .contain-custom .row .rtin-item img {
   margin-bottom: 20px;
 }
 
+body #service .contain-custom .row .rtin-item h3 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
 body #service .contain-custom .row .rtin-item p {
   color: #333;
+  font-family: "Rubik", sans-serif;
 }
 
 body #service .contain-custom .row .rtin-item.green {
@@ -465,10 +474,16 @@ body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider_
 
 body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider__item .blog-slider__content {
   margin-left: -40px;
-  font-family: "Poppins", sans-serif;
+}
+
+body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider__item .blog-slider__content .blog-slider__title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 
 body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider__item .blog-slider__content .blog-slider__text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
   font-size: 1rem;
   padding-right: 30px;
 }
@@ -480,6 +495,8 @@ body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider_
 }
 
 body #overview .swiper-slider-area .swiper-slider-one .blog-slider .blog-slider__item .blog-slider__content a.blog-slider__button {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
   background: linear-gradient(147deg, #4885f8 0%, #155dc9 74%);
   -webkit-box-shadow: 0px 14px 80px rgba(56, 118, 252, 0.4);
           box-shadow: 0px 14px 80px rgba(56, 118, 252, 0.4);

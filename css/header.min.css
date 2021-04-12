@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 * ::-moz-selection {
@@ -28,10 +28,6 @@ body a#scrollUp:hover {
 body #header-sticky {
   background-color: #fff;
   border-bottom: 3px solid #d47d48;
-}
-
-body #header-sticky * {
-  font-family: "Poppins", sans-serif;
 }
 
 body #header-sticky .header-container {
@@ -82,7 +78,7 @@ body #header-sticky .header-container .logo a span.tagline {
   width: 13rem;
   top: 13px;
   left: 195px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 700;
 }
 
@@ -118,6 +114,8 @@ body #header-sticky .header-container ul#nav-demo li.scroll-to {
 body #header-sticky .header-container a.scroll-click {
   color: #407ebf;
   font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Barlow", sans-serif;
   padding: 0 10px;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
@@ -284,7 +282,7 @@ body #header-sticky.scroll-header .header-container .logo a span.tagline {
   width: 13rem;
   top: 13px;
   left: 195px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 700;
 }
 
@@ -376,7 +374,7 @@ body #header-sticky .slicknav_menu .slicknav_nav a.scroll-click,
 body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item {
   text-align: left;
   color: #d47d48;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   width: 150px;
   margin: 0 auto;
   text-align: right;
@@ -417,7 +415,7 @@ body #header-sticky .slicknav_menu .slicknav_nav a.slicknav_item.blue-btn i {
 
 body #header-sticky .slicknav_menu .slicknav_nav ul.sub-menu a {
   color: #407ebf;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   width: 150px;
   margin: 0 auto;
   text-align: right;

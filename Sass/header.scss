@@ -5,10 +5,6 @@ body {
     background-color: $white;
     border-bottom: 3px solid $primary-orange;
 
-    * {
-      font-family: $primary-font-family;
-    }
-
     .header-container {
       margin: 0 75px;
 
@@ -44,7 +40,7 @@ body {
           top: 13px;
           left: 195px;
 
-          font-family: $primary-font-family;
+          font-family: $secondary-font-family;
           font-weight: 700;
 
           &:hover {
@@ -76,6 +72,8 @@ body {
       a.scroll-click {
         color: $primary-blue;
         font-size: 1.1rem;
+        font-weight: 500;
+        font-family: $secondary-font-family;
         padding: 0 10px;
         transition: all 0.1s;
         &:hover {
@@ -219,7 +217,7 @@ body {
             top: 13px;
             left: 195px;
 
-            font-family: $primary-font-family;
+            font-family: $secondary-font-family;
             font-weight: 700;
 
             &:hover {
@@ -288,7 +286,7 @@ body {
         a.slicknav_item {
           text-align: left;
           color: $primary-orange;
-          font-family: $primary-font-family;
+          font-family: $secondary-font-family;
           width: 150px;
           margin: 0 auto;
           text-align: right;
@@ -320,7 +318,7 @@ body {
         }
         ul.sub-menu a {
           color: $primary-blue;
-          font-family: $primary-font-family;
+          font-family: $secondary-font-family;
           width: 150px;
           margin: 0 auto;
           text-align: right;

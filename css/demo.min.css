@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 * ::-moz-selection {
@@ -30,7 +30,7 @@ body {
 }
 
 body * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body #home .slider-wrapper-saas {
@@ -54,7 +54,7 @@ body #home .slider-wrapper-saas .contain-custom .row {
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
@@ -165,7 +165,7 @@ body #contact-form .contact-form-area form .cv input,
 body #contact-form .contact-form-area form .cv button,
 body #contact-form .contact-form-area form .cv select,
 body #contact-form .contact-form-area form .cv textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body #contact-form .contact-form-area form .cv input {

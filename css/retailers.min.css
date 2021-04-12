@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 * ::-moz-selection {
@@ -30,7 +30,7 @@ body {
 }
 
 body * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body #home .slider-wrapper-saas {
@@ -185,7 +185,7 @@ body #features .contain-custom .row.image-right .card-custom {
 
 body #features .contain-custom .row.image-left .card-custom *,
 body #features .contain-custom .row.image-right .card-custom * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.3rem;
 }
 

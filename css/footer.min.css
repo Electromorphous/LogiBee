@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 * ::-moz-selection {
@@ -27,7 +27,6 @@ body a#scrollUp:hover {
 
 body footer.footer-top-area-7 .site-footer * {
   color: white;
-  font-family: "Poppins", sans-serif;
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer {
@@ -61,7 +60,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 1.2rem;
   padding: 0;
   margin: 0;
@@ -93,11 +92,11 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span {
   font-size: 0.9rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover span a, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter span a, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding span a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   text-decoration: underline;
   color: white;
 }
@@ -113,7 +112,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.discover h3, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.newsletter h3, body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row.branding h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 1.2rem;
   padding: 0;
   margin: 0;
@@ -133,7 +132,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 }
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   border-radius: 0;
   background-color: transparent;
   margin: 10px;
@@ -179,7 +178,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
   outline: none;
   border-radius: 5px 0 0 5px;
   color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 1.1rem;
   margin: 0;
   padding: 19px 10px;
@@ -196,9 +195,9 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text form button {
   background-color: #d47d48;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 600;
   border: none;
   outline: none;
   border-radius: 0 5px 5px 0;
@@ -236,7 +235,7 @@ body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .co
 
 body footer.footer-top-area-7 .site-footer .upper-footer .footer-subscribe-1 .container .row .text .copyright {
   padding: 15px 0 0 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 0.8rem;
   text-align: right;
 }
