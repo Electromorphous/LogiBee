@@ -110,6 +110,7 @@ body {
       }
 
       ul.sub-menu {
+        font-family: $secondary-font-family;
         margin-top: -10px;
         border: none;
         border-radius: 10px;
@@ -236,6 +237,23 @@ body {
           }
           @media (max-width: 580px) {
             top: 15px;
+          }
+        }
+
+        ul.sub-menu {
+          font-family: $secondary-font-family;
+          margin-top: -10px;
+          border: none;
+          border-radius: 10px;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+          overflow: hidden;
+
+          li a {
+            font-size: 1rem;
+
+            &:hover {
+              background-color: $primary-orange;
+            }
           }
         }
 

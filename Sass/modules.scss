@@ -4,10 +4,6 @@ $illustration-blue: #ebf2f9;
 body {
   background: $white;
 
-  * {
-    font-family: $primary-font-family;
-  }
-
   #home {
     .slider-wrapper-saas {
       width: 100%;
@@ -31,6 +27,8 @@ body {
               h1 {
                 color: $white;
                 font-size: 3.5rem;
+                font-family: $primary-font-family;
+                font-weight: 500;
 
                 span {
                   color: $primary-orange;
@@ -134,9 +132,10 @@ body {
           // background-color: rgba(64, 125, 191, 0.15);
 
           * {
-            // color: black;
             font-family: $primary-font-family;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #444;
           }
 
           &.red {
@@ -178,6 +177,7 @@ body {
 
           h3 {
             font-size: 2rem;
+            color: black;
           }
           p {
             font-size: 1rem;

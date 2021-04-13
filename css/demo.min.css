@@ -29,10 +29,6 @@ body {
   background: #fff;
 }
 
-body * {
-  font-family: "Rubik", sans-serif;
-}
-
 body #home .slider-wrapper-saas {
   width: 100%;
   height: 300px;
@@ -60,6 +56,8 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
   color: #fff;
   font-size: 3.5rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 span {
@@ -166,6 +164,7 @@ body #contact-form .contact-form-area form .cv button,
 body #contact-form .contact-form-area form .cv select,
 body #contact-form .contact-form-area form .cv textarea {
   font-family: "Rubik", sans-serif;
+  font-weight: 400;
 }
 
 body #contact-form .contact-form-area form .cv input {

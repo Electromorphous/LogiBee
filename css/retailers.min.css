@@ -29,10 +29,6 @@ body {
   background: #fff;
 }
 
-body * {
-  font-family: "Rubik", sans-serif;
-}
-
 body #home .slider-wrapper-saas {
   width: 100%;
   height: 300px;
@@ -55,6 +51,8 @@ body #home .slider-wrapper-saas .contain-custom .row {
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
   color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
   font-size: 3.5rem;
 }
 
@@ -186,7 +184,9 @@ body #features .contain-custom .row.image-right .card-custom {
 body #features .contain-custom .row.image-left .card-custom *,
 body #features .contain-custom .row.image-right .card-custom * {
   font-family: "Rubik", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #444;
 }
 
 body #features .contain-custom .row.image-left .card-custom.red,
@@ -222,6 +222,7 @@ body #features .contain-custom .row.image-right .card-custom.brown {
 body #features .contain-custom .row.image-left .card-custom h3,
 body #features .contain-custom .row.image-right .card-custom h3 {
   font-size: 2rem;
+  color: black;
 }
 
 body #features .contain-custom .row.image-left .card-custom ul,

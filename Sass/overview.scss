@@ -3,10 +3,6 @@
 body {
   background: $white;
 
-  * {
-    font-family: $primary-font-family;
-  }
-
   #home {
     .slider-wrapper-saas {
       width: 100%;
@@ -29,6 +25,8 @@ body {
             .slider-text-new {
               h1 {
                 color: $white;
+                font-family: $primary-font-family;
+                font-weight: 500;
                 font-size: 3.5rem;
 
                 span {

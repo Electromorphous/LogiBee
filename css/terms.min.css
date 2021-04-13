@@ -29,10 +29,6 @@ body {
   background: #fff;
 }
 
-body * {
-  font-family: "Rubik", sans-serif;
-}
-
 body #home .slider-wrapper-saas {
   width: 100%;
   height: 300px;
@@ -56,6 +52,8 @@ body #home .slider-wrapper-saas .contain-custom .row {
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 {
   color: #fff;
   font-size: 3.5rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 
 body #home .slider-wrapper-saas .contain-custom .row .col-md-5 .slider-text-new h1 span {
