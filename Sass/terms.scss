@@ -101,4 +101,33 @@ body {
       }
     }
   }
+
+  #terms {
+    padding: 5rem;
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin-top: 50px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+    }
+
+    li {
+      font-family: "Roboto", sans-serif;
+      margin: 10px 0;
+
+      ol {
+        list-style: lower-alpha;
+      }
+    }
+
+    @media (max-width: 500px) {
+      padding: 3rem;
+    }
+  }
 }

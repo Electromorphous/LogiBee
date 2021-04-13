@@ -145,3 +145,34 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
     padding-top: 10px;
   }
 }
+
+body #terms {
+  padding: 5rem;
+}
+
+body #terms h1,
+body #terms h2,
+body #terms h3,
+body #terms h4 {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+body #terms p {
+  font-family: "Roboto", sans-serif;
+}
+
+body #terms li {
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+}
+
+body #terms li ol {
+  list-style: lower-alpha;
+}
+
+@media (max-width: 500px) {
+  body #terms {
+    padding: 3rem;
+  }
+}
