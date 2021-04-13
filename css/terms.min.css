@@ -173,6 +173,6 @@ body #terms li ol {
 
 @media (max-width: 500px) {
   body #terms {
-    padding: 3rem;
+    padding: 2rem;
   }
 }

@@ -145,3 +145,54 @@ body #home .slider-wrapper-saas .contain-custom .row .col-md-7 .animated.fadeInU
     padding-top: 10px;
   }
 }
+
+body #privacy {
+  padding: 5rem;
+}
+
+body #privacy ol li {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+body #privacy h2 {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+body #privacy h4 {
+  margin: 20px 0;
+}
+
+body #privacy p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+body #privacy p * {
+  font-family: "Roboto", sans-serif;
+}
+
+body #privacy p a {
+  color: black;
+  text-decoration: underline;
+}
+
+body #privacy p a:hover {
+  color: #407ebf;
+}
+
+body #privacy ul {
+  list-style: inside;
+}
+
+body #privacy ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+@media (max-width: 500px) {
+  body #privacy {
+    padding: 2rem;
+  }
+}

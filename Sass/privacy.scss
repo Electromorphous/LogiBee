@@ -101,4 +101,51 @@ body {
       }
     }
   }
+
+  #privacy {
+    padding: 5rem;
+
+    ol {
+      li {
+        font-size: 1.5rem;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-family: "Roboto", sans-serif;
+    }
+    h4 {
+      margin: 20px 0;
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+
+      a {
+        color: black;
+        text-decoration: underline;
+
+        &:hover {
+          color: $primary-blue;
+        }
+      }
+    }
+    ul {
+      list-style: inside;
+      li {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 500px) {
+      padding: 2rem;
+    }
+  }
 }
