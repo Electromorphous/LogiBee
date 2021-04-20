@@ -8,8 +8,6 @@ body {
       width: 100%;
       height: 300px;
       background-color: $primary-blue;
-      // background: linear-gradient(to bottom right, #3c91e6, #1271cf);
-      // background: linear-gradient(to bottom right, #fff, #417ebd);
       background-position: center;
 
       .contain-custom {
@@ -21,20 +19,19 @@ body {
           margin: auto;
           width: 80vw;
 
-          .col-md-5 {
+          .col-md-4 {
             .slider-text-new {
-              font-family: $primary-font-family;
               h1 {
                 color: $white;
-                font-size: 3.5rem;
                 font-family: $primary-font-family;
                 font-weight: 500;
+                font-size: 3.5rem;
 
                 span {
                   color: $primary-orange;
                 }
 
-                @media (max-width: 1180px) {
+                @media (max-width: 1150px) {
                   font-size: 2rem;
                 }
                 @media (max-width: 850px) {
@@ -63,17 +60,28 @@ body {
                 }
               }
             }
+
+            @media (max-width: 900px) {
+              max-width: 100%;
+              width: 100%;
+              flex: 1;
+              text-align: center;
+            }
           }
 
-          .col-md-7 {
+          .col-md-8 {
             .animated.fadeInUp img {
               margin: 0;
               margin-top: 30px;
-              max-width: 600px;
+              max-width: 650px;
               width: 200%;
+
+              @media (max-width: 1150px) {
+                max-width: 500px;
+              }
             }
-            @media (max-width: 1000px) {
-              margin-top: 50px;
+            @media (max-width: 900px) {
+              display: none !important;
             }
           }
 
@@ -83,22 +91,16 @@ body {
         }
 
         @media (max-width: 777px) {
-          padding: 10px 30px 0 30px;
+          padding: 0 30px;
         }
       }
 
-      @media (max-width: 1200px) {
-        height: 750px;
+      @media (max-width: 1150px) {
+        height: 250px;
       }
-      @media (max-width: 770px) {
-        height: 550px;
-      }
-      @media (max-width: 600px) {
-        height: 500px;
-      }
-      @media (max-width: 400px) {
-        height: 75px;
-        padding-top: 10px;
+      @media (max-width: 900px) {
+        padding: 30px;
+        height: auto;
       }
     }
   }
