@@ -108,23 +108,23 @@ body {
     ol {
       li {
         font-size: 1.5rem;
-        font-family: "Roboto", sans-serif;
+        font-family: $secondary-font-family;
       }
     }
 
     h2 {
       margin-top: 50px;
-      font-family: "Roboto", sans-serif;
+      font-family: $secondary-font-family;
     }
     h4 {
       margin: 20px 0;
     }
     p {
-      font-family: "Roboto", sans-serif;
+      font-family: $secondary-font-family;
       font-size: 1rem;
 
       * {
-        font-family: "Roboto", sans-serif;
+        font-family: $secondary-font-family;
       }
 
       a {
@@ -139,7 +139,7 @@ body {
     ul {
       list-style: inside;
       li {
-        font-family: "Roboto", sans-serif;
+        font-family: $secondary-font-family;
         font-size: 1rem;
       }
     }

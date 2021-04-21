@@ -110,15 +110,15 @@ body {
     h3,
     h4 {
       margin-top: 50px;
-      font-family: "Roboto", sans-serif;
+      font-family: $secondary-font-family;
     }
 
     p {
-      font-family: "Roboto", sans-serif;
+      font-family: $secondary-font-family;
     }
 
     li {
-      font-family: "Roboto", sans-serif;
+      font-family: $secondary-font-family;
       margin: 10px 0;
 
       ol {
