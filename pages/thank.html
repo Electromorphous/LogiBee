@@ -53,10 +53,18 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <!-- START 	PRELOADER -->
-  <div class="hola">
-    <div id="preloader">
-      <span></span>
-      <span></span>
+  <div class="preloader-wrapper">
+    <div class="container">
+      <div class="cube">
+        <div class="sides">
+          <div class="top"></div>
+          <div class="right"></div>
+          <div class="bottom"></div>
+          <div class="left"></div>
+          <div class="front"></div>
+          <div class="back"></div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- END PRELOADER -->
@@ -134,7 +142,11 @@
       $("footer").load("/LogiBee/components/footer.html");
     });
   </script>
-
+  <script>
+    $(window).on("load", () => {
+      $(".preloader-wrapper").fadeOut("slow");
+    })
+  </script>
 </body>
 
 </html>
