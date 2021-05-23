@@ -1,3 +1,2 @@
 # Logibee
-### A [landing page](https://electromorphous.github.io/LogiBee/) made with Sass and Javascript
-### Checkout the website in production [here](https://logibee.in)
+A [landing page](https://logibee.in) made with Sass and Javascript
